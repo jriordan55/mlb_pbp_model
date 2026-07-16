@@ -12,6 +12,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
+const { WebSocket } = require("undici");
 
 const ROOT = __dirname;
 const DATA_DIR = path.join(ROOT, "data");
