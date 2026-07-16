@@ -1,0 +1,17 @@
+﻿{
+  "name": "mlb-pbp-model",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MLB play-by-play model data pipeline with rotating odds, live ESPN context, and adaptive scraping",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "capture": "node capture_odds.js",
+    "scrape": "node scraper.js",
+    "scrape:once": "node scraper.js --once",
+    "scrape:live": "node scraper.js --live-session"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

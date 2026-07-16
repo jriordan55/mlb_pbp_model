@@ -1,0 +1,28 @@
+# Render Blueprint — always-on MLB scraper (PC can be off).
+# https://render.com/docs/blueprint-spec
+#
+# 1. Push this repo to GitHub
+# 2. New > Blueprint at render.com, select the repo
+# 3. Set BOLTODDS_API_KEY in the service env
+# 4. Attach a persistent disk at /data
+
+services:
+  - type: worker
+    name: mlb-scraper
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    envVars:
+      - key: BOLTODDS_API_KEY
+        sync: false
+      - key: SCRAPER_DATA_DIR
+        value: /data
+      - key: PREMATCH_INTERVAL_MS
+        value: "600000"
+      - key: INPLAY_INTERVAL_MS
+        value: "8000"
+    disk:
+      name: mlb-scraper-data
+      mountPath: /data
+      sizeGB: 5

@@ -1,0 +1,55 @@
+# Capture MLB odds + ESPN play-by-play even when your PC is off.
+# Requires repo secrets: BOLTODDS_API_KEY
+#
+# Every 5 minutes:
+#   - runs one capture cycle
+#   - if any game is live, keeps polling play-by-play until games end (max 4h)
+#   - commits CSV/JSON updates back to the branch
+
+name: MLB scraper
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mlb-scraper
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run adaptive scraper
+        env:
+          BOLTODDS_API_KEY: ${{ secrets.BOLTODDS_API_KEY }}
+          SCRAPER_DATA_DIR: ${{ github.workspace }}/data
+          INPLAY_INTERVAL_MS: "10000"
+          MARKET_DWELL_MS: "5000"
+          LIVE_SESSION_MAX_MS: "14400000"
+        run: node scraper.js --live-session
+
+      - name: Commit data
+        run: |
+          git config user.name "mlb-scraper"
+          git config user.email "mlb-scraper@users.noreply.github.com"
+          git add -f data/*.csv data/latest.json data/.seen_plays.json data/snapshots/*.json || true
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore: update MLB scraper data $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

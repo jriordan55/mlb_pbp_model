@@ -1,0 +1,699 @@
+const elements = {
+  body: document.querySelector("#oddsBody"),
+  loading: document.querySelector("#loadingState"),
+  empty: document.querySelector("#emptyState"),
+  emptyTitle: document.querySelector("#emptyTitle"),
+  emptyCopy: document.querySelector("#emptyCopy"),
+  message: document.querySelector("#feedMessage"),
+  search: document.querySelector("#searchInput"),
+  market: document.querySelector("#marketSelect"),
+  book: document.querySelector("#bookSelect"),
+  bestBook: document.querySelector("#bestBookSelect"),
+  positiveOnly: document.querySelector("#positiveOnly"),
+  lineCount: document.querySelector("#lineCount"),
+  bookCount: document.querySelector("#bookCount"),
+  arbCount: document.querySelector("#arbCount"),
+  updatedAt: document.querySelector("#updatedAt"),
+  status: document.querySelector("#headerStatus"),
+  pulse: document.querySelector("#statusPulse"),
+  refresh: document.querySelector("#refreshButton"),
+  arbList: document.querySelector("#arbList"),
+  arbEmpty: document.querySelector("#arbEmpty"),
+  arbSummary: document.querySelector("#arbSummary"),
+  gameChips: document.querySelector("#gameChips"),
+  liveDetail: document.querySelector("#liveDetail"),
+  liveEmpty: document.querySelector("#liveEmpty"),
+  liveBoardSummary: document.querySelector("#liveBoardSummary"),
+  liveScorecard: document.querySelector("#liveScorecard"),
+  livePlays: document.querySelector("#livePlays"),
+  liveStats: document.querySelector("#liveStats"),
+  liveInjuries: document.querySelector("#liveInjuries"),
+};
+
+const state = {
+  odds: [],
+  arbs: [],
+  feeds: [],
+  games: [],
+  selectedGameId: null,
+  selectedEvent: null,
+  expandedOdds: new Set(),
+  loading: false,
+  queued: false,
+  hasLoaded: false,
+};
+
+const FLASH_MS = 1400;
+const previousSignatures = new Map();
+const flashUntil = new Map();
+
+function trackChanges(odds) {
+  const seen = new Set();
+  const now = Date.now();
+  for (const odd of odds) {
+    const quoteSignature = (odd.quotes || [])
+      .map((quote) => `${quote.sportsbook?.id}:${quote.price}`)
+      .join(",");
+    const signature = `${odd.price}|${odd.sportsbook?.id}|${odd.fairPrice}|${quoteSignature}`;
+    seen.add(odd.id);
+    if (previousSignatures.has(odd.id) && previousSignatures.get(odd.id) !== signature) {
+      flashUntil.set(odd.id, now + FLASH_MS);
+    }
+    previousSignatures.set(odd.id, signature);
+  }
+  for (const id of previousSignatures.keys()) {
+    if (!seen.has(id)) {
+      previousSignatures.delete(id);
+      flashUntil.delete(id);
+    }
+  }
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function safeLink(value) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+  } catch {
+    return "";
+  }
+}
+
+function formatTime(value) {
+  if (!value) return "Waiting for first update";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Just now";
+  return new Intl.DateTimeFormat(undefined, {
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
+  }).format(date);
+}
+
+function formatStart(value) {
+  if (!value) return "Start time unavailable";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "Start time unavailable";
+  return new Intl.DateTimeFormat(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  }).format(date);
+}
+
+function formatPercent(value) {
+  if (!Number.isFinite(value)) return "—";
+  return `${value >= 0 ? "+" : ""}${(value * 100).toFixed(1)}%`;
+}
+
+function formatAge(value) {
+  if (!value) return "waiting";
+  const seconds = Math.max(0, Math.round((Date.now() - new Date(value).getTime()) / 1000));
+  if (seconds < 60) return `${seconds}s`;
+  return `${Math.floor(seconds / 60)}m ${seconds % 60}s`;
+}
+
+function setOptions(select, values, placeholder) {
+  const selected = select.value;
+  select.innerHTML = [
+    `<option value="">${escapeHtml(placeholder)}</option>`,
+    ...values.map(
+      ({ value, label }) =>
+        `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`,
+    ),
+  ].join("");
+  if (values.some(({ value }) => value === selected)) select.value = selected;
+}
+
+function currentOdds() {
+  const query = elements.search.value.trim().toLowerCase();
+  return state.odds.filter((odd) => {
+    const searchable = [odd.name, odd.market, odd.category, odd.event]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    const offeredByBook =
+      !elements.book.value ||
+      (odd.quotes || []).some(
+        (quote) => quote.sportsbook?.id === elements.book.value,
+      );
+    const matchesSelectedGame =
+      !state.selectedEvent || odd.event === state.selectedEvent;
+    return (
+      (!query || searchable.includes(query)) &&
+      (!elements.market.value || odd.category === elements.market.value) &&
+      offeredByBook &&
+      (!elements.bestBook.value || odd.sportsbook?.id === elements.bestBook.value) &&
+      (!elements.positiveOnly.checked || odd.ev > 0) &&
+      matchesSelectedGame
+    );
+  });
+}
+
+function lineLabel(odd) {
+  if (odd.line === null || odd.line === undefined) return odd.side || "ML";
+  if (odd.side) return `${odd.side} ${odd.line}`.trim();
+  return odd.line > 0 ? `+${odd.line}` : String(odd.line);
+}
+
+function widthLabel(odd) {
+  const lineRange =
+    Number.isFinite(odd.lineMin) && Number.isFinite(odd.lineMax)
+      ? odd.lineMin === odd.lineMax
+        ? `${odd.lineMin}`
+        : `${odd.lineMin}–${odd.lineMax}`
+      : "Matchup";
+  return `${lineRange} · ${odd.bookCount} books`;
+}
+
+function quoteMarkup(quote) {
+  const link = safeLink(quote.link);
+  const content = `
+    <span>${escapeHtml(quote.sportsbook?.name || quote.sportsbook?.id)}</span>
+    <strong>${escapeHtml(quote.price)}</strong>
+  `;
+  return link
+    ? `<a class="quote-chip" href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">${content}</a>`
+    : `<span class="quote-chip">${content}</span>`;
+}
+
+function legLineLabel(leg) {
+  if (leg.side && Number.isFinite(leg.line)) return `${leg.side} ${leg.line}`;
+  if (Number.isFinite(leg.line)) return leg.line > 0 ? `+${leg.line}` : String(leg.line);
+  return "ML";
+}
+
+function renderArbs() {
+  const arbs = (state.arbs || []).filter(
+    (arb) => !state.selectedEvent || arb.event === state.selectedEvent,
+  );
+  elements.arbCount.textContent = (state.arbs || []).length.toLocaleString();
+  elements.arbEmpty.hidden = arbs.length > 0;
+  elements.arbSummary.textContent = arbs.length
+    ? `${arbs.length} two-way arb${arbs.length === 1 ? "" : "s"}${
+        state.selectedEvent ? " for selected game" : ""
+      } · stakes sized for $100 total`
+    : state.selectedEvent
+      ? "No two-way arbs for the selected game."
+      : "No two-way arbs right now across Moneyline, Spread, and Total.";
+
+  elements.arbList.innerHTML = arbs
+    .map((arb) => {
+      const legs = (arb.legs || [])
+        .map((leg) => {
+          const link = safeLink(leg.link);
+          const book = escapeHtml(leg.sportsbook?.name || leg.sportsbook?.id || "Book");
+          const bookMarkup = link
+            ? `<a class="book-pill best-book-link" href="${escapeHtml(link)}" target="_blank" rel="noopener noreferrer">${book}</a>`
+            : `<span class="book-pill">${book}</span>`;
+          return `
+            <div class="arb-leg">
+              <div class="arb-leg-copy">
+                <strong>${escapeHtml(leg.name)}</strong>
+                <span>${escapeHtml(legLineLabel(leg))} · ${escapeHtml(leg.price)} · ${bookMarkup}</span>
+              </div>
+              <div class="arb-leg-stake">
+                $${Number(leg.stake).toFixed(2)}
+                <em>pays $${Number(arb.payout).toFixed(2)}</em>
+              </div>
+            </div>
+          `;
+        })
+        .join("");
+
+      return `
+        <article class="arb-card">
+          <div class="arb-card-meta">
+            <strong>${escapeHtml(arb.event)}</strong>
+            <span>${escapeHtml(arb.live ? "LIVE" : formatStart(arb.startsAt))} · ${escapeHtml(arb.category)}${
+              Number.isFinite(arb.line) ? ` ${escapeHtml(String(arb.line))}` : ""
+            }</span>
+          </div>
+          <div class="arb-legs">${legs}</div>
+          <div class="arb-profit">
+            <strong>${formatPercent(arb.profit)}</strong>
+            <span>on $100 · $${Number(arb.payout - arb.totalStake).toFixed(2)} profit</span>
+          </div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function renderGameChips() {
+  const games = state.games || [];
+  elements.liveEmpty.hidden = games.length > 0;
+  elements.liveBoardSummary.textContent = games.length
+    ? `${games.length} MLB game${games.length === 1 ? "" : "s"} · select one to filter odds and open live context`
+    : "No MLB games on the ESPN board right now.";
+
+  elements.gameChips.innerHTML = games
+    .map((game) => {
+      const active = game.id === state.selectedGameId ? " active" : "";
+      const away = game.away?.abbreviation || "AWAY";
+      const home = game.home?.abbreviation || "HOME";
+      const score =
+        game.status?.state === "pre"
+          ? game.status.shortDetail || "Scheduled"
+          : `${game.away?.score ?? 0}–${game.home?.score ?? 0}`;
+      return `
+        <button class="game-chip${active}" type="button" data-game-id="${escapeHtml(game.id)}">
+          <strong>${escapeHtml(away)} @ ${escapeHtml(home)}</strong>
+          <span>${escapeHtml(game.status?.description || "")}${
+            game.injuryCount ? ` · ${game.injuryCount} injuries` : ""
+          }</span>
+          <span class="chip-score">${escapeHtml(score)}</span>
+        </button>
+      `;
+    })
+    .join("");
+}
+
+function renderLiveDetail(detail) {
+  if (!detail?.game) {
+    elements.liveDetail.hidden = true;
+    return;
+  }
+  elements.liveDetail.hidden = false;
+  const game = detail.game;
+  const away = game.away || {};
+  const home = game.home || {};
+
+  elements.liveScorecard.innerHTML = `
+    <div class="live-score-teams">
+      <div class="live-score-team">
+        ${away.logo ? `<img src="${escapeHtml(away.logo)}" alt="" />` : ""}
+        <div>
+          <strong>${escapeHtml(away.name || "Away")}</strong>
+          <span>${escapeHtml(away.record || away.abbreviation || "")}</span>
+        </div>
+        <div class="live-score-value">${escapeHtml(String(away.score ?? "0"))}</div>
+      </div>
+      <div class="live-score-team">
+        ${home.logo ? `<img src="${escapeHtml(home.logo)}" alt="" />` : ""}
+        <div>
+          <strong>${escapeHtml(home.name || "Home")}</strong>
+          <span>${escapeHtml(home.record || home.abbreviation || "")}</span>
+        </div>
+        <div class="live-score-value">${escapeHtml(String(home.score ?? "0"))}</div>
+      </div>
+    </div>
+    <div class="live-score-meta">
+      <div>${escapeHtml(game.status?.detail || game.status?.description || "")}</div>
+      <div>${escapeHtml(game.venue || "")}</div>
+      ${
+        detail.winProbability?.homeWinPct != null
+          ? `<div>Home win prob ${(Number(detail.winProbability.homeWinPct) * 100).toFixed(1)}%</div>`
+          : ""
+      }
+      ${
+        game.matchedEvent
+          ? `<div>Odds linked · ${escapeHtml(game.matchedEvent)}</div>`
+          : "<div>No matching BoltOdds event yet</div>"
+      }
+    </div>
+  `;
+
+  const plays = detail.plays || [];
+  elements.livePlays.innerHTML = plays.length
+    ? plays
+        .map(
+          (play) => `
+        <div class="live-play${play.scoringPlay ? " scoring" : ""}">
+          ${escapeHtml(play.text)}
+          <small>${escapeHtml(
+            [play.period, play.clock, play.awayScore != null ? `${play.awayScore}-${play.homeScore}` : ""]
+              .filter(Boolean)
+              .join(" · "),
+          )}</small>
+        </div>
+      `,
+        )
+        .join("")
+    : `<div class="live-play"><span>No plays yet — game is ${escapeHtml(
+        game.status?.description || "not started",
+      )}.</span></div>`;
+
+  const leaderBlocks = (detail.leaders || [])
+    .map(
+      (block) => `
+      <div class="live-stat-block">
+        <strong>${escapeHtml(block.category)}</strong>
+        ${(block.leaders || [])
+          .map(
+            (leader) =>
+              `<span>${escapeHtml(leader.athlete)}${
+                leader.team ? ` (${escapeHtml(leader.team)})` : ""
+              } · ${escapeHtml(leader.value)}</span>`,
+          )
+          .join("")}
+      </div>
+    `,
+    )
+    .join("");
+
+  const teamStatBlocks = (detail.teamStats || [])
+    .map(
+      (team) => `
+      <div class="live-stat-block">
+        <strong>${escapeHtml(team.abbreviation || team.team)} team stats</strong>
+        ${(team.stats || [])
+          .slice(0, 8)
+          .map((stat) => `<span>${escapeHtml(stat.label)}: ${escapeHtml(stat.value)}</span>`)
+          .join("")}
+      </div>
+    `,
+    )
+    .join("");
+
+  elements.liveStats.innerHTML =
+    leaderBlocks || teamStatBlocks
+      ? `${leaderBlocks}${teamStatBlocks}`
+      : `<div class="live-stat-block"><span>Stats will appear once the game is underway.</span></div>`;
+
+  const injuries = detail.injuries || [];
+  elements.liveInjuries.innerHTML = injuries.length
+    ? injuries
+        .map(
+          (inj) => `
+        <div class="live-injury">
+          <strong>${escapeHtml(inj.player)}${inj.position ? ` · ${escapeHtml(inj.position)}` : ""}</strong>
+          <span>${escapeHtml(inj.team)} · ${escapeHtml(inj.status)}${
+            inj.injury ? ` · ${escapeHtml(inj.injury)}` : ""
+          }</span>
+          ${inj.note ? `<span>${escapeHtml(inj.note)}</span>` : ""}
+        </div>
+      `,
+        )
+        .join("")
+    : `<div class="live-injury"><span>No listed injuries for these teams.</span></div>`;
+}
+
+async function loadLiveBoard() {
+  try {
+    const response = await fetch("/api/live", { cache: "no-store" });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Live board unavailable");
+    state.games = Array.isArray(data.games) ? data.games : [];
+    if (
+      state.selectedGameId &&
+      !state.games.some((game) => game.id === state.selectedGameId)
+    ) {
+      state.selectedGameId = null;
+      state.selectedEvent = null;
+    }
+    if (!state.selectedGameId && state.games.length) {
+      const preferred =
+        state.games.find((game) => game.status?.state === "in") || state.games[0];
+      state.selectedGameId = preferred.id;
+      state.selectedEvent = preferred.matchedEvent || null;
+    }
+    renderGameChips();
+    if (state.selectedGameId) await loadGameDetail(state.selectedGameId);
+    else {
+      elements.liveDetail.hidden = true;
+      render();
+    }
+  } catch (error) {
+    elements.liveBoardSummary.textContent = error.message;
+    elements.liveEmpty.hidden = false;
+    elements.liveEmpty.textContent = error.message;
+  }
+}
+
+async function loadGameDetail(eventId) {
+  try {
+    const response = await fetch(`/api/live/${encodeURIComponent(eventId)}`, {
+      cache: "no-store",
+    });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Game detail unavailable");
+    state.selectedEvent = data.game?.matchedEvent || state.selectedEvent;
+    renderLiveDetail(data);
+    renderGameChips();
+    render();
+  } catch (error) {
+    elements.liveDetail.hidden = false;
+    elements.liveScorecard.innerHTML = `<div class="live-score-meta">${escapeHtml(error.message)}</div>`;
+    elements.livePlays.innerHTML = "";
+    elements.liveStats.innerHTML = "";
+    elements.liveInjuries.innerHTML = "";
+  }
+}
+
+function render() {
+  if (!state.hasLoaded) return;
+  renderArbs();
+  const odds = currentOdds();
+
+  elements.body.innerHTML = odds
+    .map((odd) => {
+      const bestLink = safeLink(odd.link);
+      const details = (odd.quotes || []).map(quoteMarkup).join("");
+      const flashExpiry = flashUntil.get(odd.id) || 0;
+      const flashRemaining = flashExpiry - Date.now();
+      const expanded = state.expandedOdds.has(odd.id);
+      // Negative delay resumes the animation mid-flight when rows re-render.
+      const flashAttrs =
+        flashRemaining > 0
+          ? ` class="row-flash" style="animation-delay:-${FLASH_MS - flashRemaining}ms"`
+          : "";
+      return `
+        <tr${flashAttrs}>
+          <td class="selection-cell">
+            <strong>${escapeHtml(odd.name)}</strong>
+            <span>${escapeHtml(odd.live ? "LIVE NOW" : formatStart(odd.startsAt))} · ${escapeHtml(odd.event)}</span>
+          </td>
+          <td class="market-cell">
+            ${escapeHtml(odd.category)}
+            <span class="market-sub">${escapeHtml(odd.market)}</span>
+          </td>
+          <td><span class="line-value">${escapeHtml(lineLabel(odd))}</span></td>
+          <td>
+            ${
+              bestLink
+                ? `<a class="book-pill best-book-link" href="${escapeHtml(bestLink)}" target="_blank" rel="noopener noreferrer">${escapeHtml(odd.sportsbook?.name)}</a>`
+                : `<span class="book-pill">${escapeHtml(odd.sportsbook?.name)}</span>`
+            }
+          </td>
+          <td><span class="price">${escapeHtml(odd.price)}</span></td>
+          <td class="fair-cell">
+            <strong>${escapeHtml(odd.fairPrice)}</strong>
+            <span>${(odd.fairProbability * 100).toFixed(1)}% · ${odd.confidenceBooks} books</span>
+          </td>
+          <td><span class="ev-value ${odd.ev >= 0 ? "positive" : "negative"}">${formatPercent(odd.ev)}</span></td>
+          <td class="width-cell">${escapeHtml(widthLabel(odd))}</td>
+          <td>
+            <button class="depth-button" type="button" data-odd-id="${escapeHtml(odd.id)}" aria-expanded="${expanded}">
+              ${expanded ? "Hide prices" : `${odd.quoteCount} prices`}
+            </button>
+          </td>
+        </tr>
+        <tr class="depth-row" data-odd-row="${escapeHtml(odd.id)}"${expanded ? "" : " hidden"}>
+          <td colspan="9">
+            <div class="depth-panel">
+              <div>
+                <span class="depth-label">Every available price</span>
+                <p>Best-to-worst for this exact selection. EV uses a median no-vig consensus.</p>
+              </div>
+              <div class="quote-grid">${details}</div>
+            </div>
+          </td>
+        </tr>
+      `;
+    })
+    .join("");
+
+  elements.empty.hidden = odds.length > 0;
+  if (!odds.length) {
+    const filtersActive =
+      elements.search.value ||
+      elements.market.value ||
+      elements.book.value ||
+      elements.positiveOnly.checked;
+    elements.emptyTitle.textContent = filtersActive
+      ? "No MLB lines match these filters"
+      : "No MLB lines found";
+    elements.emptyCopy.textContent = filtersActive
+      ? "Try clearing a filter or selecting another market."
+      : "BoltOdds has not synced any MLB rotation markets yet.";
+  }
+}
+
+function updateSummary(data) {
+  const categories = [
+    ...new Set(state.odds.map((odd) => odd.category).filter(Boolean)),
+  ].sort();
+  const books = (data.feeds || [])
+    .map((feed) => feed.sportsbook)
+    .filter(Boolean)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  setOptions(
+    elements.market,
+    categories.map((category) => ({ value: category, label: category })),
+    "All synced markets",
+  );
+  setOptions(
+    elements.book,
+    books.map((book) => ({ value: book.id, label: book.name })),
+    "All sportsbooks",
+  );
+
+  const bestBooks = [
+    ...new Map(
+      state.odds
+        .filter((odd) => odd.sportsbook?.id)
+        .map((odd) => [odd.sportsbook.id, odd.sportsbook]),
+    ).values(),
+  ].sort((a, b) => a.name.localeCompare(b.name));
+  setOptions(
+    elements.bestBook,
+    bestBooks.map((book) => ({ value: book.id, label: book.name })),
+    "Any best book",
+  );
+
+  elements.lineCount.textContent = state.odds.length.toLocaleString();
+  elements.bookCount.textContent = books.length.toLocaleString();
+  elements.arbCount.textContent = state.arbs.length.toLocaleString();
+  elements.updatedAt.textContent = formatTime(data.feedUpdated || data.fetchedAt);
+  elements.message.hidden = false;
+  const freshness = (data.marketSyncs || [])
+    .map((sync) => `${sync.market}: ${formatAge(sync.syncedAt)}`)
+    .join(" · ");
+  elements.message.textContent = `${data.methodology || "EV is calculated from a no-vig consensus across books offering both sides."} Active: ${data.activeMarket || "connecting"}. Last synced: ${freshness}`;
+}
+
+async function loadOdds() {
+  if (state.loading) {
+    state.queued = true;
+    return;
+  }
+  state.loading = true;
+  elements.refresh.classList.add("loading");
+  elements.refresh.disabled = true;
+  if (!state.hasLoaded) elements.loading.hidden = false;
+
+  try {
+    const response = await fetch("/api/odds", { cache: "no-store" });
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Unable to load the live feed");
+
+    state.odds = Array.isArray(data.odds) ? data.odds : [];
+    state.arbs = Array.isArray(data.arbs) ? data.arbs : [];
+    state.feeds = Array.isArray(data.feeds) ? data.feeds : [];
+    const liveIds = new Set(state.odds.map((odd) => odd.id));
+    for (const id of state.expandedOdds) {
+      if (!liveIds.has(id)) state.expandedOdds.delete(id);
+    }
+    state.hasLoaded = true;
+    trackChanges(state.odds);
+    updateSummary(data);
+    render();
+
+    elements.status.textContent = data.connected
+      ? `Syncing ${data.activeMarket || "market"}`
+      : "Switching market";
+    elements.pulse.className = data.connected ? "pulse connected" : "pulse";
+  } catch (error) {
+    state.hasLoaded = true;
+    elements.empty.hidden = false;
+    elements.emptyTitle.textContent = "Live feed unavailable";
+    elements.emptyCopy.textContent = error.message;
+    elements.status.textContent = "Feed connection error";
+    elements.pulse.className = "pulse error";
+  } finally {
+    elements.loading.hidden = true;
+    state.loading = false;
+    elements.refresh.classList.remove("loading");
+    elements.refresh.disabled = false;
+    if (state.queued) {
+      state.queued = false;
+      loadOdds();
+    }
+  }
+}
+
+for (const control of [
+  elements.search,
+  elements.market,
+  elements.book,
+  elements.bestBook,
+  elements.positiveOnly,
+]) {
+  control.addEventListener(control === elements.search ? "input" : "change", render);
+}
+
+elements.body.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-odd-id]");
+  if (!button) return;
+  const oddId = button.dataset.oddId;
+  const row = [...elements.body.querySelectorAll("[data-odd-row]")].find(
+    (entry) => entry.dataset.oddRow === oddId,
+  );
+  if (!row) return;
+  const opening = row.hidden;
+  row.hidden = !opening;
+  button.setAttribute("aria-expanded", String(opening));
+  if (opening) state.expandedOdds.add(oddId);
+  else state.expandedOdds.delete(oddId);
+  const odd = currentOdds().find((entry) => entry.id === oddId);
+  button.textContent = opening ? "Hide prices" : `${odd?.quoteCount || 0} prices`;
+});
+
+elements.gameChips.addEventListener("click", (event) => {
+  const chip = event.target.closest("[data-game-id]");
+  if (!chip) return;
+  const gameId = chip.dataset.gameId;
+  if (state.selectedGameId === gameId) {
+    state.selectedGameId = null;
+    state.selectedEvent = null;
+    elements.liveDetail.hidden = true;
+    renderGameChips();
+    render();
+    return;
+  }
+  const game = state.games.find((entry) => entry.id === gameId);
+  state.selectedGameId = gameId;
+  state.selectedEvent = game?.matchedEvent || null;
+  renderGameChips();
+  loadGameDetail(gameId);
+});
+
+elements.refresh.addEventListener("click", () => {
+  loadOdds();
+  loadLiveBoard();
+});
+
+const stream = new EventSource("/api/stream");
+stream.addEventListener("update", loadOdds);
+stream.addEventListener("connected", () => {
+  elements.status.textContent = "Real-time feed connected";
+  elements.pulse.className = "pulse connected";
+});
+stream.onerror = () => {
+  elements.status.textContent = "Reconnecting live updates";
+  elements.pulse.className = "pulse";
+};
+
+// Safety refresh in case a browser or proxy interrupts the event stream.
+setInterval(() => {
+  if (!document.hidden) {
+    loadOdds();
+    loadLiveBoard();
+  }
+}, 30_000);
+
+loadOdds();
+loadLiveBoard();
