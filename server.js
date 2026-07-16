@@ -1,7 +1,7 @@
 const http = require("node:http");
 const fs = require("node:fs");
 const path = require("node:path");
-const { WebSocket } = require("undici");
+const WebSocket = globalThis.WebSocket || require("ws");
 const { buildLiveBoard, buildGameDetail } = require("./espn");
 
 const ROOT = __dirname;

@@ -20,7 +20,7 @@
 
 const fs = require("node:fs");
 const path = require("node:path");
-const { WebSocket } = require("undici");
+const WebSocket = globalThis.WebSocket || require("ws");
 const {
   getScoreboard,
   getGamePlays,
