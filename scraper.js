@@ -6,7 +6,8 @@
 //
 // Outputs (under data/):
 //   mlb_odds_history.csv
-//   mlb_plays_history.csv
+//   mlb_plays_history.csv          (each new play + best-line odds snapshot)
+//   mlb_play_odds.csv              (every book quote linked to each new play)
 //   mlb_game_state.csv
 //   mlb_injuries_history.csv
 //   snapshots/<timestamp>.json
@@ -26,6 +27,8 @@ const {
   getGamePlays,
   buildGameDetail,
   buildLiveBoard,
+  parseBoltTeams,
+  teamsMatch,
 } = require("./espn");
 
 const ROOT = __dirname;
@@ -82,6 +85,40 @@ const PLAY_COLUMNS = [
   "home_score",
   "type",
   "text",
+  "matched_odds_game",
+  "away_team",
+  "home_team",
+  "away_ml_best",
+  "away_ml_book",
+  "home_ml_best",
+  "home_ml_book",
+  "spread_line",
+  "away_spread_odds",
+  "away_spread_book",
+  "home_spread_odds",
+  "home_spread_book",
+  "total_line",
+  "over_odds",
+  "over_book",
+  "under_odds",
+  "under_book",
+  "odds_quote_count",
+];
+
+const PLAY_ODDS_COLUMNS = [
+  "captured_at",
+  "event_id",
+  "play_id",
+  "game",
+  "matched_odds_game",
+  "market",
+  "sportsbook",
+  "selection",
+  "target",
+  "side",
+  "line",
+  "odds",
+  "link",
 ];
 
 const STATE_COLUMNS = [
@@ -96,6 +133,22 @@ const STATE_COLUMNS = [
   "home_score",
   "home_win_pct",
   "venue",
+  "matched_odds_game",
+  "away_ml_best",
+  "away_ml_book",
+  "home_ml_best",
+  "home_ml_book",
+  "spread_line",
+  "away_spread_odds",
+  "away_spread_book",
+  "home_spread_odds",
+  "home_spread_book",
+  "total_line",
+  "over_odds",
+  "over_book",
+  "under_odds",
+  "under_book",
+  "odds_quote_count",
 ];
 
 const INJURY_COLUMNS = [
@@ -159,6 +212,15 @@ function csvEscape(value) {
 
 function appendCsv(filePath, columns, rows) {
   if (!rows.length) return;
+  if (fs.existsSync(filePath)) {
+    const existingHeader = fs.readFileSync(filePath, "utf8").split(/\r?\n/, 1)[0] || "";
+    const expected = columns.join(",");
+    if (existingHeader && existingHeader !== expected) {
+      const legacy = filePath.replace(/\.csv$/i, `.legacy-${Date.now()}.csv`);
+      fs.renameSync(filePath, legacy);
+      console.log(`  rotated schema mismatch -> ${path.basename(legacy)}`);
+    }
+  }
   if (!fs.existsSync(filePath)) {
     fs.writeFileSync(filePath, `${columns.join(",")}\r\n`);
   }
@@ -168,6 +230,112 @@ function appendCsv(filePath, columns, rows) {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function americanToDecimal(price) {
+  const value = Number(String(price).replace(/[+−]/g, (match) => (match === "−" ? "-" : "")));
+  if (!Number.isFinite(value) || value === 0) return null;
+  return value > 0 ? 1 + value / 100 : 1 + 100 / Math.abs(value);
+}
+
+function bestQuote(quotes) {
+  let best = null;
+  for (const quote of quotes) {
+    const decimal = americanToDecimal(quote.odds);
+    if (decimal == null) continue;
+    if (!best || decimal > best.decimal) best = { ...quote, decimal };
+  }
+  return best;
+}
+
+function oddsRowsForGame(oddsRows, game, detail) {
+  const matched = detail.game?.matchedEvent || game.matchedEvent || "";
+  if (matched) {
+    const exact = oddsRows.filter((row) => row.game === matched);
+    if (exact.length) return { matchedGame: matched, rows: exact };
+  }
+
+  const away = detail.game?.away?.name || game.away?.name || "";
+  const home = detail.game?.home?.name || game.home?.name || "";
+  const rows = oddsRows.filter((row) => {
+    const teams = parseBoltTeams(row.game);
+    if (teams.length !== 2 || !away || !home) return false;
+    return (
+      (teamsMatch(away, teams[0]) && teamsMatch(home, teams[1])) ||
+      (teamsMatch(away, teams[1]) && teamsMatch(home, teams[0]))
+    );
+  });
+  return { matchedGame: rows[0]?.game || matched || "", rows };
+}
+
+function mostCommonLine(values) {
+  const counts = new Map();
+  for (const value of values) {
+    if (!Number.isFinite(value)) continue;
+    counts.set(value, (counts.get(value) || 0) + 1);
+  }
+  let best = null;
+  let bestCount = -1;
+  for (const [value, count] of counts) {
+    if (count > bestCount) {
+      best = value;
+      bestCount = count;
+    }
+  }
+  return best;
+}
+
+function summarizeGameOdds(gameOdds, awayName, homeName) {
+  const ml = gameOdds.filter((row) => row.market === "Moneyline");
+  const spreads = gameOdds.filter((row) => row.market === "Spread");
+  const totals = gameOdds.filter((row) => row.market === "Total");
+
+  const awayMl = bestQuote(ml.filter((row) => teamsMatch(row.target, awayName)));
+  const homeMl = bestQuote(ml.filter((row) => teamsMatch(row.target, homeName)));
+
+  const preferredSpread = mostCommonLine(
+    spreads.map((row) => Math.abs(Number(row.line))).filter(Number.isFinite),
+  );
+  const spreadPool = Number.isFinite(preferredSpread)
+    ? spreads.filter((row) => Math.abs(Number(row.line)) === preferredSpread)
+    : spreads;
+  const awaySpread = bestQuote(
+    spreadPool.filter((row) => teamsMatch(row.target, awayName)),
+  );
+  const homeSpread = bestQuote(
+    spreadPool.filter((row) => teamsMatch(row.target, homeName)),
+  );
+
+  const preferredTotal = mostCommonLine(
+    totals.map((row) => Number(row.line)).filter(Number.isFinite),
+  );
+  const totalPool = Number.isFinite(preferredTotal)
+    ? totals.filter((row) => Number(row.line) === preferredTotal)
+    : totals;
+  const over = bestQuote(
+    totalPool.filter((row) => /^(o|over)$/i.test(String(row.side || ""))),
+  );
+  const under = bestQuote(
+    totalPool.filter((row) => /^(u|under)$/i.test(String(row.side || ""))),
+  );
+
+  return {
+    away_ml_best: awayMl?.odds || "",
+    away_ml_book: awayMl?.sportsbook || "",
+    home_ml_best: homeMl?.odds || "",
+    home_ml_book: homeMl?.sportsbook || "",
+    spread_line: preferredSpread ?? "",
+    away_spread_odds: awaySpread?.odds || "",
+    away_spread_book: awaySpread?.sportsbook || "",
+    home_spread_odds: homeSpread?.odds || "",
+    home_spread_book: homeSpread?.sportsbook || "",
+    total_line: preferredTotal ?? "",
+    over_odds: over?.odds || "",
+    over_book: over?.sportsbook || "",
+    under_odds: under?.odds || "",
+    under_book: under?.sportsbook || "",
+    odds_quote_count: gameOdds.length,
+  };
 }
 
 function deduplicateOdds(rows) {
@@ -283,6 +451,7 @@ async function captureEspn(mode, capturedAt, oddsRows) {
   const targets = mode === "inplay" ? liveGames : preGames;
 
   const playRows = [];
+  const playOddsRows = [];
   const stateRows = [];
   const injuryRows = [];
   const details = [];
@@ -291,14 +460,19 @@ async function captureEspn(mode, capturedAt, oddsRows) {
     const detail = await buildGameDetail(game.id, oddsEvents, { fresh: true });
     details.push(detail);
 
+    const awayName = detail.game?.away?.name || game.away?.name || "";
+    const homeName = detail.game?.home?.name || game.home?.name || "";
+    const { matchedGame, rows: gameOdds } = oddsRowsForGame(oddsRows, game, detail);
+    const oddsSummary = summarizeGameOdds(gameOdds, awayName, homeName);
+
     stateRows.push({
       captured_at: capturedAt,
       event_id: game.id,
       game: detail.game?.name || game.name || "",
       state: detail.game?.status?.state || game.status?.state || "",
       status_detail: detail.game?.status?.detail || game.status?.detail || "",
-      away_team: detail.game?.away?.name || game.away?.name || "",
-      home_team: detail.game?.home?.name || game.home?.name || "",
+      away_team: awayName,
+      home_team: homeName,
       away_score: detail.game?.away?.score ?? game.away?.score ?? "",
       home_score: detail.game?.home?.score ?? game.home?.score ?? "",
       home_win_pct:
@@ -306,6 +480,8 @@ async function captureEspn(mode, capturedAt, oddsRows) {
           ? detail.winProbability.homeWinPct
           : "",
       venue: detail.game?.venue || game.venue || "",
+      matched_odds_game: matchedGame,
+      ...oddsSummary,
     });
 
     // Pitch / play-by-play only while the game is live.
@@ -318,6 +494,7 @@ async function captureEspn(mode, capturedAt, oddsRows) {
         const seenKey = `${game.id}|${playId}`;
         if (seenPlays.has(seenKey)) continue;
         seenPlays.add(seenKey);
+
         playRows.push({
           captured_at: capturedAt,
           event_id: game.id,
@@ -330,7 +507,30 @@ async function captureEspn(mode, capturedAt, oddsRows) {
           home_score: play.homeScore ?? "",
           type: play.type || "",
           text: play.text || "",
+          matched_odds_game: matchedGame,
+          away_team: awayName,
+          home_team: homeName,
+          ...oddsSummary,
         });
+
+        // Full book-level odds snapshot at the moment this play first appeared.
+        for (const quote of gameOdds) {
+          playOddsRows.push({
+            captured_at: capturedAt,
+            event_id: game.id,
+            play_id: playId,
+            game: detail.game?.name || game.name || "",
+            matched_odds_game: matchedGame || quote.game || "",
+            market: quote.market || "",
+            sportsbook: quote.sportsbook || "",
+            selection: quote.selection || "",
+            target: quote.target || "",
+            side: quote.side || "",
+            line: quote.line ?? "",
+            odds: quote.odds ?? "",
+            link: quote.link || "",
+          });
+        }
       }
     }
 
@@ -353,6 +553,7 @@ async function captureEspn(mode, capturedAt, oddsRows) {
   }
 
   appendCsv(path.join(DATA_DIR, "mlb_plays_history.csv"), PLAY_COLUMNS, playRows);
+  appendCsv(path.join(DATA_DIR, "mlb_play_odds.csv"), PLAY_ODDS_COLUMNS, playOddsRows);
   appendCsv(path.join(DATA_DIR, "mlb_game_state.csv"), STATE_COLUMNS, stateRows);
   appendCsv(path.join(DATA_DIR, "mlb_injuries_history.csv"), INJURY_COLUMNS, injuryRows);
   saveSeenPlays();
@@ -361,6 +562,7 @@ async function captureEspn(mode, capturedAt, oddsRows) {
     board,
     details,
     newPlays: playRows.length,
+    playOdds: playOddsRows.length,
     states: stateRows.length,
     injuries: injuryRows.length,
     liveCount: liveGames.length,
@@ -428,7 +630,7 @@ async function runCycle() {
   }
 
   console.log(
-    `  saved odds=${oddsRows.length} newPlays=${espn.newPlays} states=${espn.states} injuries=${espn.injuries} -> data/`,
+    `  saved odds=${oddsRows.length} newPlays=${espn.newPlays} playOdds=${espn.playOdds || 0} states=${espn.states} injuries=${espn.injuries} -> data/`,
   );
   return { mode, liveCount: espn.liveCount, snapshot };
 }

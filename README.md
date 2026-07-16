@@ -61,8 +61,9 @@ npm run scrape:live     # one cycle, then keep going while games are live
 Files written under `data/`:
 
 - `mlb_odds_history.csv`
-- `mlb_plays_history.csv` (append-only new plays)
-- `mlb_game_state.csv`
+- `mlb_plays_history.csv` (new plays + best ML/spread/total at that moment)
+- `mlb_play_odds.csv` (every sportsbook quote linked to each new play)
+- `mlb_game_state.csv` (score/state + same best-line odds snapshot)
 - `mlb_injuries_history.csv`
 - `latest.json`
 - `snapshots/<timestamp>.json` (prematch / `--once`)
