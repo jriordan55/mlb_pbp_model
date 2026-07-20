@@ -3,6 +3,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const WebSocket = globalThis.WebSocket || require("ws");
 const { buildLiveBoard, buildGameDetail } = require("./espn");
+const { sendTelegram, telegramConfigured } = require("./telegram");
 
 const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, "public");
@@ -14,10 +15,37 @@ const RECONNECT_DELAY_MS = 5_000;
 const MARKET_DWELL_MS = 6_000;
 
 const SPORT = "MLB";
-const ROTATION_MARKETS = ["Moneyline", "Spread", "Total"];
+const GAME_MARKETS = ["Moneyline", "Spread", "Total"];
+const BATTER_PROP_MARKETS = [
+  "Hits",
+  "Home Runs",
+  "RBIs",
+  "Runs",
+  "Bases",
+  "Hits + Runs + RBIs",
+];
+const PITCHER_PROP_MARKETS = ["Strikeouts Thrown", "Outs"];
+const PROP_MARKETS = [...BATTER_PROP_MARKETS, ...PITCHER_PROP_MARKETS];
+const ROTATION_MARKETS = [...GAME_MARKETS, ...PROP_MARKETS];
 const TARGET_MARKETS = new Map(
   ROTATION_MARKETS.map((market) => [market, market]),
 );
+const PROP_MARKET_SET = new Set(PROP_MARKETS);
+const GAME_MARKET_SET = new Set(GAME_MARKETS);
+
+/** Live-table prop columns: market name → dataframe prefix. */
+const BATTER_PROP_SPECS = [
+  { market: "Hits", prefix: "batter_hits" },
+  { market: "Home Runs", prefix: "batter_hr" },
+  { market: "RBIs", prefix: "batter_rbi" },
+  { market: "Runs", prefix: "batter_runs" },
+  { market: "Bases", prefix: "batter_bases" },
+  { market: "Hits + Runs + RBIs", prefix: "batter_hrrbi" },
+];
+const PITCHER_PROP_SPECS = [
+  { market: "Strikeouts Thrown", prefix: "pitcher_ks" },
+  { market: "Outs", prefix: "pitcher_outs" },
+];
 
 // Live table + feed subscription: sharp retail books plus BoltOdds market consensus.
 const ALLOWED_SPORTSBOOKS = [
@@ -67,6 +95,8 @@ let activeSocket = null;
 let reconnectTimer = null;
 let rotationTimer = null;
 
+let alertTimer = null;
+
 // Throttled so the browser re-renders at most every 2s, letting the row
 // flash animation (1.4s) finish before the next update replaces the rows.
 function scheduleBroadcast() {
@@ -75,7 +105,59 @@ function scheduleBroadcast() {
     broadcastTimer = null;
     const message = `event: update\ndata: ${JSON.stringify({ updated: lastMessageAt })}\n\n`;
     for (const client of streamClients) client.write(message);
+    scheduleOddsAlerts();
   }, 2000);
+}
+
+function scheduleOddsAlerts() {
+  if (!telegramConfigured() || alertTimer) return;
+  alertTimer = setTimeout(() => {
+    alertTimer = null;
+    maybeSendOddsAlerts().catch((error) =>
+      console.error("Telegram alert error:", error.message || error),
+    );
+  }, 1500);
+}
+
+async function maybeSendOddsAlerts() {
+  let snapshot;
+  try {
+    snapshot = buildSnapshot();
+  } catch {
+    return;
+  }
+  const minEv = Number(process.env.TELEGRAM_MIN_EV) || 0.03;
+  const minArb = Number(process.env.TELEGRAM_MIN_ARB) || 0.01;
+
+  for (const arb of snapshot.arbs || []) {
+    if (!(arb.profit >= minArb)) continue;
+    const legs = (arb.legs || [])
+      .map(
+        (leg) =>
+          `${leg.target || leg.name}${
+            leg.line != null ? ` ${leg.line}` : ""
+          } ${leg.price} @ ${leg.sportsbook?.name || leg.sportsbook?.id || "?"}`,
+      )
+      .join("\n");
+    await sendTelegram(
+      `ARB +${(arb.profit * 100).toFixed(1)}%\n${arb.event}\n${arb.category || ""}\n${legs}`,
+      { key: `arb:${arb.id}` },
+    );
+  }
+
+  for (const odd of snapshot.odds || []) {
+    if (!(odd.ev >= minEv)) continue;
+    const line =
+      odd.line != null
+        ? `${odd.side || ""} ${odd.line}`.trim()
+        : odd.side || "ML";
+    await sendTelegram(
+      `+EV ${(odd.ev * 100).toFixed(1)}%\n${odd.event}\n${odd.category} · ${odd.name} · ${line}\n${odd.price} @ ${odd.sportsbook?.name || "?"}\nFair ${odd.fairPrice || "—"} (${(
+        (odd.fairProbability || 0) * 100
+      ).toFixed(1)}%)`,
+      { key: `ev:${odd.id}` },
+    );
+  }
 }
 
 function bookLabel(id) {
@@ -301,6 +383,7 @@ function normalizedSide(side) {
 
 function buildSnapshot() {
   const rawQuotes = [];
+  const propQuotes = [];
   const perBookCounts = new Map();
 
   for (const entry of feedState.values()) {
@@ -311,9 +394,9 @@ function buildSnapshot() {
       const category = TARGET_MARKETS.get(outcome.outcome_name || "");
       const american = parseAmerican(outcome.odds);
       const decimal = americanToDecimal(outcome.odds);
-      if (!category || !decimal || american === null || american > MAX_AMERICAN_ODDS) continue;
+      if (!category || !decimal || american === null) continue;
 
-      rawQuotes.push({
+      const quote = {
         id: `${entry.sportsbook}#${entry.game}#${outcomeKey}`,
         eventKey: entry.game,
         eventId: entry.info?.game_id || entry.game,
@@ -330,9 +413,20 @@ function buildSnapshot() {
             : Number(outcome.outcome_line),
         price: outcome.odds,
         decimal,
+        american,
         link: outcome.link || entry.info?.link || null,
         sportsbook: { id: entry.sportsbook, name: bookLabel(entry.sportsbook) },
-      });
+      };
+
+      if (PROP_MARKET_SET.has(category)) {
+        propQuotes.push(quote);
+        perBookCounts.set(entry.sportsbook, (perBookCounts.get(entry.sportsbook) || 0) + 1);
+        continue;
+      }
+
+      if (!GAME_MARKET_SET.has(category) || american > MAX_AMERICAN_ODDS) continue;
+
+      rawQuotes.push(quote);
       perBookCounts.set(entry.sportsbook, (perBookCounts.get(entry.sportsbook) || 0) + 1);
     }
   }
@@ -656,9 +750,168 @@ function buildSnapshot() {
     books: feeds.map((feed) => feed.sportsbook),
     selectedBooks: seenBooks,
     rawQuoteCount: rawQuotes.length,
+    propQuoteCount: propQuotes.length,
+    playerProps: buildPlayerPropIndex(propQuotes),
     odds,
     arbs,
     feeds,
+  };
+}
+
+function normalizePlayerKey(name) {
+  return String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\./g, "")
+    .replace(/'/g, "")
+    .replace(/\b(jr|sr|ii|iii|iv)\b/g, "")
+    .replace(/[^a-z0-9 ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function pickPropMarketLine(quotes) {
+  if (!quotes?.length) return null;
+  const byLine = new Map();
+  for (const quote of quotes) {
+    if (!Number.isFinite(quote.line) || !quote.side) continue;
+    if (!byLine.has(quote.line)) byLine.set(quote.line, { Over: null, Under: null });
+    const bucket = byLine.get(quote.line);
+    const existing = bucket[quote.side];
+    if (!existing || quote.decimal > existing.decimal) bucket[quote.side] = quote;
+  }
+  let best = null;
+  for (const [line, sides] of byLine) {
+    if (!sides.Over && !sides.Under) continue;
+    const primary = sides.Over || sides.Under;
+    const both = Boolean(sides.Over && sides.Under);
+    const displayable = [sides.Over, sides.Under].some(
+      (side) => side && Math.abs(side.american) <= MAX_AMERICAN_ODDS,
+    );
+    // Prefer two-way lines near even money; fall back to any displayable over.
+    const distance = Math.abs((sides.Over || sides.Under).decimal - 2);
+    const score =
+      (both ? 0 : 100) + (displayable ? 0 : 50) + distance;
+    if (!best || score < best.score) {
+      best = {
+        score,
+        line,
+        over: sides.Over?.price || "",
+        under: sides.Under?.price || "",
+        book: primary.sportsbook?.name || primary.sportsbook?.id || "",
+      };
+    }
+  }
+  if (!best) return null;
+  return {
+    line: best.line,
+    over: best.over,
+    under: best.under,
+    book: best.book,
+  };
+}
+
+function buildPlayerPropIndex(propQuotes) {
+  // event -> playerKey -> { name, markets: { [market]: quotes[] } }
+  const byEvent = new Map();
+  for (const quote of propQuotes) {
+    if (!quote.target || !quote.side || !Number.isFinite(quote.line)) continue;
+    const playerKey = normalizePlayerKey(quote.target);
+    if (!playerKey) continue;
+    if (!byEvent.has(quote.event)) {
+      byEvent.set(quote.event, { byKey: new Map(), byLast: new Map() });
+    }
+    const eventIndex = byEvent.get(quote.event);
+    if (!eventIndex.byKey.has(playerKey)) {
+      eventIndex.byKey.set(playerKey, {
+        name: quote.target,
+        markets: new Map(),
+      });
+      const last = playerKey.split(" ").pop();
+      if (!eventIndex.byLast.has(last)) eventIndex.byLast.set(last, []);
+      eventIndex.byLast.get(last).push(playerKey);
+    }
+    const player = eventIndex.byKey.get(playerKey);
+    if (!player.markets.has(quote.market)) player.markets.set(quote.market, []);
+    player.markets.get(quote.market).push(quote);
+  }
+
+  const boards = new Map();
+  for (const [event, eventIndex] of byEvent) {
+    const players = new Map();
+    for (const [playerKey, player] of eventIndex.byKey) {
+      const markets = {};
+      for (const [market, quotes] of player.markets) {
+        const picked = pickPropMarketLine(quotes);
+        if (picked) markets[market] = picked;
+      }
+      players.set(playerKey, { name: player.name, markets });
+    }
+    boards.set(event, { players, byLast: eventIndex.byLast });
+  }
+  return boards;
+}
+
+function findPlayerPropEntry(eventBoard, playerName) {
+  if (!eventBoard || !playerName) return null;
+  const key = normalizePlayerKey(playerName);
+  if (!key) return null;
+  if (eventBoard.players.has(key)) return eventBoard.players.get(key);
+
+  const parts = key.split(" ").filter(Boolean);
+  const last = parts[parts.length - 1];
+  const candidates = eventBoard.byLast.get(last) || [];
+  if (candidates.length === 1) return eventBoard.players.get(candidates[0]);
+
+  if (parts.length >= 2) {
+    const first = parts[0];
+    const hit = candidates.find((candidateKey) => {
+      const candParts = candidateKey.split(" ");
+      return candParts[0] === first || candParts[0]?.[0] === first[0];
+    });
+    if (hit) return eventBoard.players.get(hit);
+  }
+
+  for (const [candidateKey, entry] of eventBoard.players) {
+    if (candidateKey.includes(key) || key.includes(candidateKey)) return entry;
+  }
+  return null;
+}
+
+function propsForPlayer(eventBoard, playerName, specs) {
+  const entry = findPlayerPropEntry(eventBoard, playerName);
+  const out = {};
+  for (const spec of specs) {
+    const picked = entry?.markets?.[spec.market] || null;
+    out[`${spec.prefix}_line`] = picked?.line ?? "";
+    out[`${spec.prefix}_over`] = picked?.over || "";
+    out[`${spec.prefix}_under`] = picked?.under || "";
+    out[`${spec.prefix}_book`] = picked?.book || "";
+  }
+  return out;
+}
+
+function summarizePlayerProps(eventName, batterName, pitcherName, propBoards = null) {
+  if (!eventName) {
+    return {
+      ...propsForPlayer(null, "", BATTER_PROP_SPECS),
+      ...propsForPlayer(null, "", PITCHER_PROP_SPECS),
+    };
+  }
+  let board = null;
+  if (propBoards) {
+    board = propBoards.get(eventName) || null;
+  } else {
+    try {
+      board = buildSnapshot().playerProps?.get(eventName) || null;
+    } catch {
+      board = null;
+    }
+  }
+  return {
+    ...propsForPlayer(board, batterName, BATTER_PROP_SPECS),
+    ...propsForPlayer(board, pitcherName, PITCHER_PROP_SPECS),
   };
 }
 
@@ -981,8 +1234,20 @@ function bookLine(side, bookId) {
   return value == null || value === "" ? "" : value;
 }
 
+function emptyPropColumns() {
+  const row = {};
+  for (const spec of [...BATTER_PROP_SPECS, ...PITCHER_PROP_SPECS]) {
+    row[`${spec.prefix}_line`] = "";
+    row[`${spec.prefix}_over`] = "";
+    row[`${spec.prefix}_under`] = "";
+    row[`${spec.prefix}_book`] = "";
+  }
+  return row;
+}
+
 function flattenPlayRow(play, game, index, { isLatest = false } = {}) {
   const odds = play.odds || null;
+  const props = play.props || emptyPropColumns();
   const awayAbbr = game.away?.abbreviation || "AWAY";
   const homeAbbr = game.home?.abbreviation || "HOME";
   const row = {
@@ -992,11 +1257,14 @@ function flattenPlayRow(play, game, index, { isLatest = false } = {}) {
     clock: play.clock || "",
     type: play.type || "",
     text: play.text || "",
+    batter: play.batter || "",
+    pitcher: play.pitcher || "",
     scoring_play: play.scoringPlay ? 1 : 0,
     away_abbr: awayAbbr,
     home_abbr: homeAbbr,
     away_score: play.awayScore ?? play.gameState?.awayScore ?? "",
     home_score: play.homeScore ?? play.gameState?.homeScore ?? "",
+    ...props,
     // Best price + book, then market consensus (BoltOdds consensus, else no-vig fair).
     away_ml_best: odds?.moneyline?.away?.price ?? "",
     away_ml_best_book: odds?.moneyline?.away?.book ?? "",
@@ -1057,17 +1325,13 @@ function flattenPlayRow(play, game, index, { isLatest = false } = {}) {
 }
 
 function buildPlayFrameColumns() {
-  // Best + consensus per market side, then FanDuel / DK / BetMGM / BetOnline / theScore.
+  // Keep game odds near the left edge: context → batter/pitcher → ML/spread/total → score → props.
   const columns = [
     "play_n",
     "inning",
     "type",
-    "text",
-    "away_abbr",
-    "home_abbr",
-    "away_score",
-    "home_score",
-    "scoring_play",
+    "batter",
+    "pitcher",
     "away_ml_best",
     "away_ml_best_book",
     "away_ml_consensus",
@@ -1088,6 +1352,24 @@ function buildPlayFrameColumns() {
     "under_best",
     "under_best_book",
     "under_consensus",
+    "text",
+    "away_abbr",
+    "home_abbr",
+    "away_score",
+    "home_score",
+    "scoring_play",
+    ...BATTER_PROP_SPECS.flatMap((spec) => [
+      `${spec.prefix}_line`,
+      `${spec.prefix}_over`,
+      `${spec.prefix}_under`,
+      `${spec.prefix}_book`,
+    ]),
+    ...PITCHER_PROP_SPECS.flatMap((spec) => [
+      `${spec.prefix}_line`,
+      `${spec.prefix}_over`,
+      `${spec.prefix}_under`,
+      `${spec.prefix}_book`,
+    ]),
   ];
   for (const book of ALLOWED_SPORTSBOOKS) {
     if (book === "consensus") continue;
@@ -1153,6 +1435,12 @@ function enrichGameDetailWithOdds(detail) {
   const awayName = detail.game.away?.name || "";
   const homeName = detail.game.home?.name || "";
   const liveOdds = summarizeLiveOddsBoard(matchedEvent, awayName, homeName);
+  let propBoards = null;
+  try {
+    propBoards = buildSnapshot().playerProps || null;
+  } catch {
+    propBoards = null;
+  }
 
   const gameState = {
     awayScore: detail.game.away?.score ?? null,
@@ -1175,6 +1463,26 @@ function enrichGameDetailWithOdds(detail) {
       });
     }
     const stamped = playOddsMemory.get(key) || liveOdds;
+    const propKey = `${key}|props`;
+    if (!playOddsMemory.has(propKey)) {
+      playOddsMemory.set(propKey, {
+        ...summarizePlayerProps(matchedEvent, play.batter, play.pitcher, propBoards),
+        stampedAt: new Date().toISOString(),
+      });
+    }
+    const liveProps = summarizePlayerProps(
+      matchedEvent,
+      play.batter,
+      play.pitcher,
+      propBoards,
+    );
+    const stampedProps = playOddsMemory.get(propKey) || liveProps;
+    // Prefer stamped values; fill blanks from live board when a market was missing at stamp time.
+    const props = { ...liveProps };
+    for (const [field, value] of Object.entries(stampedProps)) {
+      if (field === "stampedAt") continue;
+      if (value !== "" && value != null) props[field] = value;
+    }
     return {
       ...play,
       gameState: {
@@ -1184,6 +1492,7 @@ function enrichGameDetailWithOdds(detail) {
         clock: play.clock || "",
       },
       odds: attachBookQuotes(stamped, liveOdds),
+      props,
     };
   });
 
@@ -1309,5 +1618,10 @@ function collectOddsEventNames() {
 
 server.listen(PORT, () => {
   console.log(`mlb_pbp_model is running at http://localhost:${PORT}`);
+  if (telegramConfigured()) {
+    console.log(
+      "Telegram alerts enabled (+EV / arb). Run npm run telegram:test to verify.",
+    );
+  }
   connectFeed();
 });

@@ -9,7 +9,8 @@
     "capture": "node capture_odds.js",
     "scrape": "node scraper.js",
     "scrape:once": "node scraper.js --once",
-    "scrape:live": "node scraper.js --live-session"
+    "scrape:live": "node scraper.js --live-session",
+    "telegram:test": "node telegram_test.js"
   },
   "engines": {
     "node": ">=18"

@@ -30,6 +30,7 @@ const {
   parseBoltTeams,
   teamsMatch,
 } = require("./espn");
+const { sendTelegram, telegramConfigured } = require("./telegram");
 
 const ROOT = __dirname;
 const DATA_DIR = process.env.SCRAPER_DATA_DIR
@@ -43,7 +44,19 @@ const INPLAY_INTERVAL_MS = Number(process.env.INPLAY_INTERVAL_MS) || 8_000;
 const MARKET_DWELL_MS = Number(process.env.MARKET_DWELL_MS) || 5_000;
 const LIVE_SESSION_MAX_MS = Number(process.env.LIVE_SESSION_MAX_MS) || 4 * 60 * 60 * 1000;
 const SPORT = "MLB";
-const MARKETS = ["Moneyline", "Spread", "Total"];
+const MARKETS = [
+  "Moneyline",
+  "Spread",
+  "Total",
+  "Hits",
+  "Home Runs",
+  "RBIs",
+  "Runs",
+  "Bases",
+  "Hits + Runs + RBIs",
+  "Strikeouts Thrown",
+  "Outs",
+];
 const ALLOWED_SPORTSBOOKS = [
   "fanduel",
   "draftkings",
@@ -81,6 +94,8 @@ const PLAY_COLUMNS = [
   "home_score",
   "type",
   "text",
+  "batter",
+  "pitcher",
   "matched_odds_game",
   "away_team",
   "home_team",
@@ -491,6 +506,19 @@ async function captureEspn(mode, capturedAt, oddsRows) {
         if (seenPlays.has(seenKey)) continue;
         seenPlays.add(seenKey);
 
+        if (play.scoringPlay && telegramConfigured()) {
+          const scoreLine = `${awayName || "AWAY"} ${play.awayScore ?? "?"} – ${
+            play.homeScore ?? "?"
+          } ${homeName || "HOME"}`;
+          // Fire-and-forget so capture stays fast.
+          sendTelegram(
+            `SCORE\n${detail.game?.name || game.name || ""}\n${scoreLine}\n${
+              play.text || play.type || "Scoring play"
+            }`,
+            { key: `score:${seenKey}`, ttlMs: 6 * 60 * 60 * 1000 },
+          ).catch(() => {});
+        }
+
         playRows.push({
           captured_at: capturedAt,
           event_id: game.id,
@@ -503,6 +531,8 @@ async function captureEspn(mode, capturedAt, oddsRows) {
           home_score: play.homeScore ?? "",
           type: play.type || "",
           text: play.text || "",
+          batter: play.batter || "",
+          pitcher: play.pitcher || "",
           matched_odds_game: matchedGame,
           away_team: awayName,
           home_team: homeName,

@@ -105,7 +105,28 @@ function compactStatus(status) {
   };
 }
 
+function parseBatterPitcherText(text) {
+  const match = String(text || "").match(/^(.+?)\s+pitches to\s+(.+)$/i);
+  if (!match) return { pitcher: "", batter: "" };
+  return { pitcher: match[1].trim(), batter: match[2].trim() };
+}
+
 function compactPlay(play) {
+  const fromText = parseBatterPitcherText(
+    play.text || play.shortText || play.alternativeText || "",
+  );
+  let pitcher = fromText.pitcher;
+  let batter = fromText.batter;
+  for (const participant of play.participants || []) {
+    const name =
+      participant.athlete?.displayName ||
+      participant.athlete?.fullName ||
+      participant.athlete?.shortName ||
+      "";
+    if (!name) continue;
+    if (participant.type === "pitcher") pitcher = name;
+    if (participant.type === "batter") batter = name;
+  }
   return {
     id: play.id || null,
     text: play.text || play.alternativeText || "",
@@ -115,7 +136,48 @@ function compactPlay(play) {
     scoringPlay: Boolean(play.scoringPlay),
     awayScore: play.awayScore ?? null,
     homeScore: play.homeScore ?? null,
+    atBatId: play.atBatId || null,
+    pitcher,
+    batter,
   };
+}
+
+/** Carry batter/pitcher from "X pitches to Y" rows across the rest of the at-bat. */
+function fillBatterPitcher(plays) {
+  let pitcher = "";
+  let batter = "";
+  let atBatId = null;
+  return plays.map((play) => {
+    const type = String(play.type || "").toLowerCase();
+    if (play.pitcher || play.batter) {
+      pitcher = play.pitcher || pitcher;
+      batter = play.batter || batter;
+      atBatId = play.atBatId || atBatId;
+    } else if (play.atBatId && play.atBatId === atBatId) {
+      // same at-bat — keep current matchup
+    } else if (play.atBatId && play.atBatId !== atBatId) {
+      // new at-bat without an explicit matchup line yet
+      atBatId = play.atBatId;
+    }
+
+    if (type.includes("end batter") || type === "end-batterpitcher") {
+      const row = { ...play, pitcher, batter };
+      pitcher = "";
+      batter = "";
+      atBatId = null;
+      return row;
+    }
+    if (type.includes("end inning") || type.includes("start inning")) {
+      // keep names on inning markers only if still mid-at-bat; clear on end inning
+      if (type.includes("end inning")) {
+        pitcher = "";
+        batter = "";
+        atBatId = null;
+        return { ...play, pitcher: "", batter: "" };
+      }
+    }
+    return { ...play, pitcher, batter };
+  });
 }
 
 function compactInjury(inj, teamFallback) {
@@ -202,7 +264,7 @@ async function getGamePlays(eventId, limit = 1000, { fresh = false } = {}) {
         items = items.concat(pageData.items || []);
       }
     }
-    return items.map(compactPlay).filter((play) => play.text);
+    return fillBatterPitcher(items.map(compactPlay).filter((play) => play.text));
   } catch {
     return [];
   }
@@ -386,7 +448,9 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
   // Chronological (1st → current) so every inning is visible in the UI.
   let playList = plays;
   if (!playList.length && Array.isArray(summary.plays)) {
-    playList = summary.plays.map(compactPlay).filter((play) => play.text);
+    playList = fillBatterPitcher(
+      summary.plays.map(compactPlay).filter((play) => play.text),
+    );
   }
 
   const injuries = extractGameInjuries(

@@ -724,15 +724,41 @@ h1 span {
 
 .pbp-frame-shell {
   overflow: auto;
+  overflow-x: scroll;
   max-height: 560px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 10px;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: rgba(92, 214, 140, 0.55) rgba(255, 255, 255, 0.06);
+}
+
+.pbp-frame-shell::-webkit-scrollbar {
+  height: 14px;
+  width: 14px;
+}
+
+.pbp-frame-shell::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+}
+
+.pbp-frame-shell::-webkit-scrollbar-thumb {
+  background: rgba(92, 214, 140, 0.45);
+  border-radius: 8px;
+  border: 2px solid rgba(8, 16, 11, 0.9);
+}
+
+.pbp-frame-shell::-webkit-scrollbar-thumb:hover {
+  background: rgba(92, 214, 140, 0.7);
 }
 
 .pbp-frame {
   width: max-content;
   min-width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   font-size: 11px;
 }
 
@@ -740,21 +766,21 @@ h1 span {
   position: sticky;
   top: 0;
   z-index: 2;
-  padding: 8px 10px;
+  padding: 8px 8px;
   border-bottom: 1px solid var(--line);
   background: rgba(8, 16, 11, 0.96);
   color: var(--dim);
   font-family: "DM Mono", monospace;
   font-size: 9px;
   font-weight: 500;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-align: left;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 .pbp-frame td {
-  padding: 7px 10px;
+  padding: 7px 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
   color: var(--text);
   white-space: nowrap;
@@ -762,7 +788,7 @@ h1 span {
 }
 
 .pbp-frame td.col-text {
-  max-width: 220px;
+  max-width: 200px;
   white-space: normal;
   line-height: 1.35;
 }
@@ -784,8 +810,56 @@ h1 span {
 .pbp-frame th[title*="spread_"],
 .pbp-frame th[title*="_best"],
 .pbp-frame th[title*="_book"],
-.pbp-frame th[title*="consensus"] {
+.pbp-frame th[title*="consensus"],
+.pbp-frame th[title*="batter_"],
+.pbp-frame th[title*="pitcher_"] {
   color: var(--green);
+}
+
+/* Pin play identity while scrolling odds horizontally. */
+.pbp-frame th.col-sticky,
+.pbp-frame td.col-sticky {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: rgba(8, 16, 11, 0.97);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+.pbp-frame th.col-sticky {
+  z-index: 5;
+}
+
+.pbp-frame th.col-sticky-2,
+.pbp-frame td.col-sticky-2 {
+  position: sticky;
+  left: 42px;
+  z-index: 3;
+  background: rgba(8, 16, 11, 0.97);
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.06);
+}
+
+.pbp-frame th.col-sticky-2 {
+  z-index: 5;
+}
+
+.pbp-frame th.col-sticky-3,
+.pbp-frame td.col-sticky-3 {
+  position: sticky;
+  left: 110px;
+  z-index: 3;
+  background: rgba(8, 16, 11, 0.97);
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.pbp-frame th.col-sticky-3 {
+  z-index: 5;
+}
+
+.pbp-frame tr.latest td.col-sticky,
+.pbp-frame tr.latest td.col-sticky-2,
+.pbp-frame tr.latest td.col-sticky-3 {
+  background: rgba(14, 36, 22, 0.98);
 }
 
 .pbp-frame tr.scoring td.col-text {
@@ -798,6 +872,12 @@ h1 span {
 
 .pbp-frame tbody tr:hover td {
   background: rgba(255, 255, 255, 0.03);
+}
+
+.pbp-frame tbody tr:hover td.col-sticky,
+.pbp-frame tbody tr:hover td.col-sticky-2,
+.pbp-frame tbody tr:hover td.col-sticky-3 {
+  background: rgba(18, 28, 20, 0.98);
 }
 
 .live-pbp-meta {

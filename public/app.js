@@ -416,13 +416,59 @@ function scrollLatestIntoFrame() {
   shell.scrollTop = top;
 }
 
+function columnCellClass(col) {
+  const classes = [];
+  if (col === "play_n") classes.push("col-sticky");
+  else if (col === "inning") classes.push("col-sticky-2");
+  else if (col === "type") classes.push("col-sticky-3");
+
+  if (col === "text") classes.push("col-text");
+  else if (
+    col.includes("ml") ||
+    col.includes("spread") ||
+    col.includes("odds") ||
+    col.includes("total") ||
+    col.includes("consensus") ||
+    col.includes("batter_") ||
+    col.includes("pitcher_") ||
+    col.startsWith("over_") ||
+    col.startsWith("under_") ||
+    col.endsWith("_book") ||
+    col.endsWith("_best")
+  ) {
+    classes.push("col-odds");
+  }
+  return classes.join(" ");
+}
+
+function bindPbpShellScroll(shell, { prevTop = 0, followLatest = false } = {}) {
+  if (!shell) return;
+  restoreScroll(shell, { prevTop, followLatest });
+  shell.onscroll = () => {
+    state.pbpFollowLatest = isNearBottom(shell);
+  };
+  // Wheel scrolls horizontally when shift is held, or when the gesture is mostly sideways.
+  shell.onwheel = (event) => {
+    const mostlyHorizontal = Math.abs(event.deltaX) > Math.abs(event.deltaY);
+    if (event.shiftKey || mostlyHorizontal) {
+      const delta = event.shiftKey ? event.deltaY || event.deltaX : event.deltaX;
+      if (!delta) return;
+      shell.scrollLeft += delta;
+      event.preventDefault();
+    }
+  };
+}
+
 function renderPlayDataframe(frame, { scrollToLatest = false } = {}) {
   if (!frame?.rows?.length) {
     return `<div class="live-odds-empty">No plays yet for this game.</div>`;
   }
   const columns = frame.columns || Object.keys(frame.rows[0] || {});
   const head = columns
-    .map((col) => `<th title="${escapeHtml(col)}">${escapeHtml(col)}</th>`)
+    .map(
+      (col) =>
+        `<th class="${columnCellClass(col)}" title="${escapeHtml(col)}">${escapeHtml(col)}</th>`,
+    )
     .join("");
   const body = frame.rows
     .map((row, index) => {
@@ -431,21 +477,7 @@ function renderPlayDataframe(frame, { scrollToLatest = false } = {}) {
       const cells = columns
         .map((col) => {
           const raw = row[col];
-          const cls =
-            col === "text"
-              ? "col-text"
-              : col.includes("ml") ||
-                  col.includes("spread") ||
-                  col.includes("odds") ||
-                  col.includes("total") ||
-                  col.includes("consensus") ||
-                  col.startsWith("over_") ||
-                  col.startsWith("under_") ||
-                  col.endsWith("_book") ||
-                  col.endsWith("_best")
-                ? "col-odds"
-                : "";
-          return `<td class="${cls}">${escapeHtml(cellValue(raw))}</td>`;
+          return `<td class="${columnCellClass(col)}">${escapeHtml(cellValue(raw))}</td>`;
         })
         .join("");
       return `<tr class="${[
@@ -463,7 +495,7 @@ function renderPlayDataframe(frame, { scrollToLatest = false } = {}) {
   }
 
   return `
-    <div class="pbp-frame-shell">
+    <div class="pbp-frame-shell" tabindex="0" title="Shift+scroll for horizontal">
       <table class="pbp-frame">
         <thead><tr>${head}</tr></thead>
         <tbody>${body}</tbody>
@@ -601,13 +633,7 @@ function renderLiveDetail(detail) {
   };
 
   const shell = elements.livePlays.querySelector(".pbp-frame-shell");
-  if (shell) {
-    restoreScroll(shell, { prevTop: prevShellTop, followLatest });
-    shell.onscroll = () => {
-      // If the user scrolls up away from the bottom, stop auto-following.
-      state.pbpFollowLatest = isNearBottom(shell);
-    };
-  }
+  bindPbpShellScroll(shell, { prevTop: prevShellTop, followLatest });
   // Keep the page where the user left it — never jump the window on live refresh.
   window.scrollTo(0, pageScrollY);
 

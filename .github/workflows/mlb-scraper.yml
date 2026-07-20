@@ -1,5 +1,6 @@
 # Capture MLB odds + ESPN play-by-play even when your PC is off.
 # Requires repo secrets: BOLTODDS_API_KEY
+# Optional: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID for free phone alerts
 #
 # Every 5 minutes (and on manual run):
 #   - runs capture cycles
@@ -44,6 +45,10 @@ jobs:
       - name: Scrape and commit while live
         env:
           BOLTODDS_API_KEY: ${{ secrets.BOLTODDS_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MIN_EV: "0.03"
+          TELEGRAM_MIN_ARB: "0.01"
           SCRAPER_DATA_DIR: ${{ github.workspace }}/data
           INPLAY_INTERVAL_MS: "10000"
           MARKET_DWELL_MS: "5000"
