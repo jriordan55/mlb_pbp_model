@@ -22,7 +22,13 @@ const CSV_PATH = path.join(DATA_DIR, "mlb_odds_history.csv");
 const CAPTURE_INTERVAL_MS = 10 * 60 * 1000;
 const MARKET_DWELL_MS = 6_000;
 const SPORT = "MLB";
-const MARKETS = ["Moneyline", "Spread", "Total"];
+const INNING_ORDINALS = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"];
+const INNING_MARKETS = INNING_ORDINALS.flatMap((ordinal) => [
+  `${ordinal} Inning Moneyline`,
+  `${ordinal} Inning Spread`,
+  `${ordinal} Inning Total`,
+]);
+const MARKETS = ["Moneyline", "Spread", "Total", ...INNING_MARKETS];
 const ALLOWED_SPORTSBOOKS = [
   "fanduel",
   "draftkings",

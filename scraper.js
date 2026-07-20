@@ -45,10 +45,17 @@ const INPLAY_INTERVAL_MS = Number(process.env.INPLAY_INTERVAL_MS) || 8_000;
 const MARKET_DWELL_MS = Number(process.env.MARKET_DWELL_MS) || 5_000;
 const LIVE_SESSION_MAX_MS = Number(process.env.LIVE_SESSION_MAX_MS) || 4 * 60 * 60 * 1000;
 const SPORT = "MLB";
+const INNING_ORDINALS = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"];
+const INNING_MARKETS = INNING_ORDINALS.flatMap((ordinal) => [
+  `${ordinal} Inning Moneyline`,
+  `${ordinal} Inning Spread`,
+  `${ordinal} Inning Total`,
+]);
 const MARKETS = [
   "Moneyline",
   "Spread",
   "Total",
+  ...INNING_MARKETS,
   "Hits",
   "Home Runs",
   "RBIs",

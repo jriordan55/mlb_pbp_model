@@ -16,6 +16,12 @@ const MARKET_DWELL_MS = 6_000;
 
 const SPORT = "MLB";
 const GAME_MARKETS = ["Moneyline", "Spread", "Total"];
+const INNING_ORDINALS = ["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"];
+const INNING_MARKETS = INNING_ORDINALS.flatMap((ordinal) => [
+  `${ordinal} Inning Moneyline`,
+  `${ordinal} Inning Spread`,
+  `${ordinal} Inning Total`,
+]);
 const BATTER_PROP_MARKETS = [
   "Hits",
   "Home Runs",
@@ -26,12 +32,12 @@ const BATTER_PROP_MARKETS = [
 ];
 const PITCHER_PROP_MARKETS = ["Strikeouts Thrown", "Outs"];
 const PROP_MARKETS = [...BATTER_PROP_MARKETS, ...PITCHER_PROP_MARKETS];
-const ROTATION_MARKETS = [...GAME_MARKETS, ...PROP_MARKETS];
+const ROTATION_MARKETS = [...GAME_MARKETS, ...INNING_MARKETS, ...PROP_MARKETS];
 const TARGET_MARKETS = new Map(
   ROTATION_MARKETS.map((market) => [market, market]),
 );
 const PROP_MARKET_SET = new Set(PROP_MARKETS);
-const GAME_MARKET_SET = new Set(GAME_MARKETS);
+const GAME_MARKET_SET = new Set([...GAME_MARKETS, ...INNING_MARKETS]);
 
 /** Live-table prop columns: market name → dataframe prefix. */
 const BATTER_PROP_SPECS = [
