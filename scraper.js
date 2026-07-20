@@ -31,6 +31,7 @@ const {
   teamsMatch,
 } = require("./espn");
 const { sendTelegram, telegramConfigured } = require("./telegram");
+const { sendValueAlerts } = require("./odds_value");
 
 const ROOT = __dirname;
 const DATA_DIR = process.env.SCRAPER_DATA_DIR
@@ -506,19 +507,6 @@ async function captureEspn(mode, capturedAt, oddsRows) {
         if (seenPlays.has(seenKey)) continue;
         seenPlays.add(seenKey);
 
-        if (play.scoringPlay && telegramConfigured()) {
-          const scoreLine = `${awayName || "AWAY"} ${play.awayScore ?? "?"} – ${
-            play.homeScore ?? "?"
-          } ${homeName || "HOME"}`;
-          // Fire-and-forget so capture stays fast.
-          sendTelegram(
-            `SCORE\n${detail.game?.name || game.name || ""}\n${scoreLine}\n${
-              play.text || play.type || "Scoring play"
-            }`,
-            { key: `score:${seenKey}`, ttlMs: 6 * 60 * 60 * 1000 },
-          ).catch(() => {});
-        }
-
         playRows.push({
           captured_at: capturedAt,
           event_id: game.id,
@@ -608,6 +596,18 @@ async function runCycle() {
   console.log(`\n[${capturedAt}] mode=${mode} liveGames=${liveCount}`);
 
   const oddsRows = await captureOdds(mode, capturedAt);
+
+  if (telegramConfigured()) {
+    try {
+      const alerts = await sendValueAlerts(oddsRows, { sendTelegram, mode });
+      console.log(
+        `  telegram alerts: +EV=${alerts.sentEv} arb=${alerts.sentArb} (scanned ${alerts.oddsCount} sides / ${alerts.arbCount} arb candidates)`,
+      );
+    } catch (error) {
+      console.error("  telegram value alerts failed:", error.message || error);
+    }
+  }
+
   let espn = {
     board: { games: boardPreview },
     details: [],

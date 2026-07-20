@@ -1,6 +1,6 @@
 # Capture MLB odds + ESPN play-by-play even when your PC is off.
 # Requires repo secrets: BOLTODDS_API_KEY
-# Optional: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID for free phone alerts
+# Telegram +EV / arb alerts: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 #
 # Every 5 minutes (and on manual run):
 #   - runs capture cycles
@@ -60,7 +60,7 @@ jobs:
           mkdir -p data/snapshots
 
           commit_data() {
-            git add -f data/*.csv data/latest.json data/.seen_plays.json data/snapshots/*.json 2>/dev/null || true
+            git add -f data/*.csv data/latest.json data/.seen_plays.json data/.telegram_alerts.json data/snapshots/*.json 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "No data changes to commit"
               return 0
