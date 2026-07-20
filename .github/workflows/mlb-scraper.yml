@@ -1,10 +1,10 @@
 # Capture MLB odds + ESPN play-by-play even when your PC is off.
 # Requires repo secrets: BOLTODDS_API_KEY
 #
-# Every 5 minutes:
-#   - runs one capture cycle
-#   - if any game is live, keeps polling play-by-play until games end (max 4h)
-#   - commits CSV/JSON updates back to the branch
+# Every 5 minutes (and on manual run):
+#   - runs capture cycles
+#   - while games are live, keeps polling and commits data every ~5 minutes
+#   - stops when no live games remain (or after 4h)
 
 name: MLB scraper
 
@@ -36,23 +36,63 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run adaptive scraper
+      - name: Configure git
+        run: |
+          git config user.name "mlb-scraper"
+          git config user.email "mlb-scraper@users.noreply.github.com"
+
+      - name: Scrape and commit while live
         env:
           BOLTODDS_API_KEY: ${{ secrets.BOLTODDS_API_KEY }}
           SCRAPER_DATA_DIR: ${{ github.workspace }}/data
           INPLAY_INTERVAL_MS: "10000"
           MARKET_DWELL_MS: "5000"
-          LIVE_SESSION_MAX_MS: "14400000"
-        run: node scraper.js --live-session
-
-      - name: Commit data
+          # Commit often: each chunk runs at most ~5 minutes, then we push.
+          LIVE_SESSION_MAX_MS: "300000"
+          TOTAL_MAX_MS: "14400000"
         run: |
-          git config user.name "mlb-scraper"
-          git config user.email "mlb-scraper@users.noreply.github.com"
-          git add -f data/*.csv data/latest.json data/.seen_plays.json data/snapshots/*.json || true
-          if git diff --staged --quiet; then
-            echo "No data changes"
-          else
+          set -euo pipefail
+          mkdir -p data/snapshots
+
+          commit_data() {
+            git add -f data/*.csv data/latest.json data/.seen_plays.json data/snapshots/*.json 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "No data changes to commit"
+              return 0
+            fi
             git commit -m "chore: update MLB scraper data $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
-          fi
+            echo "Pushed scraper data"
+          }
+
+          still_live() {
+            node -e "
+              const fs = require('fs');
+              const p = 'data/latest.json';
+              if (!fs.existsSync(p)) { process.exit(1); }
+              const d = JSON.parse(fs.readFileSync(p, 'utf8'));
+              process.exit((d.liveGames || 0) > 0 ? 0 : 1);
+            "
+          }
+
+          START=$SECONDS
+          CHUNK=0
+          while true; do
+            CHUNK=$((CHUNK + 1))
+            echo "::group::Live-session chunk ${CHUNK}"
+            node scraper.js --live-session || echo "Scraper exited with $?"
+            echo "::endgroup::"
+
+            commit_data
+
+            if ! still_live; then
+              echo "No live games remaining; done."
+              break
+            fi
+
+            ELAPSED_MS=$(( (SECONDS - START) * 1000 ))
+            if [ "$ELAPSED_MS" -ge "$TOTAL_MAX_MS" ]; then
+              echo "Hit 4h total cap; done."
+              break
+            fi
+          done

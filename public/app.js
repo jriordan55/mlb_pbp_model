@@ -25,6 +25,8 @@ const elements = {
   liveEmpty: document.querySelector("#liveEmpty"),
   liveBoardSummary: document.querySelector("#liveBoardSummary"),
   liveScorecard: document.querySelector("#liveScorecard"),
+  livePbpMeta: document.querySelector("#livePbpMeta"),
+  liveBoardOdds: document.querySelector("#liveBoardOdds"),
   livePlays: document.querySelector("#livePlays"),
   liveStats: document.querySelector("#liveStats"),
   liveInjuries: document.querySelector("#liveInjuries"),
@@ -38,6 +40,9 @@ const state = {
   selectedGameId: null,
   selectedEvent: null,
   expandedOdds: new Set(),
+  lastPlayCountByGame: {},
+  playDataframe: null,
+  pbpFollowLatest: false,
   loading: false,
   queued: false,
   hasLoaded: false,
@@ -280,15 +285,229 @@ function renderGameChips() {
     .join("");
 }
 
+function formatSignedLine(line) {
+  if (!Number.isFinite(Number(line))) return "";
+  const value = Number(line);
+  return value > 0 ? `+${value}` : String(value);
+}
+
+function relativeTime(iso) {
+  if (!iso) return "unknown";
+  const ms = Date.now() - new Date(iso).getTime();
+  if (!Number.isFinite(ms)) return "unknown";
+  if (ms < 5_000) return "just now";
+  if (ms < 60_000) return `${Math.round(ms / 1000)}s ago`;
+  if (ms < 3_600_000) return `${Math.round(ms / 60_000)}m ago`;
+  return new Date(iso).toLocaleTimeString();
+}
+
+function groupPlaysByInning(plays) {
+  const groups = [];
+  let current = null;
+  for (const play of plays) {
+    const period = play.period || "Inning";
+    if (!current || current.period !== period) {
+      current = { period, plays: [] };
+      groups.push(current);
+    }
+    current.plays.push(play);
+  }
+  return groups;
+}
+
+function formatOddCell(label, side, { signedLine = false } = {}) {
+  if (!side?.price) {
+    return `<div class="odds-chip muted"><span>${escapeHtml(label)}</span><strong>—</strong></div>`;
+  }
+  let lineBit = "";
+  if (side.line != null && side.line !== "") {
+    lineBit = signedLine
+      ? ` ${escapeHtml(formatSignedLine(side.line))}`
+      : ` ${escapeHtml(String(side.line))}`;
+  }
+  const book = side.book ? ` · ${escapeHtml(side.book)}` : "";
+  return `
+    <div class="odds-chip">
+      <span>${escapeHtml(label)}${lineBit}</span>
+      <strong>${escapeHtml(String(side.price))}</strong>
+      <em>${book.trim()}</em>
+    </div>
+  `;
+}
+
+function renderOddsBoard(odds, awayAbbr = "AWAY", homeAbbr = "HOME") {
+  if (!odds) {
+    return `<div class="live-odds-empty">No BoltOdds linked for this game yet — odds appear once the feed matches the ESPN matchup.</div>`;
+  }
+  const awayShort = awayAbbr || "AWAY";
+  const homeShort = homeAbbr || "HOME";
+  return `
+    <div class="live-odds-strip">
+      <div class="live-odds-group">
+        <span class="live-odds-label">ML</span>
+        ${formatOddCell(awayShort, odds.moneyline?.away)}
+        ${formatOddCell(homeShort, odds.moneyline?.home)}
+      </div>
+      <div class="live-odds-group">
+        <span class="live-odds-label">Spread</span>
+        ${formatOddCell(awayShort, odds.spread?.away, { signedLine: true })}
+        ${formatOddCell(homeShort, odds.spread?.home, { signedLine: true })}
+      </div>
+      <div class="live-odds-group">
+        <span class="live-odds-label">Total${
+          odds.total?.line != null ? ` ${escapeHtml(String(odds.total.line))}` : ""
+        }</span>
+        ${formatOddCell("Over", odds.total?.over)}
+        ${formatOddCell("Under", odds.total?.under)}
+      </div>
+    </div>
+  `;
+}
+
+function csvEscape(value) {
+  const text = value == null ? "" : String(value);
+  if (/[",\n\r]/.test(text)) return `"${text.replace(/"/g, '""')}"`;
+  return text;
+}
+
+function downloadPlayDataframe(frame, game) {
+  if (!frame?.columns?.length || !frame?.rows?.length) return;
+  const lines = [
+    frame.columns.join(","),
+    ...frame.rows.map((row) =>
+      frame.columns.map((col) => csvEscape(row[col])).join(","),
+    ),
+  ];
+  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const label = `${game?.away?.abbreviation || "away"}_${game?.home?.abbreviation || "home"}`;
+  anchor.href = url;
+  anchor.download = `mlb_pbp_${label}_${stamp}.csv`;
+  anchor.click();
+  URL.revokeObjectURL(url);
+}
+
+function cellValue(value) {
+  if (value == null || value === "") return "—";
+  return String(value);
+}
+
+function isNearBottom(shell, threshold = 96) {
+  if (!shell) return false;
+  return shell.scrollHeight - shell.scrollTop - shell.clientHeight <= threshold;
+}
+
+function restoreScroll(shell, { prevTop = 0, followLatest = false } = {}) {
+  if (!shell) return;
+  if (followLatest) {
+    shell.scrollTop = shell.scrollHeight;
+  } else {
+    shell.scrollTop = prevTop;
+  }
+}
+
+function scrollLatestIntoFrame() {
+  const shell = elements.livePlays.querySelector(".pbp-frame-shell");
+  const target = elements.livePlays.querySelector("#latestPlay");
+  if (!shell || !target) return;
+  const top = Math.max(0, target.offsetTop - 36);
+  shell.scrollTop = top;
+}
+
+function renderPlayDataframe(frame, { scrollToLatest = false } = {}) {
+  if (!frame?.rows?.length) {
+    return `<div class="live-odds-empty">No plays yet for this game.</div>`;
+  }
+  const columns = frame.columns || Object.keys(frame.rows[0] || {});
+  const head = columns
+    .map((col) => `<th title="${escapeHtml(col)}">${escapeHtml(col)}</th>`)
+    .join("");
+  const body = frame.rows
+    .map((row, index) => {
+      const latest = Number(row.is_latest) === 1 || index === frame.rows.length - 1;
+      const scoring = Number(row.scoring_play) === 1;
+      const cells = columns
+        .map((col) => {
+          const raw = row[col];
+          const cls =
+            col === "text"
+              ? "col-text"
+              : col.includes("ml") ||
+                  col.includes("spread") ||
+                  col.includes("odds") ||
+                  col.includes("total") ||
+                  col.includes("consensus") ||
+                  col.startsWith("over_") ||
+                  col.startsWith("under_") ||
+                  col.endsWith("_book") ||
+                  col.endsWith("_best")
+                ? "col-odds"
+                : "";
+          return `<td class="${cls}">${escapeHtml(cellValue(raw))}</td>`;
+        })
+        .join("");
+      return `<tr class="${[
+        latest ? "latest" : "",
+        scoring ? "scoring" : "",
+      ]
+        .filter(Boolean)
+        .join(" ")}"${latest ? ' id="latestPlay"' : ""}>${cells}</tr>`;
+    })
+    .join("");
+
+  // Defer scroll until after DOM paint by caller.
+  if (scrollToLatest) {
+    /* no-op placeholder for callers */
+  }
+
+  return `
+    <div class="pbp-frame-shell">
+      <table class="pbp-frame">
+        <thead><tr>${head}</tr></thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function playStateLabel(play, game) {
+  const awayAbbr = game.away?.abbreviation || "AWAY";
+  const homeAbbr = game.home?.abbreviation || "HOME";
+  const state = play.gameState || {};
+  const score =
+    state.awayScore != null && state.homeScore != null
+      ? `${awayAbbr} ${state.awayScore}–${state.homeScore} ${homeAbbr}`
+      : play.awayScore != null && play.homeScore != null
+        ? `${awayAbbr} ${play.awayScore}–${play.homeScore} ${homeAbbr}`
+        : "";
+  return [play.clock, score].filter(Boolean).join(" · ");
+}
+
 function renderLiveDetail(detail) {
   if (!detail?.game) {
     elements.liveDetail.hidden = true;
     return;
   }
+  const pageScrollY = window.scrollY;
   elements.liveDetail.hidden = false;
   const game = detail.game;
   const away = game.away || {};
   const home = game.home || {};
+  const awayAbbr = away.abbreviation || "AWAY";
+  const homeAbbr = home.abbreviation || "HOME";
+  const plays = detail.plays || [];
+  const frame =
+    detail.dataframe ||
+    ({
+      columns: [],
+      rows: [],
+    });
+  state.playDataframe = frame;
+  const inningsCovered = [
+    ...new Set(frame.rows.map((row) => row.inning).filter(Boolean)),
+  ];
 
   elements.liveScorecard.innerHTML = `
     <div class="live-score-teams">
@@ -325,25 +544,72 @@ function renderLiveDetail(detail) {
     </div>
   `;
 
-  const plays = detail.plays || [];
-  elements.livePlays.innerHTML = plays.length
-    ? plays
-        .map(
-          (play) => `
-        <div class="live-play${play.scoringPlay ? " scoring" : ""}">
-          ${escapeHtml(play.text)}
-          <small>${escapeHtml(
-            [play.period, play.clock, play.awayScore != null ? `${play.awayScore}-${play.homeScore}` : ""]
-              .filter(Boolean)
-              .join(" · "),
-          )}</small>
-        </div>
-      `,
-        )
-        .join("")
-    : `<div class="live-play"><span>No plays yet — game is ${escapeHtml(
+  if (elements.livePbpMeta) {
+    const latestText = detail.latestPlay?.text
+      ? detail.latestPlay.text.slice(0, 90)
+      : "waiting for plays";
+    elements.livePbpMeta.innerHTML = `
+      <div class="live-pbp-meta-row">
+        <strong>${frame.rows.length || plays.length} rows</strong>
+        <span>${frame.columns.length} columns</span>
+        <span>${inningsCovered.length ? escapeHtml(inningsCovered.join(" · ")) : "No innings yet"}</span>
+        <span>Updated ${escapeHtml(relativeTime(detail.fetchedAt))}</span>
+        <button type="button" class="jump-latest" id="downloadPbpCsv">Download CSV</button>
+        <button type="button" class="jump-latest" id="jumpLatest">Jump to latest</button>
+      </div>
+      <div class="live-pbp-latest-line">
+        <span class="latest-badge">Latest</span>
+        ${escapeHtml(latestText)}
+      </div>
+    `;
+    const jump = elements.livePbpMeta.querySelector("#jumpLatest");
+    if (jump) {
+      jump.addEventListener("click", () => {
+        state.pbpFollowLatest = true;
+        scrollLatestIntoFrame();
+      });
+    }
+    const download = elements.livePbpMeta.querySelector("#downloadPbpCsv");
+    if (download) {
+      download.addEventListener("click", () =>
+        downloadPlayDataframe(state.playDataframe, game),
+      );
+    }
+  }
+
+  elements.liveBoardOdds.innerHTML = `
+    <div class="live-odds-now-label">Live board now</div>
+    ${renderOddsBoard(detail.liveOdds, awayAbbr, homeAbbr)}
+  `;
+
+  const prevShell = elements.livePlays.querySelector(".pbp-frame-shell");
+  const prevShellTop = prevShell?.scrollTop ?? 0;
+  const wasNearBottom = isNearBottom(prevShell);
+  const isFirstPaint = !(state.lastPlayCountByGame?.[game.id] > 0);
+  const followLatest =
+    isFirstPaint || state.pbpFollowLatest || wasNearBottom;
+
+  elements.livePlays.innerHTML = frame.rows.length
+    ? renderPlayDataframe(frame)
+    : `<div class="live-odds-empty">No plays yet — game is ${escapeHtml(
         game.status?.description || "not started",
-      )}.</span></div>`;
+      )}.</div>`;
+
+  state.lastPlayCountByGame = {
+    ...(state.lastPlayCountByGame || {}),
+    [game.id]: frame.rows.length || plays.length,
+  };
+
+  const shell = elements.livePlays.querySelector(".pbp-frame-shell");
+  if (shell) {
+    restoreScroll(shell, { prevTop: prevShellTop, followLatest });
+    shell.onscroll = () => {
+      // If the user scrolls up away from the bottom, stop auto-following.
+      state.pbpFollowLatest = isNearBottom(shell);
+    };
+  }
+  // Keep the page where the user left it — never jump the window on live refresh.
+  window.scrollTo(0, pageScrollY);
 
   const leaderBlocks = (detail.leaders || [])
     .map(
@@ -446,6 +712,8 @@ async function loadGameDetail(eventId) {
   } catch (error) {
     elements.liveDetail.hidden = false;
     elements.liveScorecard.innerHTML = `<div class="live-score-meta">${escapeHtml(error.message)}</div>`;
+    if (elements.liveBoardOdds) elements.liveBoardOdds.innerHTML = "";
+    if (elements.livePbpMeta) elements.livePbpMeta.innerHTML = "";
     elements.livePlays.innerHTML = "";
     elements.liveStats.innerHTML = "";
     elements.liveInjuries.innerHTML = "";
@@ -667,6 +935,11 @@ elements.gameChips.addEventListener("click", (event) => {
   const game = state.games.find((entry) => entry.id === gameId);
   state.selectedGameId = gameId;
   state.selectedEvent = game?.matchedEvent || null;
+  state.pbpFollowLatest = true;
+  state.lastPlayCountByGame = {
+    ...(state.lastPlayCountByGame || {}),
+    [gameId]: 0,
+  };
   renderGameChips();
   loadGameDetail(gameId);
 });
@@ -689,11 +962,13 @@ stream.onerror = () => {
 
 // Safety refresh in case a browser or proxy interrupts the event stream.
 setInterval(() => {
-  if (!document.hidden) {
-    loadOdds();
-    loadLiveBoard();
-  }
+  if (!document.hidden) loadOdds();
 }, 30_000);
+
+// Live PBP / scoreboard — keep selected game current.
+setInterval(() => {
+  if (!document.hidden) loadLiveBoard();
+}, 12_000);
 
 loadOdds();
 loadLiveBoard();

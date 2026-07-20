@@ -45,16 +45,12 @@ const LIVE_SESSION_MAX_MS = Number(process.env.LIVE_SESSION_MAX_MS) || 4 * 60 * 
 const SPORT = "MLB";
 const MARKETS = ["Moneyline", "Spread", "Total"];
 const ALLOWED_SPORTSBOOKS = [
-  "draftkings",
   "fanduel",
+  "draftkings",
   "betmgm",
+  "betonline",
   "thescore",
-  "fanatics",
-  "polymarket",
-  "kalshi",
-  "caesars",
-  "prophetx",
-  "novig",
+  "consensus",
 ];
 
 const ODDS_COLUMNS = [
@@ -486,7 +482,7 @@ async function captureEspn(mode, capturedAt, oddsRows) {
 
     // Pitch / play-by-play only while the game is live.
     if ((detail.game?.status?.state || game.status?.state) === "in") {
-      const plays = [...(detail.plays || [])].reverse();
+      const plays = detail.plays || [];
       for (const play of plays) {
         const playId = String(
           play.id || `${game.id}:${play.text}:${play.period}:${play.clock}`,

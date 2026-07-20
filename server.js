@@ -19,32 +19,23 @@ const TARGET_MARKETS = new Map(
   ROTATION_MARKETS.map((market) => [market, market]),
 );
 
-// Only these books are subscribed and retained. "fanatics" is included in case
-// BoltOdds adds it later — it is not currently in their sportsbook list.
+// Live table + feed subscription: sharp retail books plus BoltOdds market consensus.
 const ALLOWED_SPORTSBOOKS = [
-  "draftkings",
   "fanduel",
+  "draftkings",
   "betmgm",
+  "betonline",
   "thescore",
-  "fanatics",
-  "polymarket",
-  "kalshi",
-  "caesars",
-  "prophetx",
-  "novig",
+  "consensus",
 ];
 
 const BOOK_LABELS = {
-  draftkings: "DraftKings",
   fanduel: "FanDuel",
+  draftkings: "DraftKings",
   betmgm: "BetMGM",
+  betonline: "BetOnline",
   thescore: "theScore",
-  fanatics: "Fanatics",
-  polymarket: "Polymarket",
-  kalshi: "Kalshi",
-  caesars: "Caesars",
-  prophetx: "ProphetX",
-  novig: "Novig",
+  consensus: "Consensus",
 };
 
 function loadEnv(filePath) {
@@ -65,6 +56,8 @@ function loadEnv(filePath) {
 const feedState = new Map();
 const streamClients = new Set();
 const marketSyncedAt = new Map();
+/** First-seen odds stamp per ESPN play: `${eventId}|${playId}` -> odds board. */
+const playOddsMemory = new Map();
 let socketConnected = false;
 let lastMessageAt = null;
 let broadcastTimer = null;
@@ -268,9 +261,17 @@ function rotateMarket(socket) {
 // Snapshot for the frontend
 // ---------------------------------------------------------------------------
 
-function americanToDecimal(price) {
+function parseAmerican(price) {
   const value = Number(String(price).replace(/[+−]/g, (match) => (match === "−" ? "-" : "")));
-  if (!Number.isFinite(value) || value === 0) return null;
+  return Number.isFinite(value) && value !== 0 ? value : null;
+}
+
+/** Hide extreme longshots (+1001 and up) from the dashboard. */
+const MAX_AMERICAN_ODDS = 1000;
+
+function americanToDecimal(price) {
+  const value = parseAmerican(price);
+  if (value === null) return null;
   return value > 0 ? 1 + value / 100 : 1 + 100 / Math.abs(value);
 }
 
@@ -308,8 +309,9 @@ function buildSnapshot() {
 
     for (const [outcomeKey, outcome] of entry.outcomes) {
       const category = TARGET_MARKETS.get(outcome.outcome_name || "");
+      const american = parseAmerican(outcome.odds);
       const decimal = americanToDecimal(outcome.odds);
-      if (!category || !decimal) continue;
+      if (!category || !decimal || american === null || american > MAX_AMERICAN_ODDS) continue;
 
       rawQuotes.push({
         id: `${entry.sportsbook}#${entry.game}#${outcomeKey}`,
@@ -848,6 +850,367 @@ function findArbs({ overUnderGroups, spreadGroups, matchupGroups }) {
 // HTTP server
 // ---------------------------------------------------------------------------
 
+function teamsLooseMatch(a, b) {
+  const left = String(a || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const right = String(b || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!left || !right) return false;
+  return left.includes(right) || right.includes(left);
+}
+
+function mostCommonLine(values) {
+  const counts = new Map();
+  for (const value of values) {
+    if (!Number.isFinite(value)) continue;
+    counts.set(value, (counts.get(value) || 0) + 1);
+  }
+  let best = null;
+  let bestCount = -1;
+  for (const [value, count] of counts) {
+    if (count > bestCount) {
+      best = value;
+      bestCount = count;
+    }
+  }
+  return best;
+}
+
+function quotesByBook(row) {
+  const out = {};
+  for (const quote of row?.quotes || []) {
+    const id = quote.sportsbook?.id;
+    if (!id) continue;
+    out[id] = {
+      price: quote.price ?? "",
+      line: quote.line ?? null,
+      book: quote.sportsbook?.name || id,
+    };
+  }
+  return out;
+}
+
+function compactOddSide(row) {
+  if (!row) return null;
+  return {
+    name: row.name || null,
+    side: row.side || null,
+    line: row.line ?? null,
+    price: row.price,
+    book: row.sportsbook?.name || row.sportsbook?.id || "",
+    fairPrice: row.fairPrice ?? null,
+    fairProbability: Number.isFinite(row.fairProbability) ? row.fairProbability : null,
+    ev: Number.isFinite(row.ev) ? row.ev : null,
+    byBook: quotesByBook(row),
+  };
+}
+
+function summarizeLiveOddsBoard(eventName, awayName, homeName) {
+  if (!eventName) return null;
+  let rows = [];
+  try {
+    rows = (buildSnapshot().odds || []).filter((row) => row.event === eventName);
+  } catch {
+    return null;
+  }
+  if (!rows.length) return null;
+
+  const moneyline = rows.filter((row) => row.category === "Moneyline");
+  const spreads = rows.filter((row) => row.category === "Spread");
+  const totals = rows.filter((row) => row.category === "Total");
+
+  const awayMl =
+    moneyline.find((row) => teamsLooseMatch(row.name, awayName)) || null;
+  const homeMl =
+    moneyline.find((row) => teamsLooseMatch(row.name, homeName)) || null;
+
+  const preferredSpread = mostCommonLine(
+    spreads.map((row) => Math.abs(Number(row.line))).filter(Number.isFinite),
+  );
+  const spreadPool = Number.isFinite(preferredSpread)
+    ? spreads.filter((row) => Math.abs(Number(row.line)) === preferredSpread)
+    : spreads;
+  const awaySpread =
+    spreadPool.find((row) => teamsLooseMatch(row.name, awayName)) || null;
+  const homeSpread =
+    spreadPool.find((row) => teamsLooseMatch(row.name, homeName)) || null;
+
+  const preferredTotal = mostCommonLine(
+    totals.map((row) => Number(row.line)).filter(Number.isFinite),
+  );
+  const totalPool = Number.isFinite(preferredTotal)
+    ? totals.filter((row) => Number(row.line) === preferredTotal)
+    : totals;
+  const over = totalPool.find((row) => row.side === "Over") || null;
+  const under = totalPool.find((row) => row.side === "Under") || null;
+
+  return {
+    event: eventName,
+    updatedAt: lastMessageAt,
+    markets: ["Moneyline", "Spread", "Total"],
+    sportsbooks: [...ALLOWED_SPORTSBOOKS],
+    moneyline: {
+      away: compactOddSide(awayMl),
+      home: compactOddSide(homeMl),
+    },
+    spread: {
+      line: preferredSpread ?? null,
+      away: compactOddSide(awaySpread),
+      home: compactOddSide(homeSpread),
+    },
+    total: {
+      line: preferredTotal ?? null,
+      over: compactOddSide(over),
+      under: compactOddSide(under),
+    },
+  };
+}
+
+function bookPrice(side, bookId) {
+  return side?.byBook?.[bookId]?.price ?? "";
+}
+
+function bookLine(side, bookId) {
+  const value = side?.byBook?.[bookId]?.line;
+  return value == null || value === "" ? "" : value;
+}
+
+function flattenPlayRow(play, game, index, { isLatest = false } = {}) {
+  const odds = play.odds || null;
+  const awayAbbr = game.away?.abbreviation || "AWAY";
+  const homeAbbr = game.home?.abbreviation || "HOME";
+  const row = {
+    play_n: index + 1,
+    play_id: play.id || `${play.text}:${play.period}:${play.clock}`,
+    inning: play.period || "",
+    clock: play.clock || "",
+    type: play.type || "",
+    text: play.text || "",
+    scoring_play: play.scoringPlay ? 1 : 0,
+    away_abbr: awayAbbr,
+    home_abbr: homeAbbr,
+    away_score: play.awayScore ?? play.gameState?.awayScore ?? "",
+    home_score: play.homeScore ?? play.gameState?.homeScore ?? "",
+    // Best price + book, then market consensus (BoltOdds consensus, else no-vig fair).
+    away_ml_best: odds?.moneyline?.away?.price ?? "",
+    away_ml_best_book: odds?.moneyline?.away?.book ?? "",
+    away_ml_consensus:
+      bookPrice(odds?.moneyline?.away, "consensus") ||
+      odds?.moneyline?.away?.fairPrice ||
+      "",
+    home_ml_best: odds?.moneyline?.home?.price ?? "",
+    home_ml_best_book: odds?.moneyline?.home?.book ?? "",
+    home_ml_consensus:
+      bookPrice(odds?.moneyline?.home, "consensus") ||
+      odds?.moneyline?.home?.fairPrice ||
+      "",
+    spread_line: odds?.spread?.line ?? "",
+    away_spread_best: odds?.spread?.away?.price ?? "",
+    away_spread_best_book: odds?.spread?.away?.book ?? "",
+    away_spread_consensus:
+      bookPrice(odds?.spread?.away, "consensus") ||
+      odds?.spread?.away?.fairPrice ||
+      "",
+    home_spread_best: odds?.spread?.home?.price ?? "",
+    home_spread_best_book: odds?.spread?.home?.book ?? "",
+    home_spread_consensus:
+      bookPrice(odds?.spread?.home, "consensus") ||
+      odds?.spread?.home?.fairPrice ||
+      "",
+    total_line: odds?.total?.line ?? odds?.total?.over?.line ?? "",
+    over_best: odds?.total?.over?.price ?? "",
+    over_best_book: odds?.total?.over?.book ?? "",
+    over_consensus:
+      bookPrice(odds?.total?.over, "consensus") ||
+      odds?.total?.over?.fairPrice ||
+      "",
+    under_best: odds?.total?.under?.price ?? "",
+    under_best_book: odds?.total?.under?.book ?? "",
+    under_consensus:
+      bookPrice(odds?.total?.under, "consensus") ||
+      odds?.total?.under?.fairPrice ||
+      "",
+  };
+
+  for (const book of ALLOWED_SPORTSBOOKS) {
+    if (book === "consensus") continue; // surfaced as *_consensus columns above
+    row[`ml_away_${book}`] = bookPrice(odds?.moneyline?.away, book);
+    row[`ml_home_${book}`] = bookPrice(odds?.moneyline?.home, book);
+    row[`spread_away_line_${book}`] = bookLine(odds?.spread?.away, book);
+    row[`spread_away_${book}`] = bookPrice(odds?.spread?.away, book);
+    row[`spread_home_line_${book}`] = bookLine(odds?.spread?.home, book);
+    row[`spread_home_${book}`] = bookPrice(odds?.spread?.home, book);
+    row[`over_${book}`] = bookPrice(odds?.total?.over, book);
+    row[`under_${book}`] = bookPrice(odds?.total?.under, book);
+  }
+
+  row.odds_event = odds?.event || game.matchedEvent || "";
+  row.odds_stamped_at = odds?.stampedAt || "";
+  row.is_latest = isLatest ? 1 : 0;
+  return row;
+}
+
+function buildPlayFrameColumns() {
+  // Best + consensus per market side, then FanDuel / DK / BetMGM / BetOnline / theScore.
+  const columns = [
+    "play_n",
+    "inning",
+    "type",
+    "text",
+    "away_abbr",
+    "home_abbr",
+    "away_score",
+    "home_score",
+    "scoring_play",
+    "away_ml_best",
+    "away_ml_best_book",
+    "away_ml_consensus",
+    "home_ml_best",
+    "home_ml_best_book",
+    "home_ml_consensus",
+    "spread_line",
+    "away_spread_best",
+    "away_spread_best_book",
+    "away_spread_consensus",
+    "home_spread_best",
+    "home_spread_best_book",
+    "home_spread_consensus",
+    "total_line",
+    "over_best",
+    "over_best_book",
+    "over_consensus",
+    "under_best",
+    "under_best_book",
+    "under_consensus",
+  ];
+  for (const book of ALLOWED_SPORTSBOOKS) {
+    if (book === "consensus") continue;
+    columns.push(
+      `ml_away_${book}`,
+      `ml_home_${book}`,
+      `spread_away_line_${book}`,
+      `spread_away_${book}`,
+      `spread_home_line_${book}`,
+      `spread_home_${book}`,
+      `over_${book}`,
+      `under_${book}`,
+    );
+  }
+  columns.push(
+    "clock",
+    "play_id",
+    "odds_event",
+    "odds_stamped_at",
+    "is_latest",
+  );
+  return columns;
+}
+
+const PLAY_FRAME_COLUMNS = buildPlayFrameColumns();
+
+function attachBookQuotes(stamped, live) {
+  if (!stamped) return live;
+  if (!live) return stamped;
+  const mergeSide = (side, liveSide) => {
+    if (!side) return liveSide || null;
+    if (side.byBook && Object.keys(side.byBook).length) return side;
+    return {
+      ...side,
+      byBook: liveSide?.byBook || {},
+    };
+  };
+  return {
+    ...stamped,
+    markets: stamped.markets || live.markets || ["Moneyline", "Spread", "Total"],
+    sportsbooks: stamped.sportsbooks || live.sportsbooks || [...ALLOWED_SPORTSBOOKS],
+    moneyline: {
+      away: mergeSide(stamped.moneyline?.away, live.moneyline?.away),
+      home: mergeSide(stamped.moneyline?.home, live.moneyline?.home),
+    },
+    spread: {
+      line: stamped.spread?.line ?? live.spread?.line ?? null,
+      away: mergeSide(stamped.spread?.away, live.spread?.away),
+      home: mergeSide(stamped.spread?.home, live.spread?.home),
+    },
+    total: {
+      line: stamped.total?.line ?? live.total?.line ?? null,
+      over: mergeSide(stamped.total?.over, live.total?.over),
+      under: mergeSide(stamped.total?.under, live.total?.under),
+    },
+  };
+}
+
+function enrichGameDetailWithOdds(detail) {
+  if (!detail?.game) return detail;
+
+  const matchedEvent = detail.game.matchedEvent || null;
+  const awayName = detail.game.away?.name || "";
+  const homeName = detail.game.home?.name || "";
+  const liveOdds = summarizeLiveOddsBoard(matchedEvent, awayName, homeName);
+
+  const gameState = {
+    awayScore: detail.game.away?.score ?? null,
+    homeScore: detail.game.home?.score ?? null,
+    awayAbbr: detail.game.away?.abbreviation || "AWAY",
+    homeAbbr: detail.game.home?.abbreviation || "HOME",
+    status: detail.game.status || null,
+    situation: detail.situation || null,
+  };
+
+  const plays = (detail.plays || []).map((play) => {
+    const playId = String(
+      play.id || `${play.text}:${play.period}:${play.clock}`,
+    );
+    const key = `${detail.game.id}|${playId}`;
+    if (liveOdds && !playOddsMemory.has(key)) {
+      playOddsMemory.set(key, {
+        ...liveOdds,
+        stampedAt: new Date().toISOString(),
+      });
+    }
+    const stamped = playOddsMemory.get(key) || liveOdds;
+    return {
+      ...play,
+      gameState: {
+        awayScore: play.awayScore ?? gameState.awayScore,
+        homeScore: play.homeScore ?? gameState.homeScore,
+        period: play.period || gameState.status?.shortDetail || "",
+        clock: play.clock || "",
+      },
+      odds: attachBookQuotes(stamped, liveOdds),
+    };
+  });
+
+  if (playOddsMemory.size > 20_000) {
+    for (const key of [...playOddsMemory.keys()].slice(0, 5_000)) {
+      playOddsMemory.delete(key);
+    }
+  }
+
+  const dataframe = {
+    columns: PLAY_FRAME_COLUMNS,
+    rows: plays.map((play, index) =>
+      flattenPlayRow(play, detail.game, index, {
+        isLatest: index === plays.length - 1,
+      }),
+    ),
+  };
+
+  return {
+    ...detail,
+    gameState,
+    liveOdds,
+    plays,
+    dataframe,
+  };
+}
+
 function sendJson(response, status, body) {
   response.writeHead(status, {
     "Content-Type": "application/json; charset=utf-8",
@@ -921,7 +1284,7 @@ const server = http.createServer((request, response) => {
   const liveMatch = url.pathname.match(/^\/api\/live\/([^/]+)$/);
   if (liveMatch) {
     buildGameDetail(decodeURIComponent(liveMatch[1]), collectOddsEventNames())
-      .then((detail) => sendJson(response, 200, detail))
+      .then((detail) => sendJson(response, 200, enrichGameDetailWithOdds(detail)))
       .catch((error) =>
         sendJson(response, 502, { error: error.message || "ESPN game detail unavailable" }),
       );

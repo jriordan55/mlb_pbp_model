@@ -136,7 +136,7 @@ function compactInjury(inj, teamFallback) {
 
 async function getScoreboard({ fresh = false } = {}) {
   const url = `${SITE}/${SPORT}/${LEAGUE}/scoreboard`;
-  const data = await espnFetch(url, fresh ? 0 : 30_000);
+  const data = await espnFetch(url, fresh ? 0 : 12_000);
   return (data.events || []).map((event) => {
     const competition = event.competitions?.[0] || {};
     const competitors = (competition.competitors || [])
@@ -182,14 +182,27 @@ async function getLeagueInjuries() {
 
 async function getGameSummary(eventId, { fresh = false } = {}) {
   const url = `${SITE}/${SPORT}/${LEAGUE}/summary?event=${encodeURIComponent(eventId)}`;
-  return espnFetch(url, fresh ? 0 : 45_000);
+  return espnFetch(url, fresh ? 0 : 10_000);
 }
 
-async function getGamePlays(eventId, limit = 80, { fresh = false } = {}) {
+async function getGamePlays(eventId, limit = 1000, { fresh = false } = {}) {
+  // MLB pitch-level logs often exceed 400 items; request a high limit so we
+  // get the full game (ESPN paginates when the limit is too low).
   const url = `${CORE}/${SPORT}/leagues/${LEAGUE}/events/${eventId}/competitions/${eventId}/plays?limit=${limit}`;
   try {
-    const data = await espnFetch(url, fresh ? 0 : 45_000);
-    return (data.items || []).map(compactPlay).filter((play) => play.text);
+    const ttl = fresh ? 0 : 8_000;
+    const data = await espnFetch(url, ttl);
+    let items = data.items || [];
+    // If ESPN still paginated, walk remaining pages.
+    const pageCount = Number(data.pageCount) || 1;
+    if (pageCount > 1) {
+      for (let page = 2; page <= pageCount; page += 1) {
+        const pageUrl = `${url}&page=${page}`;
+        const pageData = await espnFetch(pageUrl, ttl);
+        items = items.concat(pageData.items || []);
+      }
+    }
+    return items.map(compactPlay).filter((play) => play.text);
   } catch {
     return [];
   }
@@ -342,7 +355,7 @@ async function buildLiveBoard(oddsEvents = []) {
 async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {}) {
   const [summary, plays, leagueInjuries, board] = await Promise.all([
     getGameSummary(eventId, { fresh }),
-    getGamePlays(eventId, fresh ? 400 : 100, { fresh }),
+    getGamePlays(eventId, 1000, { fresh }),
     getLeagueInjuries(),
     getScoreboard({ fresh }),
   ]);
@@ -370,13 +383,11 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
     })();
 
   // Prefer core plays; fall back to summary.plays if present.
+  // Chronological (1st → current) so every inning is visible in the UI.
   let playList = plays;
   if (!playList.length && Array.isArray(summary.plays)) {
     playList = summary.plays.map(compactPlay).filter((play) => play.text);
   }
-  // Newest first for the live UI; keep full history when fresh (scraper).
-  playList = [...playList].reverse();
-  if (!fresh) playList = playList.slice(0, 40);
 
   const injuries = extractGameInjuries(
     summary,
@@ -389,6 +400,8 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
     ? summary.winprobability.slice(-1)[0]
     : null;
 
+  const latestPlay = playList.length ? playList[playList.length - 1] : null;
+
   return {
     fetchedAt: new Date().toISOString(),
     source: "ESPN (sports-leader-mcp endpoints)",
@@ -397,6 +410,8 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
       matchedEvent: matchOddsEvent(game, oddsEvents),
     },
     plays: playList,
+    playCount: playList.length,
+    latestPlay,
     leaders: extractLeaders(summary),
     teamStats: extractTeamStats(summary),
     injuries,

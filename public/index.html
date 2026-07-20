@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css?v=7" />
+    <link rel="stylesheet" href="/styles.css?v=13" />
   </head>
   <body>
     <div class="ambient ambient-one"></div>
@@ -130,25 +130,29 @@
           <div class="live-board-header">
             <div>
               <span class="arb-eyebrow">ESPN live · sports-leader data</span>
-              <h2>Play-by-play, stats & injuries</h2>
+              <h2>Play-by-play with odds & game state</h2>
             </div>
             <p id="liveBoardSummary">Loading today’s MLB board…</p>
           </div>
           <div class="game-chips" id="gameChips"></div>
           <div class="live-detail" id="liveDetail" hidden>
             <div class="live-scorecard" id="liveScorecard"></div>
-            <div class="live-columns">
-              <div class="live-panel">
-                <div class="live-panel-title">Play-by-play</div>
+            <div class="live-columns live-columns-timeline">
+              <div class="live-panel live-panel-plays">
+                <div class="live-panel-title">Play-by-play dataframe · one column per field</div>
+                <div class="live-pbp-meta" id="livePbpMeta"></div>
+                <div class="live-board-odds" id="liveBoardOdds"></div>
                 <div class="live-plays" id="livePlays"></div>
               </div>
-              <div class="live-panel">
-                <div class="live-panel-title">Stats & leaders</div>
-                <div class="live-stats" id="liveStats"></div>
-              </div>
-              <div class="live-panel">
-                <div class="live-panel-title">Injuries</div>
-                <div class="live-injuries" id="liveInjuries"></div>
+              <div class="live-side">
+                <div class="live-panel">
+                  <div class="live-panel-title">Stats & leaders</div>
+                  <div class="live-stats" id="liveStats"></div>
+                </div>
+                <div class="live-panel">
+                  <div class="live-panel-title">Injuries</div>
+                  <div class="live-injuries" id="liveInjuries"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -195,6 +199,6 @@
       <span>For informational purposes only · Please wager responsibly</span>
     </footer>
 
-    <script src="/app.js?v=7" defer></script>
+    <script src="/app.js?v=13" defer></script>
   </body>
 </html>

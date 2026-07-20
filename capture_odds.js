@@ -24,16 +24,12 @@ const MARKET_DWELL_MS = 6_000;
 const SPORT = "MLB";
 const MARKETS = ["Moneyline", "Spread", "Total"];
 const ALLOWED_SPORTSBOOKS = [
-  "draftkings",
   "fanduel",
+  "draftkings",
   "betmgm",
+  "betonline",
   "thescore",
-  "fanatics",
-  "polymarket",
-  "kalshi",
-  "caesars",
-  "prophetx",
-  "novig",
+  "consensus",
 ];
 
 const CSV_COLUMNS = [

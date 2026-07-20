@@ -696,6 +696,17 @@ h1 span {
   margin-bottom: 8px;
 }
 
+.live-columns-timeline {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.live-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-content: start;
+}
+
 .live-panel {
   min-height: 220px;
   max-height: 320px;
@@ -706,6 +717,188 @@ h1 span {
   background: rgba(8, 16, 11, 0.55);
 }
 
+.live-panel-plays {
+  min-height: 360px;
+  max-height: 720px;
+}
+
+.pbp-frame-shell {
+  overflow: auto;
+  max-height: 560px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+}
+
+.pbp-frame {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.pbp-frame th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(8, 16, 11, 0.96);
+  color: var(--dim);
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.pbp-frame td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.pbp-frame td.col-text {
+  max-width: 220px;
+  white-space: normal;
+  line-height: 1.35;
+}
+
+.pbp-frame td.col-meta {
+  max-width: 160px;
+  white-space: normal;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.pbp-frame td.col-odds {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+}
+
+.pbp-frame th.col-odds,
+.pbp-frame th[title*="ml_"],
+.pbp-frame th[title*="spread_"],
+.pbp-frame th[title*="_best"],
+.pbp-frame th[title*="_book"],
+.pbp-frame th[title*="consensus"] {
+  color: var(--green);
+}
+
+.pbp-frame tr.scoring td.col-text {
+  color: var(--green);
+}
+
+.pbp-frame tr.latest td {
+  background: rgba(92, 214, 140, 0.08);
+}
+
+.pbp-frame tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.live-pbp-meta {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.live-pbp-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.live-pbp-meta-row strong {
+  color: var(--text);
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+}
+
+.jump-latest {
+  margin-left: auto;
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.jump-latest:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.live-pbp-latest-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.latest-badge {
+  display: inline-block;
+  flex: 0 0 auto;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: rgba(92, 214, 140, 0.16);
+  color: var(--green);
+  font-family: "DM Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.live-inning {
+  margin-bottom: 8px;
+}
+
+.live-inning:last-child {
+  margin-bottom: 0;
+}
+
+.live-inning-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 4px 0 2px;
+  padding: 6px 0;
+  background: rgba(8, 16, 11, 0.92);
+  color: var(--dim);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.live-play-row.latest {
+  border-color: rgba(92, 214, 140, 0.28);
+  background: rgba(92, 214, 140, 0.06);
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.live-side .live-panel {
+  min-height: 0;
+  max-height: 270px;
+}
+
 .live-panel-title {
   margin-bottom: 10px;
   color: var(--dim);
@@ -713,6 +906,124 @@ h1 span {
   font-size: 10px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.live-board-odds {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.live-odds-now-label {
+  margin-bottom: 8px;
+  color: var(--dim);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.live-odds-empty {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.live-odds-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.live-odds-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-odds-label {
+  color: var(--dim);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.odds-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+.odds-chip.muted {
+  opacity: 0.55;
+}
+
+.odds-chip span {
+  color: var(--muted);
+}
+
+.odds-chip strong {
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.odds-chip em {
+  color: var(--dim);
+  font-style: normal;
+  font-size: 10px;
+}
+
+.live-play-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 10px 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.live-play-row:last-child {
+  border-bottom: 0;
+}
+
+.live-play-row.scoring .live-play-text {
+  color: var(--green);
+}
+
+.live-play-state {
+  margin-bottom: 4px;
+  color: var(--dim);
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.live-play-text {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.live-play-type {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.live-play-odds .live-odds-strip {
+  gap: 6px 10px;
+}
+
+.live-play-odds .odds-chip {
+  padding: 3px 6px;
 }
 
 .live-play {
@@ -1199,8 +1510,19 @@ footer {
     text-align: left;
   }
 
-  .live-columns {
+  .live-columns,
+  .live-columns-timeline,
+  .live-side {
     grid-template-columns: 1fr;
+  }
+
+  .live-play-row {
+    grid-template-columns: 1fr;
+  }
+
+  .live-panel-plays,
+  .live-side .live-panel {
+    max-height: 420px;
   }
 
   .live-score-meta {
