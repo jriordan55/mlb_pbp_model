@@ -1843,3 +1843,19 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-22T22:44:29.001Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,5,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
 2026-07-22T22:44:29.001Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.427,Citizens Bank Park,,,,,,,,,,,,,,,,0
 2026-07-22T22:44:29.001Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.435,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:45:02.525Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:45:02.525Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.455,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:45:43.371Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:45:43.371Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:46:24.294Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.46,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:46:24.294Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:47:04.940Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.46,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:47:04.940Z,401816218,Minnesota Twins at Cleveland Guardians,in,Middle 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:47:45.608Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.46,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:47:45.608Z,401816218,Minnesota Twins at Cleveland Guardians,in,Middle 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:48:26.151Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Bottom 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.46,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:48:26.151Z,401816218,Minnesota Twins at Cleveland Guardians,in,Bottom 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:49:06.950Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Bottom 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.46,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:49:06.950Z,401816218,Minnesota Twins at Cleveland Guardians,in,Bottom 1st,Minnesota Twins,Cleveland Guardians,1,0,0.473,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:49:47.752Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Bottom 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.437,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:49:47.752Z,401816218,Minnesota Twins at Cleveland Guardians,in,Bottom 1st,Minnesota Twins,Cleveland Guardians,1,0,0.46,Progressive Field,,,,,,,,,,,,,,,,0
