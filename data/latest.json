@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-22T19:59:57.005Z",
+  "capturedAt": "2026-07-22T20:05:14.812Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 13,
+  "newPlays": 6,
   "gameStates": 6,
   "injuries": 0,
   "liveGames": 6,
@@ -73,7 +73,7 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "21",
@@ -186,7 +186,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "3",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "20",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 1st",
-        "shortDetail": "End 1st"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "11",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "17",
