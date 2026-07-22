@@ -14,13 +14,18 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## GitHub Pages
+## Live site (GitHub Pages + Render)
 
-Static snapshot of the dashboard:
+The dashboard UI is at **https://jriordan55.github.io/mlb_pbp_model/**.
 
-**https://jriordan55.github.io/mlb_pbp_model/**
+True live BoltOdds needs a Node host (GitHub Pages is static-only):
 
-`.github/workflows/pages.yml` rebuilds every 15 minutes (and on push to `main`) from scraper odds + ESPN + Pythagorean projections. For true live BoltOdds rotation, run `npm start` locally. Repo **Settings → Pages → Source** must be **GitHub Actions**.
+1. Deploy with [Render Blueprint](https://render.com/deploy?repo=https://github.com/jriordan55/mlb_pbp_model) (web service `mlb-pbp-web`)
+2. Set `BOLTODDS_API_KEY` on that service
+3. Add GitHub Actions secret `LIVE_API_BASE` = your Render URL (e.g. `https://mlb-pbp-web.onrender.com`)
+4. Re-run the **GitHub Pages** workflow — the site will stream live odds from Render
+
+Direct live URL (same app): your `*.onrender.com` service also serves the full UI.
 
 The server opens one BoltOdds WebSocket connection at a time, subscribes to one
 MLB market, stores the snapshot, closes the socket, and reconnects to the next

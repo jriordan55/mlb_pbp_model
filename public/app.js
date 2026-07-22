@@ -1,3 +1,8 @@
+/** Live API host (Render). When set, github.io uses real-time BoltOdds instead of static JSON. */
+const LIVE_API_BASE = String(window.__MLB_API_BASE__ || "")
+  .trim()
+  .replace(/\/$/, "");
+
 /** Base path for GitHub project Pages (/repo/) vs local server (/). */
 const SITE_BASE = (() => {
   const parts = location.pathname.split("/").filter(Boolean);
@@ -8,12 +13,16 @@ const SITE_BASE = (() => {
 })();
 
 const STATIC_MODE =
-  window.__MLB_STATIC__ === true ||
-  document.documentElement.dataset.static === "true" ||
-  location.hostname.endsWith("github.io");
+  !LIVE_API_BASE &&
+  (window.__MLB_STATIC__ === true ||
+    document.documentElement.dataset.static === "true" ||
+    location.hostname.endsWith("github.io"));
 
 function apiUrl(path) {
   const clean = String(path || "").replace(/^\/+/, "").replace(/^api\//, "");
+  if (LIVE_API_BASE) {
+    return `${LIVE_API_BASE}/api/${clean}`;
+  }
   if (STATIC_MODE) {
     return new URL(`api/${clean}.json`, new URL(SITE_BASE, location.origin)).href;
   }
@@ -1445,7 +1454,12 @@ async function loadOdds() {
     updateSummary(data);
     render();
 
-    if (STATIC_MODE) {
+    if (LIVE_API_BASE) {
+      elements.status.textContent = data.connected
+        ? `Live · ${data.activeMarket || "market"}`
+        : "Live · switching market";
+      elements.pulse.className = data.connected ? "pulse connected" : "pulse";
+    } else if (STATIC_MODE) {
       elements.status.textContent = "GitHub Pages snapshot";
       elements.pulse.className = "pulse connected";
     } else {
@@ -1522,10 +1536,13 @@ elements.refresh.addEventListener("click", () => {
 });
 
 if (!STATIC_MODE) {
-  const stream = new EventSource("/api/stream");
+  const streamUrl = LIVE_API_BASE ? `${LIVE_API_BASE}/api/stream` : "/api/stream";
+  const stream = new EventSource(streamUrl);
   stream.addEventListener("update", loadOdds);
   stream.addEventListener("connected", () => {
-    elements.status.textContent = "Real-time feed connected";
+    elements.status.textContent = LIVE_API_BASE
+      ? "Real-time feed connected"
+      : "Real-time feed connected";
     elements.pulse.className = "pulse connected";
   });
   stream.onerror = () => {

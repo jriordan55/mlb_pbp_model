@@ -1,8 +1,8 @@
-# Build & deploy the MLB dashboard to GitHub Pages (static snapshot).
+# Build & deploy the MLB dashboard to GitHub Pages.
 # Site: https://jriordan55.github.io/mlb_pbp_model/
 #
-# Uses scraper data/latest.json when present, plus live ESPN + Pythag at build time.
-# Rebuilds on push to main and every 15 minutes.
+# If secret LIVE_API_BASE is set (Render web URL), the site streams live BoltOdds.
+# Otherwise it falls back to a static ESPN/Pythag/scraper snapshot.
 
 name: GitHub Pages
 
@@ -38,20 +38,53 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Point site at live API (when configured)
+        env:
+          LIVE_API_BASE: ${{ secrets.LIVE_API_BASE }}
+        run: |
+          if [ -n "${LIVE_API_BASE:-}" ]; then
+            echo "Using live API: $LIVE_API_BASE"
+            node -e "const b=process.env.LIVE_API_BASE||''; require('fs').writeFileSync('public/config.js', 'window.__MLB_API_BASE__ = '+JSON.stringify(b)+';\\n')"
+          else
+            echo "LIVE_API_BASE secret not set - Pages will use static JSON snapshot"
+          fi
+
       - name: Refresh odds snapshot (optional)
         env:
           BOLTODDS_API_KEY: ${{ secrets.BOLTODDS_API_KEY }}
           SCRAPER_DATA_DIR: ${{ github.workspace }}/data
+          LIVE_API_BASE: ${{ secrets.LIVE_API_BASE }}
         run: |
+          if [ -n "${LIVE_API_BASE:-}" ]; then
+            echo "Skipping scraper; live API configured"
+            exit 0
+          fi
           mkdir -p data
           if [ -z "${BOLTODDS_API_KEY:-}" ]; then
-            echo "No BOLTODDS_API_KEY — building from committed/cached data only"
+            echo "No BOLTODDS_API_KEY - building from committed/cached data only"
             exit 0
           fi
           node scraper.js --once || echo "Scraper once failed; continuing with existing data"
 
       - name: Build static site
-        run: node build_pages.js
+        env:
+          LIVE_API_BASE: ${{ secrets.LIVE_API_BASE }}
+        run: |
+          node build_pages.js
+          if [ -n "${LIVE_API_BASE:-}" ]; then
+            node -e "const b=process.env.LIVE_API_BASE||''; require('fs').writeFileSync('site/config.js', 'window.__MLB_API_BASE__ = '+JSON.stringify(b)+';\\n')"
+            node -e "const b=process.env.LIVE_API_BASE||''; require('fs').writeFileSync('site/api/meta.json', JSON.stringify({mode:'live-proxy',api:b}))"
+          fi
+
+      - name: Keep live API awake (free Render)
+        env:
+          LIVE_API_BASE: ${{ secrets.LIVE_API_BASE }}
+        run: |
+          if [ -z "${LIVE_API_BASE:-}" ]; then
+            echo "No LIVE_API_BASE; skip ping"
+            exit 0
+          fi
+          curl -fsS --max-time 30 "${LIVE_API_BASE%/}/api/health" || echo "health ping failed (service may be cold-starting)"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,17 +1,43 @@
-# Render Blueprint — always-on MLB scraper (PC can be off).
+# Render Blueprint — live MLB dashboard + optional scraper worker.
 # https://render.com/docs/blueprint-spec
 #
-# 1. Push this repo to GitHub
-# 2. New > Blueprint at render.com, select the repo
-# 3. Set BOLTODDS_API_KEY in the service env
-# 4. Attach a persistent disk at /data
+# Deploy: https://render.com/deploy?repo=https://github.com/jriordan55/mlb_pbp_model
+# Then set BOLTODDS_API_KEY (and optional Telegram secrets) in the dashboard.
+# Copy the web service URL into GitHub Actions secret LIVE_API_BASE so github.io stays live.
 
 services:
+  - type: web
+    name: mlb-pbp-web
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      - key: CORS_ORIGINS
+        value: https://jriordan55.github.io,http://localhost:3000
+      - key: BOLTODDS_API_KEY
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
+      - key: TELEGRAM_MIN_EV
+        value: "0.03"
+      - key: TELEGRAM_MIN_ARB
+        value: "0.01"
+
   - type: worker
     name: mlb-scraper
     runtime: docker
     dockerfilePath: ./Dockerfile
     dockerContext: .
+    dockerCommand: node scraper.js
     plan: starter
     envVars:
       - key: BOLTODDS_API_KEY

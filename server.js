@@ -20,7 +20,12 @@ const PUBLIC_DIR = path.join(ROOT, "public");
 loadEnv(path.join(ROOT, ".env"));
 
 const PORT = Number(process.env.PORT) || 3000;
+const HOST = process.env.HOST || "0.0.0.0";
 const BOLT_KEY = process.env.BOLTODDS_API_KEY;
+const CORS_ORIGINS = String(process.env.CORS_ORIGINS || "*")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean);
 const RECONNECT_DELAY_MS = 5_000;
 const MARKET_DWELL_MS = 6_000;
 
@@ -1738,19 +1743,37 @@ async function enrichGameDetailWithOdds(detail) {
   };
 }
 
-function sendJson(response, status, body) {
+function corsHeaders(request) {
+  const origin = request.headers.origin || "";
+  const headers = {
+    "Access-Control-Allow-Methods": "GET,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Max-Age": "86400",
+  };
+  if (CORS_ORIGINS.includes("*")) {
+    headers["Access-Control-Allow-Origin"] = origin || "*";
+    if (origin) headers.Vary = "Origin";
+  } else if (origin && CORS_ORIGINS.includes(origin)) {
+    headers["Access-Control-Allow-Origin"] = origin;
+    headers.Vary = "Origin";
+  }
+  return headers;
+}
+
+function sendJson(response, status, body, request = null) {
   response.writeHead(status, {
     "Content-Type": "application/json; charset=utf-8",
     "Cache-Control": "no-store",
+    ...(request ? corsHeaders(request) : {}),
   });
   response.end(JSON.stringify(body));
 }
 
-function serveStatic(requestPath, response) {
+function serveStatic(requestPath, response, request = null) {
   const requested = requestPath === "/" ? "/index.html" : requestPath;
   const filePath = path.resolve(PUBLIC_DIR, `.${requested}`);
   if (!filePath.startsWith(PUBLIC_DIR) || !fs.existsSync(filePath)) {
-    response.writeHead(404);
+    response.writeHead(404, request ? corsHeaders(request) : {});
     response.end("Not found");
     return;
   }
@@ -1765,6 +1788,7 @@ function serveStatic(requestPath, response) {
   response.writeHead(200, {
     "Content-Type": contentTypes[extension] || "application/octet-stream",
     "Cache-Control": "no-cache",
+    ...(request ? corsHeaders(request) : {}),
   });
   fs.createReadStream(filePath).pipe(response);
 }
@@ -1772,11 +1796,33 @@ function serveStatic(requestPath, response) {
 const server = http.createServer((request, response) => {
   const url = new URL(request.url, `http://${request.headers.host || "localhost"}`);
 
+  if (request.method === "OPTIONS") {
+    response.writeHead(204, corsHeaders(request));
+    response.end();
+    return;
+  }
+
+  if (url.pathname === "/api/health") {
+    sendJson(
+      response,
+      200,
+      {
+        ok: true,
+        connected: socketConnected,
+        activeMarket,
+        feedUpdated: lastMessageAt,
+      },
+      request,
+    );
+    return;
+  }
+
   if (url.pathname === "/api/stream") {
     response.writeHead(200, {
       "Content-Type": "text/event-stream",
       "Cache-Control": "no-cache",
       Connection: "keep-alive",
+      ...corsHeaders(request),
     });
     response.write(`event: connected\ndata: ${JSON.stringify({ connected: socketConnected })}\n\n`);
     streamClients.add(response);
@@ -1790,12 +1836,17 @@ const server = http.createServer((request, response) => {
 
   if (url.pathname === "/api/odds") {
     if (!BOLT_KEY) {
-      sendJson(response, 500, {
-        error: "BOLTODDS_API_KEY is missing. Add it to .env.",
-      });
+      sendJson(
+        response,
+        500,
+        {
+          error: "BOLTODDS_API_KEY is missing. Add it to .env.",
+        },
+        request,
+      );
       return;
     }
-    sendJson(response, 200, buildSnapshot());
+    sendJson(response, 200, buildSnapshot(), request);
     return;
   }
 
@@ -1823,28 +1874,43 @@ const server = http.createServer((request, response) => {
             : null;
           return enrichWithBooks(pred, booksFromLiveOdds(liveOdds));
         });
-        sendJson(response, 200, {
-          date: cache.date,
-          exponent: cache.exponent,
-          lgAvgRuns: cache.lgAvgRuns,
-          methodology:
-            "Projected runs (Pythagorean OS/DS + pitcher/L20/HFA) → Skellam ML & spread + Poisson total fair prices vs BoltOdds. EV = model_prob × book_decimal − 1.",
-          games,
-        });
+        sendJson(
+          response,
+          200,
+          {
+            date: cache.date,
+            exponent: cache.exponent,
+            lgAvgRuns: cache.lgAvgRuns,
+            methodology:
+              "Projected runs (Pythagorean OS/DS + pitcher/L20/HFA) → Skellam ML & spread + Poisson total fair prices vs BoltOdds. EV = model_prob × book_decimal − 1.",
+            games,
+          },
+          request,
+        );
       })
       .catch((error) =>
-        sendJson(response, 502, {
-          error: error.message || "Pythagorean predictions unavailable",
-        }),
+        sendJson(
+          response,
+          502,
+          {
+            error: error.message || "Pythagorean predictions unavailable",
+          },
+          request,
+        ),
       );
     return;
   }
 
   if (url.pathname === "/api/live") {
     buildLiveBoard(collectOddsEventNames())
-      .then((board) => sendJson(response, 200, board))
+      .then((board) => sendJson(response, 200, board, request))
       .catch((error) =>
-        sendJson(response, 502, { error: error.message || "ESPN live board unavailable" }),
+        sendJson(
+          response,
+          502,
+          { error: error.message || "ESPN live board unavailable" },
+          request,
+        ),
       );
     return;
   }
@@ -1853,19 +1919,24 @@ const server = http.createServer((request, response) => {
   if (liveMatch) {
     buildGameDetail(decodeURIComponent(liveMatch[1]), collectOddsEventNames())
       .then((detail) => enrichGameDetailWithOdds(detail))
-      .then((detail) => sendJson(response, 200, detail))
+      .then((detail) => sendJson(response, 200, detail, request))
       .catch((error) =>
-        sendJson(response, 502, { error: error.message || "ESPN game detail unavailable" }),
+        sendJson(
+          response,
+          502,
+          { error: error.message || "ESPN game detail unavailable" },
+          request,
+        ),
       );
     return;
   }
 
   if (request.method !== "GET") {
-    response.writeHead(405, { Allow: "GET" });
+    response.writeHead(405, { Allow: "GET", ...corsHeaders(request) });
     response.end("Method not allowed");
     return;
   }
-  serveStatic(decodeURIComponent(url.pathname), response);
+  serveStatic(decodeURIComponent(url.pathname), response, request);
 });
 
 function collectOddsEventNames() {
@@ -1876,8 +1947,8 @@ function collectOddsEventNames() {
   }
 }
 
-server.listen(PORT, () => {
-  console.log(`mlb_pbp_model is running at http://localhost:${PORT}`);
+server.listen(PORT, HOST, () => {
+  console.log(`mlb_pbp_model is running at http://${HOST}:${PORT}`);
   if (telegramConfigured()) {
     console.log(
       "Telegram alerts enabled (+EV / arb). Run npm run telegram:test to verify.",
