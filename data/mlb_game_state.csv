@@ -272,3 +272,35 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-22T18:56:00.959Z,401898715,Baltimore Orioles at Boston Red Sox,in,Bottom 5th,Baltimore Orioles,Boston Red Sox,2,6,0.947,Fenway Park,,,,,,,,,,,,,,,,0
 2026-07-22T18:56:00.959Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.868,American Family Field,,,,,,,,,,,,,,,,0
 2026-07-22T18:56:00.959Z,401816226,San Francisco Giants at Kansas City Royals,in,Bottom 4th,San Francisco Giants,Kansas City Royals,0,0,0.553,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:56:33.779Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.137,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:56:33.779Z,401898715,Baltimore Orioles at Boston Red Sox,in,Bottom 5th,Baltimore Orioles,Boston Red Sox,2,6,0.947,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:56:33.779Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.868,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:56:33.779Z,401816226,San Francisco Giants at Kansas City Royals,in,Bottom 4th,San Francisco Giants,Kansas City Royals,0,0,0.528,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:14.866Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.137,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:14.866Z,401898715,Baltimore Orioles at Boston Red Sox,in,Bottom 5th,Baltimore Orioles,Boston Red Sox,2,6,0.942,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:14.866Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.843,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:14.866Z,401816226,San Francisco Giants at Kansas City Royals,in,Bottom 4th,San Francisco Giants,Kansas City Royals,0,0,0.528,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:55.590Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.137,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:55.590Z,401898715,Baltimore Orioles at Boston Red Sox,in,Bottom 5th,Baltimore Orioles,Boston Red Sox,2,6,0.942,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:55.590Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.843,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:57:55.590Z,401816226,San Francisco Giants at Kansas City Royals,in,Bottom 4th,San Francisco Giants,Kansas City Royals,0,0,0.506,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:58:36.834Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:58:36.834Z,401898715,Baltimore Orioles at Boston Red Sox,in,End 5th,Baltimore Orioles,Boston Red Sox,2,6,0.936,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:58:36.834Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.843,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:58:36.834Z,401816226,San Francisco Giants at Kansas City Royals,in,End 4th,San Francisco Giants,Kansas City Royals,0,0,0.493,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:17.691Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:17.691Z,401898715,Baltimore Orioles at Boston Red Sox,in,End 5th,Baltimore Orioles,Boston Red Sox,2,6,0.936,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:17.691Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.843,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:17.691Z,401816226,San Francisco Giants at Kansas City Royals,in,End 4th,San Francisco Giants,Kansas City Royals,0,0,0.493,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:58.624Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:58.624Z,401898715,Baltimore Orioles at Boston Red Sox,in,End 5th,Baltimore Orioles,Boston Red Sox,2,6,0.936,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:58.624Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.864,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T18:59:58.624Z,401816226,San Francisco Giants at Kansas City Royals,in,End 4th,San Francisco Giants,Kansas City Royals,0,0,0.493,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T19:00:39.310Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T19:00:39.310Z,401898715,Baltimore Orioles at Boston Red Sox,in,Top 6th,Baltimore Orioles,Boston Red Sox,2,6,0.936,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T19:00:39.310Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.864,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T19:00:39.310Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 5th,San Francisco Giants,Kansas City Royals,0,0,0.493,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T19:01:20.041Z,401816219,Pittsburgh Pirates at New York Yankees,in,Bottom 7th,Pittsburgh Pirates,New York Yankees,3,0,0.298,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T19:01:20.041Z,401898715,Baltimore Orioles at Boston Red Sox,in,Top 6th,Baltimore Orioles,Boston Red Sox,2,6,0.936,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-22T19:01:20.041Z,401816225,New York Mets at Milwaukee Brewers,in,Top 3rd,New York Mets,Milwaukee Brewers,1,3,0.864,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T19:01:20.041Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 5th,San Francisco Giants,Kansas City Royals,0,0,0.523,Kauffman Stadium,,,,,,,,,,,,,,,,0
