@@ -1,5 +1,6 @@
 .env
 data/
+site/
 sports-leader-mcp/
 .tools/
 node_modules/

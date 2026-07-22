@@ -1,0 +1,70 @@
+# Build & deploy the MLB dashboard to GitHub Pages (static snapshot).
+# Site: https://jriordan55.github.io/mlb_pbp_model/
+#
+# Uses scraper data/latest.json when present, plus live ESPN + Pythag at build time.
+# Rebuilds on push to main and every 15 minutes.
+
+name: GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Refresh odds snapshot (optional)
+        env:
+          BOLTODDS_API_KEY: ${{ secrets.BOLTODDS_API_KEY }}
+          SCRAPER_DATA_DIR: ${{ github.workspace }}/data
+        run: |
+          mkdir -p data
+          if [ -z "${BOLTODDS_API_KEY:-}" ]; then
+            echo "No BOLTODDS_API_KEY — building from committed/cached data only"
+            exit 0
+          fi
+          node scraper.js --once || echo "Scraper once failed; continuing with existing data"
+
+      - name: Build static site
+        run: node build_pages.js
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

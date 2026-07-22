@@ -252,6 +252,154 @@ h1 span {
   backdrop-filter: blur(18px);
 }
 
+.hero-compact {
+  padding-bottom: 28px;
+}
+
+.hero-compact h1 {
+  font-size: clamp(2rem, 4vw, 3.1rem);
+}
+
+.app-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.app-tab {
+  flex: 1;
+  min-height: 52px;
+  padding: 14px 18px;
+  border: 0;
+  border-right: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.app-tab:last-child {
+  border-right: 0;
+}
+
+.app-tab:hover {
+  color: var(--ink);
+  background: rgba(184, 240, 92, 0.04);
+}
+
+.app-tab.active {
+  color: var(--green);
+  background: rgba(184, 240, 92, 0.08);
+  box-shadow: inset 0 -2px 0 var(--green);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.prematch-board {
+  padding: 22px 25px 22px;
+  border-bottom: 0;
+}
+
+.prematch-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+
+.prematch-meta-chip {
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+}
+
+.prematch-cards {
+  margin: 0 -25px -22px;
+}
+
+.prematch-table-shell {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.prematch-table .prematch-proj {
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.prematch-table .prematch-proj strong {
+  color: var(--green);
+  font-weight: 500;
+}
+
+.prematch-table tr.prematch-game-start td {
+  border-top: 1px solid rgba(184, 240, 92, 0.18);
+}
+
+.prematch-table tr.prematch-game-start:first-child td {
+  border-top: 0;
+}
+
+.prematch-matchup-cont {
+  color: var(--dim);
+  font-size: 11px;
+}
+
+.prematch-table .sortable-th {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.prematch-table .sortable-th:hover {
+  color: var(--green);
+}
+
+.prematch-table .sortable-th.sorted {
+  color: var(--green);
+}
+
+.book-pill.muted-pill {
+  opacity: 0.45;
+}
+
+.value-header {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 22px 25px 8px;
+}
+
+.value-header h2 {
+  margin: 4px 0 0;
+  font-size: 22px;
+}
+
+.value-header p {
+  max-width: 420px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: right;
+}
+
 .metrics {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1.45fr;
@@ -994,6 +1142,123 @@ h1 span {
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
+.inning-model-board {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.inning-model-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.inning-model-meta strong {
+  color: var(--green);
+  font-family: "DM Mono", monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.inning-model-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+.inning-model-card {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.inning-model-card.active {
+  border-color: rgba(92, 214, 140, 0.45);
+  background: rgba(92, 214, 140, 0.06);
+}
+
+.inning-model-title {
+  margin-bottom: 8px;
+  color: var(--text);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.inning-model-row {
+  display: grid;
+  grid-template-columns: 72px 1fr 1fr;
+  gap: 6px;
+  align-items: stretch;
+  margin-bottom: 6px;
+}
+
+.inning-model-row .live-odds-label {
+  align-self: center;
+}
+
+.model-chip {
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  font-size: 11px;
+}
+
+.model-chip.muted {
+  color: var(--dim);
+}
+
+.model-chip span {
+  display: block;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.model-prices {
+  display: flex;
+  gap: 8px;
+  font-family: "DM Mono", monospace;
+}
+
+.model-prices em {
+  font-style: normal;
+  color: var(--muted);
+}
+
+.model-prices strong {
+  color: var(--text);
+}
+
+.model-edge {
+  display: block;
+  margin-top: 2px;
+  font-family: "DM Mono", monospace;
+  font-weight: 600;
+  color: var(--dim);
+}
+
+.model-chip.edge-pos .model-edge {
+  color: var(--green);
+}
+
+.model-chip.edge-neg .model-edge {
+  color: #ff7b72;
+}
+
+.inning-model-note {
+  margin: 10px 0 0;
+  color: var(--dim);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
 .live-odds-now-label {
   margin-bottom: 8px;
   color: var(--dim);
@@ -1061,6 +1326,21 @@ h1 span {
   color: var(--dim);
   font-style: normal;
   font-size: 10px;
+}
+
+.fair-cell .fair-consensus {
+  display: block;
+  color: var(--dim);
+  font-size: 10px;
+}
+
+.pythag-model-board {
+  margin-top: 10px;
+  border-color: rgba(94, 186, 125, 0.35);
+}
+
+.pythag-model-board .inning-model-meta strong {
+  color: #7dcea0;
 }
 
 .live-play-row {
@@ -1558,6 +1838,21 @@ footer {
 
   .metrics {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .app-tab {
+    letter-spacing: 0.04em;
+    font-size: 11px;
+    padding: 12px 8px;
+  }
+
+  .value-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .value-header p {
+    text-align: left;
   }
 
   .metric:nth-child(2) {

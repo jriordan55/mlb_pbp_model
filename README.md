@@ -14,6 +14,14 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## GitHub Pages
+
+Static snapshot of the dashboard:
+
+**https://jriordan55.github.io/mlb_pbp_model/**
+
+`.github/workflows/pages.yml` rebuilds every 15 minutes (and on push to `main`) from scraper odds + ESPN + Pythagorean projections. For true live BoltOdds rotation, run `npm start` locally. Repo **Settings → Pages → Source** must be **GitHub Actions**.
+
 The server opens one BoltOdds WebSocket connection at a time, subscribes to one
 MLB market, stores the snapshot, closes the socket, and reconnects to the next
 market. This keeps the app within one league / one market / one connection at a

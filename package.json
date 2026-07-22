@@ -10,7 +10,8 @@
     "scrape": "node scraper.js",
     "scrape:once": "node scraper.js --once",
     "scrape:live": "node scraper.js --live-session",
-    "telegram:test": "node telegram_test.js"
+    "telegram:test": "node telegram_test.js",
+    "build:pages": "node build_pages.js"
   },
   "engines": {
     "node": ">=18"

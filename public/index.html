@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Starter-style rotating MLB Moneyline, Spread, and Total odds with best prices, market width, and consensus EV."
+      content="MLB live PBP with odds, Pythagorean prematch projections, and +EV / arb scanner across game, inning, and prop markets."
     />
     <title>mlb_pbp_model</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,14 +14,14 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/styles.css?v=13" />
+    <link rel="stylesheet" href="./styles.css?v=23" />
   </head>
   <body>
     <div class="ambient ambient-one"></div>
     <div class="ambient ambient-two"></div>
 
     <header class="site-header">
-      <a class="brand" href="/" aria-label="mlb_pbp_model home">
+      <a class="brand" href="./" aria-label="mlb_pbp_model home">
         <span class="brand-mark" aria-hidden="true">
           <span class="flag"></span>
         </span>
@@ -34,18 +34,18 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="eyebrow">MLB · STARTER ROTATION</div>
+      <section class="hero hero-compact">
         <div class="hero-grid">
           <div>
-            <h1>Rotating markets.<br /><span>One sharp view.</span></h1>
+            <div class="eyebrow">MLB · LIVE · PREMATCH · VALUE</div>
+            <h1>Three views.<br /><span>All markets.</span></h1>
             <p class="hero-copy">
-              Cycle Moneyline, Spread, and Total one market per connection, merge
-              the latest snapshots, and track best book, market width, fair odds, and EV.
+              Live PBP with stamped odds · Pythagorean prematch ML / spread / total ·
+              +EV &amp; arbs across game and batter/pitcher props (inning markets stay on Live).
             </p>
           </div>
           <div class="hero-stat">
-            <div class="hero-stat-label">Mode</div>
+            <div class="hero-stat-label">Feed</div>
             <div class="countdown"><span id="countdown">ROTATE</span><small>STARTER</small></div>
             <button class="refresh-button" id="refreshButton" type="button">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -57,7 +57,7 @@
         </div>
       </section>
 
-      <section class="dashboard" aria-label="MLB rotating Moneyline Spread Total odds">
+      <section class="dashboard" aria-label="MLB odds dashboard">
         <div class="metrics">
           <div class="metric">
             <span class="metric-label">Priced selections</span>
@@ -68,7 +68,7 @@
             <strong id="bookCount">—</strong>
           </div>
           <div class="metric">
-            <span class="metric-label">Arbs</span>
+            <span class="metric-label">+EV / Arbs</span>
             <strong id="arbCount">—</strong>
           </div>
           <div class="metric metric-wide">
@@ -77,118 +77,217 @@
           </div>
         </div>
 
-        <div class="arb-section" aria-label="Arbitrage opportunities">
-          <div class="arb-header">
-            <div>
-              <span class="arb-eyebrow">Cross-book arbs</span>
-              <h2>Guaranteed edges</h2>
-            </div>
-            <p id="arbSummary">Waiting for both sides of Moneyline, Spread, and Total.</p>
-          </div>
-          <div class="arb-list" id="arbList"></div>
-          <div class="arb-empty" id="arbEmpty" hidden>
-            No two-way arbs in the current snapshot.
-          </div>
-        </div>
-
-        <div class="controls">
-          <label class="search-control">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <circle cx="11" cy="11" r="7"></circle>
-              <path d="m20 20-4-4"></path>
-            </svg>
-            <input id="searchInput" type="search" placeholder="Search team, matchup, or market" />
-          </label>
-          <label class="select-control">
-            <span>Category</span>
-            <select id="marketSelect">
-              <option value="">All synced markets</option>
-            </select>
-          </label>
-          <label class="select-control">
-            <span>Sportsbook</span>
-            <select id="bookSelect">
-              <option value="">All sportsbooks</option>
-            </select>
-          </label>
-          <label class="select-control">
-            <span>Best book</span>
-            <select id="bestBookSelect">
-              <option value="">Any best book</option>
-            </select>
-          </label>
-          <label class="live-toggle">
-            <input id="positiveOnly" type="checkbox" />
-            <span class="toggle-track"><span></span></span>
-            +EV only
-          </label>
-        </div>
-
         <div class="feed-message" id="feedMessage" hidden></div>
 
-        <section class="live-board" aria-label="Live ESPN game context">
-          <div class="live-board-header">
-            <div>
-              <span class="arb-eyebrow">ESPN live · sports-leader data</span>
-              <h2>Play-by-play with odds & game state</h2>
-            </div>
-            <p id="liveBoardSummary">Loading today’s MLB board…</p>
-          </div>
-          <div class="game-chips" id="gameChips"></div>
-          <div class="live-detail" id="liveDetail" hidden>
-            <div class="live-scorecard" id="liveScorecard"></div>
-            <div class="live-columns live-columns-timeline">
-              <div class="live-panel live-panel-plays">
-                <div class="live-panel-title">Play-by-play dataframe · one column per field</div>
-                <div class="live-pbp-meta" id="livePbpMeta"></div>
-                <div class="live-board-odds" id="liveBoardOdds"></div>
-                <div class="live-plays" id="livePlays"></div>
-              </div>
-              <div class="live-side">
-                <div class="live-panel">
-                  <div class="live-panel-title">Stats & leaders</div>
-                  <div class="live-stats" id="liveStats"></div>
-                </div>
-                <div class="live-panel">
-                  <div class="live-panel-title">Injuries</div>
-                  <div class="live-injuries" id="liveInjuries"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="arb-empty" id="liveEmpty" hidden>No MLB games on the ESPN board right now.</div>
-        </section>
+        <nav class="app-tabs" role="tablist" aria-label="Dashboard views">
+          <button
+            class="app-tab active"
+            type="button"
+            role="tab"
+            id="tabBtnLive"
+            data-tab="live"
+            aria-selected="true"
+            aria-controls="panelLive"
+          >
+            Live PBP
+          </button>
+          <button
+            class="app-tab"
+            type="button"
+            role="tab"
+            id="tabBtnPrematch"
+            data-tab="prematch"
+            aria-selected="false"
+            aria-controls="panelPrematch"
+          >
+            Prematch
+          </button>
+          <button
+            class="app-tab"
+            type="button"
+            role="tab"
+            id="tabBtnValue"
+            data-tab="value"
+            aria-selected="false"
+            aria-controls="panelValue"
+          >
+            +EV &amp; Arbs
+          </button>
+        </nav>
 
-        <div class="table-shell">
-          <table>
-            <thead>
-              <tr>
-                <th>Team / matchup</th>
-                <th>Market</th>
-                <th>Line</th>
-                <th>Best book</th>
-                <th>Best odds</th>
-                <th>Fair</th>
-                <th>EV</th>
-                <th>Width</th>
-                <th><span class="sr-only">All sportsbook prices</span></th>
-              </tr>
-            </thead>
-            <tbody id="oddsBody"></tbody>
-          </table>
-          <div class="empty-state" id="emptyState" hidden>
-            <div class="empty-icon" aria-hidden="true">⚾</div>
-            <h2 id="emptyTitle">No MLB lines found</h2>
-            <p id="emptyCopy">
-              BoltOdds has not synced any MLB rotation markets yet.
-              The feed will check again automatically.
+        <!-- LIVE -->
+        <div
+          class="tab-panel active"
+          id="panelLive"
+          role="tabpanel"
+          aria-labelledby="tabBtnLive"
+        >
+          <section class="live-board" aria-label="Live ESPN game context">
+            <div class="live-board-header">
+              <div>
+                <span class="arb-eyebrow">ESPN live · sports-leader data</span>
+                <h2>Play-by-play with odds &amp; game state</h2>
+              </div>
+              <p id="liveBoardSummary">Loading today’s MLB board…</p>
+            </div>
+            <div class="game-chips" id="gameChips"></div>
+            <div class="live-detail" id="liveDetail" hidden>
+              <div class="live-scorecard" id="liveScorecard"></div>
+              <div class="live-columns live-columns-timeline">
+                <div class="live-panel live-panel-plays">
+                  <div class="live-panel-title">
+                    Play-by-play dataframe · one column per field
+                  </div>
+                  <div class="live-pbp-meta" id="livePbpMeta"></div>
+                  <div class="live-board-odds" id="liveBoardOdds"></div>
+                  <div class="live-plays" id="livePlays"></div>
+                </div>
+                <div class="live-side">
+                  <div class="live-panel">
+                    <div class="live-panel-title">Stats &amp; leaders</div>
+                    <div class="live-stats" id="liveStats"></div>
+                  </div>
+                  <div class="live-panel">
+                    <div class="live-panel-title">Injuries</div>
+                    <div class="live-injuries" id="liveInjuries"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arb-empty" id="liveEmpty" hidden>
+              No MLB games on the ESPN board right now.
+            </div>
+          </section>
+        </div>
+
+        <!-- PREMATCH -->
+        <div
+          class="tab-panel"
+          id="panelPrematch"
+          role="tabpanel"
+          aria-labelledby="tabBtnPrematch"
+          hidden
+        >
+          <section class="prematch-board" aria-label="Pythagorean prematch">
+            <div class="live-board-header">
+              <div>
+                <span class="arb-eyebrow">Bill James · mlb-pe</span>
+                <h2>Prematch projections</h2>
+              </div>
+              <p id="prematchSummary">Loading Pythagorean slate…</p>
+            </div>
+            <div class="prematch-meta" id="prematchMeta"></div>
+            <div class="prematch-cards" id="prematchCards"></div>
+          </section>
+        </div>
+
+        <!-- VALUE -->
+        <div
+          class="tab-panel"
+          id="panelValue"
+          role="tabpanel"
+          aria-labelledby="tabBtnValue"
+          hidden
+        >
+          <div class="arb-section" aria-label="Arbitrage opportunities">
+            <div class="arb-header">
+              <div>
+                <span class="arb-eyebrow">Cross-book arbs</span>
+                <h2>Guaranteed edges</h2>
+              </div>
+              <p id="arbSummary">
+                Waiting for both sides across game, inning, and prop markets.
+              </p>
+            </div>
+            <div class="arb-list" id="arbList"></div>
+            <div class="arb-empty" id="arbEmpty" hidden>
+              No two-way arbs in the current snapshot.
+            </div>
+          </div>
+
+          <div class="value-header">
+            <div>
+              <span class="arb-eyebrow">Positive expected value</span>
+              <h2>+EV across all synced markets</h2>
+            </div>
+            <p id="valueSummary">
+              Game · batter/pitcher props · sorted by EV (inning markets excluded)
             </p>
           </div>
-          <div class="loading-state" id="loadingState">
-            <div class="loading-line"></div>
-            <div class="loading-line"></div>
-            <div class="loading-line"></div>
-            <span>Building the MLB rotation snapshot…</span>
+
+          <div class="controls" id="valueControls">
+            <label class="search-control">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m20 20-4-4"></path>
+              </svg>
+              <input
+                id="valueSearch"
+                type="search"
+                placeholder="Search team, matchup, market, or prop"
+              />
+            </label>
+            <label class="select-control">
+              <span>Market group</span>
+              <select id="valueGroup">
+                <option value="">All markets</option>
+                <option value="game">Game ML / Spread / Total</option>
+                <option value="props">Batter &amp; pitcher props</option>
+              </select>
+            </label>
+            <label class="select-control">
+              <span>Category</span>
+              <select id="valueMarket">
+                <option value="">All categories</option>
+              </select>
+            </label>
+            <label class="select-control">
+              <span>Min EV</span>
+              <select id="valueMinEv">
+                <option value="0">Any +EV</option>
+                <option value="0.02">≥ 2%</option>
+                <option value="0.03" selected>≥ 3%</option>
+                <option value="0.05">≥ 5%</option>
+              </select>
+            </label>
+            <label class="select-control">
+              <span>Live / pre</span>
+              <select id="valueTiming">
+                <option value="">Live + prematch</option>
+                <option value="live">Live only</option>
+                <option value="pre">Prematch only</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="table-shell">
+            <table>
+              <thead>
+                <tr>
+                  <th>Team / matchup</th>
+                  <th>Market</th>
+                  <th>Line</th>
+                  <th>Best book</th>
+                  <th>Best odds</th>
+                  <th>Fair</th>
+                  <th>EV</th>
+                  <th>Width</th>
+                  <th><span class="sr-only">All sportsbook prices</span></th>
+                </tr>
+              </thead>
+              <tbody id="valueOddsBody"></tbody>
+            </table>
+            <div class="empty-state" id="valueEmpty" hidden>
+              <div class="empty-icon" aria-hidden="true">⚾</div>
+              <h2>No +EV right now</h2>
+              <p>No selections clear the EV floor across synced MLB markets.</p>
+            </div>
+            <div class="loading-state" id="loadingState">
+              <div class="loading-line"></div>
+              <div class="loading-line"></div>
+              <div class="loading-line"></div>
+              <span>Building the MLB rotation snapshot…</span>
+            </div>
           </div>
         </div>
       </section>
@@ -199,6 +298,6 @@
       <span>For informational purposes only · Please wager responsibly</span>
     </footer>
 
-    <script src="/app.js?v=13" defer></script>
+    <script src="./app.js?v=24" defer></script>
   </body>
 </html>

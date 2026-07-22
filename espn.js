@@ -117,28 +117,180 @@ function compactPlay(play) {
   );
   let pitcher = fromText.pitcher;
   let batter = fromText.batter;
+  let onFirst = Boolean(play.onFirst);
+  let onSecond = Boolean(play.onSecond);
+  let onThird = Boolean(play.onThird);
   for (const participant of play.participants || []) {
     const name =
       participant.athlete?.displayName ||
       participant.athlete?.fullName ||
       participant.athlete?.shortName ||
       "";
-    if (!name) continue;
-    if (participant.type === "pitcher") pitcher = name;
-    if (participant.type === "batter") batter = name;
+    if (participant.type === "pitcher" && name) pitcher = name;
+    if (participant.type === "batter" && name) batter = name;
+    if (participant.type === "onFirst") onFirst = true;
+    if (participant.type === "onSecond") onSecond = true;
+    if (participant.type === "onThird") onThird = true;
   }
   return {
     id: play.id || null,
     text: play.text || play.alternativeText || "",
     type: play.type?.text || play.type?.abbreviation || "",
     period: play.period?.displayValue || play.period?.number || null,
+    periodNumber: play.period?.number ?? null,
+    periodHalf: play.period?.type || null,
     clock: play.clock?.displayValue || null,
     scoringPlay: Boolean(play.scoringPlay),
+    scoreValue: Number(play.scoreValue) || 0,
     awayScore: play.awayScore ?? null,
     homeScore: play.homeScore ?? null,
+    outs: play.outs ?? null,
+    onFirst,
+    onSecond,
+    onThird,
     atBatId: play.atBatId || null,
     pitcher,
     batter,
+  };
+}
+
+/**
+ * Reconstruct live base/out + runs this inning from chronological plays.
+ * Used for Markov RE24 fair pricing of inning markets.
+ */
+function deriveLiveSituation(plays, game = {}) {
+  if (!plays?.length) {
+    return {
+      activeInning: 1,
+      inning: 1,
+      half: "Pre",
+      outs: 0,
+      onFirst: false,
+      onSecond: false,
+      onThird: false,
+      awayRunsThisInning: 0,
+      homeRunsThisInning: 0,
+      awayScore: game.away?.score ?? null,
+      homeScore: game.home?.score ?? null,
+    };
+  }
+
+  let inning = 1;
+  let half = "Top";
+  let outs = 0;
+  let onFirst = false;
+  let onSecond = false;
+  let onThird = false;
+  let awayRunsThisInning = 0;
+  let homeRunsThisInning = 0;
+  let awayScoreStart = null;
+  let homeScoreStart = null;
+  let awayScore = null;
+  let homeScore = null;
+
+  for (const play of plays) {
+    const type = String(play.type || "").toLowerCase();
+    if (play.awayScore != null) awayScore = play.awayScore;
+    if (play.homeScore != null) homeScore = play.homeScore;
+
+    if (type.includes("start inning") || type === "start-inning") {
+      inning = Number(play.periodNumber) || inning;
+      half = /bottom/i.test(play.periodHalf || play.text || "") ? "Bottom" : "Top";
+      outs = 0;
+      onFirst = false;
+      onSecond = false;
+      onThird = false;
+      awayScoreStart = awayScore;
+      homeScoreStart = homeScore;
+      awayRunsThisInning = half === "Top" ? 0 : awayRunsThisInning;
+      homeRunsThisInning = half === "Bottom" ? 0 : homeRunsThisInning;
+      if (half === "Top") {
+        awayRunsThisInning = 0;
+        homeRunsThisInning = 0;
+      } else {
+        // keep away final for this inning; reset home half
+        homeRunsThisInning = 0;
+      }
+      continue;
+    }
+
+    if (type.includes("end inning") || type === "end-inning") {
+      const text = String(play.text || "");
+      if (/middle/i.test(text)) {
+        half = "Mid";
+        outs = 0;
+        onFirst = false;
+        onSecond = false;
+        onThird = false;
+        if (awayScoreStart != null && awayScore != null) {
+          awayRunsThisInning = Math.max(0, awayScore - awayScoreStart);
+        }
+      } else {
+        half = "Complete";
+        if (homeScoreStart != null && homeScore != null && half !== "Top") {
+          homeRunsThisInning = Math.max(
+            0,
+            homeScore - (homeScoreStart ?? homeScore),
+          );
+        }
+      }
+      continue;
+    }
+
+    if (play.periodNumber != null) inning = Number(play.periodNumber) || inning;
+    if (play.periodHalf === "Top" || play.periodHalf === "Bottom") {
+      half = play.periodHalf;
+    }
+    if (play.outs != null) outs = Number(play.outs);
+    if (play.onFirst != null || play.onSecond != null || play.onThird != null) {
+      onFirst = Boolean(play.onFirst);
+      onSecond = Boolean(play.onSecond);
+      onThird = Boolean(play.onThird);
+    }
+
+    if (play.scoringPlay || play.scoreValue > 0) {
+      if (half === "Top") {
+        awayRunsThisInning += Number(play.scoreValue) || 0;
+      } else if (half === "Bottom") {
+        homeRunsThisInning += Number(play.scoreValue) || 0;
+      }
+    }
+  }
+
+  // Prefer score deltas for this inning when we have start markers
+  if (half === "Top" && awayScoreStart != null && awayScore != null) {
+    awayRunsThisInning = Math.max(0, awayScore - awayScoreStart);
+  }
+  if (half === "Bottom" && homeScoreStart != null && homeScore != null) {
+    homeRunsThisInning = Math.max(0, homeScore - homeScoreStart);
+  }
+  if (half === "Mid" && awayScoreStart != null && awayScore != null) {
+    awayRunsThisInning = Math.max(0, awayScore - awayScoreStart);
+  }
+
+  // After 3 outs in a half, treat as mid/complete
+  if (outs >= 3 && half === "Top") {
+    half = "Mid";
+    outs = 0;
+    onFirst = false;
+    onSecond = false;
+    onThird = false;
+  } else if (outs >= 3 && half === "Bottom") {
+    half = "Complete";
+  }
+
+  return {
+    activeInning: inning,
+    inning,
+    half,
+    outs: Math.min(2, Math.max(0, outs >= 3 ? 0 : outs)),
+    onFirst,
+    onSecond,
+    onThird,
+    awayRunsThisInning,
+    homeRunsThisInning,
+    awayScore,
+    homeScore,
   };
 }
 
@@ -465,6 +617,7 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
     : null;
 
   const latestPlay = playList.length ? playList[playList.length - 1] : null;
+  const liveSituation = deriveLiveSituation(playList, game);
 
   return {
     fetchedAt: new Date().toISOString(),
@@ -485,7 +638,7 @@ async function buildGameDetail(eventId, oddsEvents = [], { fresh = false } = {})
           tiePct: winProb.tiePercentage ?? null,
         }
       : null,
-    situation: summary.situation || null,
+    situation: liveSituation,
     notes: (summary.notes || []).slice(0, 5).map((note) => note.headline || note.text || "").filter(Boolean),
   };
 }
@@ -500,4 +653,6 @@ module.exports = {
   parseBoltTeams,
   teamsMatch,
   espnFetch,
+  deriveLiveSituation,
+  compactPlay,
 };

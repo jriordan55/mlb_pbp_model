@@ -1,6 +1,20 @@
 // Shared +EV / arb detection from flat BoltOdds quote rows (scraper + Actions).
 
+const { dropAlternateSpreads } = require("./market_filters");
+
 const MAX_AMERICAN_ODDS = 1000;
+
+// Telegram alerts are limited to these player-prop markets.
+const PROP_ALERT_MARKETS = new Set([
+  "Hits",
+  "Home Runs",
+  "RBIs",
+  "Runs",
+  "Bases",
+  "Hits + Runs + RBIs",
+  "Strikeouts Thrown",
+  "Outs",
+]);
 
 const BOOK_LABELS = {
   fanduel: "FanDuel",
@@ -405,20 +419,29 @@ function findValueFromOddsRows(rows) {
 
   odds.sort((a, b) => b.ev - a.ev);
   arbs.sort((a, b) => b.profit - a.profit);
-  return { odds, arbs };
+  return dropAlternateSpreads(odds, arbs);
 }
 
 async function sendValueAlerts(rows, { sendTelegram, mode = "" } = {}) {
   if (!sendTelegram) return { sentEv: 0, sentArb: 0 };
   const minEv = Number(process.env.TELEGRAM_MIN_EV) || 0.03;
   const minArb = Number(process.env.TELEGRAM_MIN_ARB) || 0.01;
+  const maxAlertOdds = Number(process.env.TELEGRAM_MAX_ODDS) || 200;
   const { odds, arbs } = findValueFromOddsRows(rows);
   let sentEv = 0;
   let sentArb = 0;
   const modeTag = mode ? ` [${mode}]` : "";
+  // Alerts: player props only, and no price longer than +maxAlertOdds.
+  const isPropMarket = (name) => PROP_ALERT_MARKETS.has(String(name || ""));
+  const withinOddsCap = (price) => {
+    const american = parseAmerican(price);
+    return american !== null && american <= maxAlertOdds;
+  };
 
   for (const arb of arbs) {
+    if (!isPropMarket(arb.category) && !isPropMarket(arb.market)) continue;
     if (!(arb.profit >= minArb)) continue;
+    if (!(arb.legs || []).every((leg) => withinOddsCap(leg.price))) continue;
     const legs = (arb.legs || [])
       .map(
         (leg) =>
@@ -435,6 +458,8 @@ async function sendValueAlerts(rows, { sendTelegram, mode = "" } = {}) {
   }
 
   for (const odd of odds) {
+    if (!isPropMarket(odd.category) && !isPropMarket(odd.market)) continue;
+    if (!withinOddsCap(odd.price)) continue;
     if (!(odd.ev >= minEv)) continue;
     const line =
       odd.line != null

@@ -4,6 +4,16 @@ const path = require("node:path");
 const WebSocket = globalThis.WebSocket || require("ws");
 const { buildLiveBoard, buildGameDetail } = require("./espn");
 const { sendTelegram, telegramConfigured } = require("./telegram");
+const {
+  buildInningModelBoard,
+  inningMarketName,
+} = require("./markov/inning_markets");
+const {
+  buildPrematchPredictions,
+  findPredictionForMatchup,
+  enrichWithBooks,
+} = require("./pythag/mlb_stats");
+const { dropAlternateSpreads, isAlternateMarketName } = require("./market_filters");
 
 const ROOT = __dirname;
 const PUBLIC_DIR = path.join(ROOT, "public");
@@ -134,9 +144,18 @@ async function maybeSendOddsAlerts() {
   }
   const minEv = Number(process.env.TELEGRAM_MIN_EV) || 0.03;
   const minArb = Number(process.env.TELEGRAM_MIN_ARB) || 0.01;
+  const maxAlertOdds = Number(process.env.TELEGRAM_MAX_ODDS) || 200;
+  // Alerts: player props only, and no price longer than +maxAlertOdds.
+  const isPropMarket = (name) => PROP_MARKET_SET.has(String(name || ""));
+  const withinOddsCap = (price) => {
+    const american = parseAmerican(price);
+    return american !== null && american <= maxAlertOdds;
+  };
 
   for (const arb of snapshot.arbs || []) {
+    if (!isPropMarket(arb.category) && !isPropMarket(arb.market)) continue;
     if (!(arb.profit >= minArb)) continue;
+    if (!(arb.legs || []).every((leg) => withinOddsCap(leg.price))) continue;
     const legs = (arb.legs || [])
       .map(
         (leg) =>
@@ -152,6 +171,8 @@ async function maybeSendOddsAlerts() {
   }
 
   for (const odd of snapshot.odds || []) {
+    if (!isPropMarket(odd.category) && !isPropMarket(odd.market)) continue;
+    if (!withinOddsCap(odd.price)) continue;
     if (!(odd.ev >= minEv)) continue;
     const line =
       odd.line != null
@@ -401,6 +422,12 @@ function buildSnapshot() {
       const american = parseAmerican(outcome.odds);
       const decimal = americanToDecimal(outcome.odds);
       if (!category || !decimal || american === null) continue;
+      if (
+        isAlternateMarketName(outcome.outcome_name) ||
+        isAlternateMarketName(category)
+      ) {
+        continue;
+      }
 
       const quote = {
         id: `${entry.sportsbook}#${entry.game}#${outcomeKey}`,
@@ -426,6 +453,10 @@ function buildSnapshot() {
 
       if (PROP_MARKET_SET.has(category)) {
         propQuotes.push(quote);
+        // Also feed player props into EV / arb tables (Over/Under lines).
+        if (american <= MAX_AMERICAN_ODDS) {
+          rawQuotes.push(quote);
+        }
         perBookCounts.set(entry.sportsbook, (perBookCounts.get(entry.sportsbook) || 0) + 1);
         continue;
       }
@@ -719,9 +750,14 @@ function buildSnapshot() {
     pushMatchupOdds(quotes);
   }
 
-  const arbs = findArbs({ overUnderGroups, spreadGroups, matchupGroups });
+  const filtered = dropAlternateSpreads(
+    odds,
+    findArbs({ overUnderGroups, spreadGroups, matchupGroups }),
+  );
+  const filteredOdds = filtered.odds;
+  const arbs = filtered.arbs;
 
-  odds.sort(
+  filteredOdds.sort(
     (a, b) =>
       b.ev - a.ev ||
       a.event.localeCompare(b.event) ||
@@ -751,16 +787,24 @@ function buildSnapshot() {
       syncedAt: marketSyncedAt.get(market) || null,
     })),
     methodology:
-      "Starter rotation mode: one MLB market is synced per WebSocket connection. EV uses the median no-vig probability from sportsbooks offering both sides at the same line (or absolute spread). Arbs use the best available price on each side.",
+      "Starter rotation mode: one MLB market is synced per WebSocket connection. Fair + EV + arbs use median no-vig consensus across books (game ML/Spread/Total and batter/pitcher props). Inning markets are live-only and excluded from alerts. Prematch Pythagorean model prices live on the Prematch tab.",
     league: { id: "mlb", name: "MLB", sport: "Baseball" },
     books: feeds.map((feed) => feed.sportsbook),
     selectedBooks: seenBooks,
     rawQuoteCount: rawQuotes.length,
     propQuoteCount: propQuotes.length,
     playerProps: buildPlayerPropIndex(propQuotes),
-    odds,
+    odds: filteredOdds,
     arbs,
     feeds,
+    pythagorean: pythagWarm
+      ? {
+          date: pythagWarm.date,
+          exponent: pythagWarm.exponent,
+          lgAvgRuns: pythagWarm.lgAvgRuns,
+          games: pythagWarm.predictions?.length || 0,
+        }
+      : null,
   };
 }
 
@@ -1003,7 +1047,9 @@ function findArbs({ overUnderGroups, spreadGroups, matchupGroups }) {
     for (const quote of quotes) {
       if (!pools[quote.side]) continue;
       pools[quote.side].push({
-        name: `${quote.side} ${quote.line}`,
+        name: quote.target
+          ? `${quote.target} ${quote.side} ${quote.line}`
+          : `${quote.side} ${quote.line}`,
         target: quote.target || "game",
         side: quote.side,
         line: quote.line,
@@ -1231,6 +1277,66 @@ function summarizeLiveOddsBoard(eventName, awayName, homeName) {
   };
 }
 
+function summarizeInningBookSides(eventName, awayName, homeName) {
+  if (!eventName) return {};
+  let rows = [];
+  try {
+    rows = (buildSnapshot().odds || []).filter((row) => row.event === eventName);
+  } catch {
+    return {};
+  }
+  const byInning = {};
+  for (let n = 1; n <= 9; n += 1) {
+    const mlName = inningMarketName(n, "Moneyline");
+    const spName = inningMarketName(n, "Spread");
+    const totName = inningMarketName(n, "Total");
+    const ml = rows.filter((row) => row.category === mlName || row.market === mlName);
+    const spreads = rows.filter((row) => row.category === spName || row.market === spName);
+    const totals = rows.filter((row) => row.category === totName || row.market === totName);
+
+    const awayMl =
+      ml.find((row) => teamsLooseMatch(row.name, awayName)) || null;
+    const homeMl =
+      ml.find((row) => teamsLooseMatch(row.name, homeName)) || null;
+    const preferredSpread = mostCommonLine(
+      spreads.map((row) => Math.abs(Number(row.line))).filter(Number.isFinite),
+    );
+    const spreadPool = Number.isFinite(preferredSpread)
+      ? spreads.filter((row) => Math.abs(Number(row.line)) === preferredSpread)
+      : spreads;
+    const awaySpread =
+      spreadPool.find((row) => teamsLooseMatch(row.name, awayName)) || null;
+    const homeSpread =
+      spreadPool.find((row) => teamsLooseMatch(row.name, homeName)) || null;
+    const preferredTotal = mostCommonLine(
+      totals.map((row) => Number(row.line)).filter(Number.isFinite),
+    );
+    const totalPool = Number.isFinite(preferredTotal)
+      ? totals.filter((row) => Number(row.line) === preferredTotal)
+      : totals;
+    const over = totalPool.find((row) => row.side === "Over") || null;
+    const under = totalPool.find((row) => row.side === "Under") || null;
+
+    byInning[n] = {
+      awayMl: awayMl?.price || "",
+      homeMl: homeMl?.price || "",
+      awayMlBook: awayMl?.sportsbook?.name || "",
+      homeMlBook: homeMl?.sportsbook?.name || "",
+      spreadAbs: preferredSpread ?? 0.5,
+      awaySpread: awaySpread?.price || "",
+      homeSpread: homeSpread?.price || "",
+      awaySpreadBook: awaySpread?.sportsbook?.name || "",
+      homeSpreadBook: homeSpread?.sportsbook?.name || "",
+      totalLine: preferredTotal ?? 0.5,
+      over: over?.price || "",
+      under: under?.price || "",
+      overBook: over?.sportsbook?.name || "",
+      underBook: under?.sportsbook?.name || "",
+    };
+  }
+  return byInning;
+}
+
 function bookPrice(side, bookId) {
   return side?.byBook?.[bookId]?.price ?? "";
 }
@@ -1434,13 +1540,118 @@ function attachBookQuotes(stamped, live) {
   };
 }
 
-function enrichGameDetailWithOdds(detail) {
+function booksFromLiveOdds(liveOdds) {
+  if (!liveOdds) return {};
+  return {
+    awayMl: liveOdds.moneyline?.away?.price,
+    awayMlBook: liveOdds.moneyline?.away?.book,
+    homeMl: liveOdds.moneyline?.home?.price,
+    homeMlBook: liveOdds.moneyline?.home?.book,
+    awaySpread: liveOdds.spread?.away?.price,
+    awaySpreadBook: liveOdds.spread?.away?.book,
+    homeSpread: liveOdds.spread?.home?.price,
+    homeSpreadBook: liveOdds.spread?.home?.book,
+    spreadAbs: liveOdds.spread?.line,
+    over: liveOdds.total?.over?.price,
+    overBook: liveOdds.total?.over?.book,
+    under: liveOdds.total?.under?.price,
+    underBook: liveOdds.total?.under?.book,
+    totalLine: liveOdds.total?.line,
+  };
+}
+
+function parseEventTeams(eventName) {
+  // Strip trailing ", YYYY-MM-DD" BoltOdds suffixes.
+  const s = String(eventName || "")
+    .replace(/,\s*\d{4}-\d{2}-\d{2}.*$/, "")
+    .trim();
+  if (/\s+@\s+/.test(s)) {
+    const parts = s.split(/\s+@\s+/);
+    if (parts.length !== 2) return null;
+    // "Away @ Home"
+    return { away: parts[0].trim(), home: parts[1].trim() };
+  }
+  if (/\s+vs\.?\s+/i.test(s)) {
+    const parts = s.split(/\s+vs\.?\s+/i);
+    if (parts.length !== 2) return null;
+    // BoltOdds MLB lists "Home vs Away"
+    return { home: parts[0].trim(), away: parts[1].trim() };
+  }
+  return null;
+}
+
+function eventMatchesPrediction(eventName, pred) {
+  if (!pred) return false;
+  const teams = parseEventTeams(eventName);
+  if (teams) {
+    const a = normalizeLoose(teams.away);
+    const h = normalizeLoose(teams.home);
+    const pa = normalizeLoose(pred.awayTeam);
+    const ph = normalizeLoose(pred.homeTeam);
+    if ((a === pa || a.includes(pa) || pa.includes(a)) && (h === ph || h.includes(ph) || ph.includes(h))) {
+      return true;
+    }
+    // tolerate swapped parse
+    if ((a === ph || a.includes(ph) || ph.includes(a)) && (h === pa || h.includes(pa) || pa.includes(h))) {
+      return true;
+    }
+  }
+  const blob = normalizeLoose(eventName);
+  return (
+    blob.includes(normalizeLoose(pred.awayTeam)) &&
+    blob.includes(normalizeLoose(pred.homeTeam))
+  );
+}
+
+function normalizeLoose(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+let pythagWarm = null;
+
+async function refreshPythagCache() {
+  try {
+    pythagWarm = await buildPrematchPredictions();
+    console.log(
+      `Pythagorean prematch ready: ${pythagWarm.predictions?.length || 0} games · exp=${pythagWarm.exponent}`,
+    );
+  } catch (error) {
+    console.warn(`Pythagorean refresh failed: ${error.message || error}`);
+  }
+}
+
+function applyPythagoreanToOdds(odds) {
+  // Intentionally a no-op for the odds snapshot / +EV tab.
+  // Fair + EV must stay on market consensus. Pythagorean model prices are
+  // only served via /api/predictions for the Prematch tab.
+  return odds;
+}
+
+async function enrichGameDetailWithOdds(detail) {
   if (!detail?.game) return detail;
 
   const matchedEvent = detail.game.matchedEvent || null;
   const awayName = detail.game.away?.name || "";
   const homeName = detail.game.home?.name || "";
   const liveOdds = summarizeLiveOddsBoard(matchedEvent, awayName, homeName);
+  const inningBooks = summarizeInningBookSides(matchedEvent, awayName, homeName);
+  const inningModel = detail.situation
+    ? buildInningModelBoard(detail.situation, inningBooks)
+    : null;
+
+  let pythagModel = null;
+  try {
+    if (!pythagWarm) await refreshPythagCache();
+    const pred = findPredictionForMatchup(awayName, homeName, pythagWarm);
+    if (pred) {
+      pythagModel = enrichWithBooks(pred, booksFromLiveOdds(liveOdds));
+    }
+  } catch {
+    pythagModel = null;
+  }
+
   let propBoards = null;
   try {
     propBoards = buildSnapshot().playerProps || null;
@@ -1483,7 +1694,6 @@ function enrichGameDetailWithOdds(detail) {
       propBoards,
     );
     const stampedProps = playOddsMemory.get(propKey) || liveProps;
-    // Prefer stamped values; fill blanks from live board when a market was missing at stamp time.
     const props = { ...liveProps };
     for (const [field, value] of Object.entries(stampedProps)) {
       if (field === "stampedAt") continue;
@@ -1521,6 +1731,8 @@ function enrichGameDetailWithOdds(detail) {
     ...detail,
     gameState,
     liveOdds,
+    inningModel,
+    pythagModel,
     plays,
     dataframe,
   };
@@ -1587,6 +1799,47 @@ const server = http.createServer((request, response) => {
     return;
   }
 
+  if (url.pathname === "/api/predictions") {
+    buildPrematchPredictions()
+      .then((cache) => {
+        pythagWarm = cache;
+        const oddsByEvent = new Map();
+        try {
+          for (const odd of buildSnapshot().odds || []) {
+            if (odd.live) continue;
+            if (!["Moneyline", "Spread", "Total"].includes(odd.category)) continue;
+            if (!oddsByEvent.has(odd.event)) oddsByEvent.set(odd.event, []);
+            oddsByEvent.get(odd.event).push(odd);
+          }
+        } catch {
+          /* feed may be empty */
+        }
+        const games = (cache.predictions || []).map((pred) => {
+          const eventKey =
+            [...oddsByEvent.keys()].find((ev) => eventMatchesPrediction(ev, pred)) ||
+            null;
+          const liveOdds = eventKey
+            ? summarizeLiveOddsBoard(eventKey, pred.awayTeam, pred.homeTeam)
+            : null;
+          return enrichWithBooks(pred, booksFromLiveOdds(liveOdds));
+        });
+        sendJson(response, 200, {
+          date: cache.date,
+          exponent: cache.exponent,
+          lgAvgRuns: cache.lgAvgRuns,
+          methodology:
+            "Projected runs (Pythagorean OS/DS + pitcher/L20/HFA) → Skellam ML & spread + Poisson total fair prices vs BoltOdds. EV = model_prob × book_decimal − 1.",
+          games,
+        });
+      })
+      .catch((error) =>
+        sendJson(response, 502, {
+          error: error.message || "Pythagorean predictions unavailable",
+        }),
+      );
+    return;
+  }
+
   if (url.pathname === "/api/live") {
     buildLiveBoard(collectOddsEventNames())
       .then((board) => sendJson(response, 200, board))
@@ -1599,7 +1852,8 @@ const server = http.createServer((request, response) => {
   const liveMatch = url.pathname.match(/^\/api\/live\/([^/]+)$/);
   if (liveMatch) {
     buildGameDetail(decodeURIComponent(liveMatch[1]), collectOddsEventNames())
-      .then((detail) => sendJson(response, 200, enrichGameDetailWithOdds(detail)))
+      .then((detail) => enrichGameDetailWithOdds(detail))
+      .then((detail) => sendJson(response, 200, detail))
       .catch((error) =>
         sendJson(response, 502, { error: error.message || "ESPN game detail unavailable" }),
       );
@@ -1630,4 +1884,6 @@ server.listen(PORT, () => {
     );
   }
   connectFeed();
+  refreshPythagCache();
+  setInterval(refreshPythagCache, 10 * 60 * 1000);
 });
