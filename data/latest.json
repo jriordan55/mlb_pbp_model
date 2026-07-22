@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-22T21:46:10.592Z",
+  "capturedAt": "2026-07-22T21:51:29.644Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -254,7 +254,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "10",
+        "score": "11",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 8th",
-        "shortDetail": "Mid 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "17",
