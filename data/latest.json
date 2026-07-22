@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-22T22:07:23.999Z",
+  "capturedAt": "2026-07-22T22:12:44.325Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 11,
-  "gameStates": 4,
+  "newPlays": 6,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 4,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816219",
@@ -196,11 +196,11 @@
       "id": "401816227",
       "name": "Washington Nationals at Colorado Rockies",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "20",
@@ -211,7 +211,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png",
         "score": "8",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "27",
@@ -243,7 +243,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -264,11 +264,11 @@
       "id": "401816229",
       "name": "Cincinnati Reds at Seattle Mariners",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "17",
@@ -279,7 +279,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "12",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "24",
