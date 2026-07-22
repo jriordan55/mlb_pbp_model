@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-22T20:21:11.310Z",
+  "capturedAt": "2026-07-22T20:26:29.784Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 13,
-  "gameStates": 6,
+  "newPlays": 9,
+  "gameStates": 5,
   "injuries": 0,
-  "liveGames": 6,
+  "liveGames": 5,
   "games": [
     {
       "id": "401816219",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 6th",
-        "shortDetail": "End 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "21",
@@ -162,11 +162,11 @@
       "id": "401816226",
       "name": "San Francisco Giants at Kansas City Royals",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "26",
@@ -175,7 +175,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -188,7 +188,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "11",
@@ -243,7 +243,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "17",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "24",

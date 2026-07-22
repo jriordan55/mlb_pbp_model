@@ -992,3 +992,48 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-22T20:21:11.310Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,0,0,0.522,Chase Field,,,,,,,,,,,,,,,,0
 2026-07-22T20:21:11.310Z,401816229,Cincinnati Reds at Seattle Mariners,in,Top 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.74,T-Mobile Park,,,,,,,,,,,,,,,,0
 2026-07-22T20:21:11.310Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Bottom 1st,St. Louis Cardinals,Los Angeles Angels,0,0,0.563,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.895,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 9th,San Francisco Giants,Kansas City Royals,3,5,0.989,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.481,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,0,0,0.522,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816229,Cincinnati Reds at Seattle Mariners,in,Middle 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.74,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:21:43.269Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Bottom 1st,St. Louis Cardinals,Los Angeles Angels,0,0,0.563,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.895,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 9th,San Francisco Giants,Kansas City Royals,4,5,0.96,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.481,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,0,0,0.522,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816229,Cincinnati Reds at Seattle Mariners,in,Middle 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.74,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:22:24.506Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,End 1st,St. Louis Cardinals,Los Angeles Angels,0,0,0.563,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.902,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 9th,San Francisco Giants,Kansas City Royals,4,5,0.96,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.604,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,1,0,0.5,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816229,Cincinnati Reds at Seattle Mariners,in,Bottom 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.74,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:05.238Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,End 1st,St. Louis Cardinals,Los Angeles Angels,0,0,0.563,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.902,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 9th,San Francisco Giants,Kansas City Royals,4,5,1,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.604,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,1,0,0.5,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816229,Cincinnati Reds at Seattle Mariners,in,Bottom 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.74,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:23:46.188Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Top 2nd,St. Louis Cardinals,Los Angeles Angels,0,0,0.563,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.902,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816226,San Francisco Giants at Kansas City Royals,in,Top 9th,San Francisco Giants,Kansas City Royals,4,5,1,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.604,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,1,0,0.5,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816229,Cincinnati Reds at Seattle Mariners,in,Bottom 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.731,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:24:27.358Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Top 2nd,St. Louis Cardinals,Los Angeles Angels,0,0,0.576,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:08.119Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.872,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:08.119Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.604,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:08.119Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 3rd,Athletics,Arizona Diamondbacks,1,0,0.5,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:08.119Z,401816229,Cincinnati Reds at Seattle Mariners,in,Bottom 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.721,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:08.119Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Top 2nd,St. Louis Cardinals,Los Angeles Angels,0,0,0.576,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:49.031Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.872,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:49.031Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.55,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:49.031Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Middle 3rd,Athletics,Arizona Diamondbacks,1,0,0.541,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:49.031Z,401816229,Cincinnati Reds at Seattle Mariners,in,Bottom 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.721,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:25:49.031Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Top 2nd,St. Louis Cardinals,Los Angeles Angels,0,0,0.589,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T20:26:29.784Z,401816225,New York Mets at Milwaukee Brewers,in,Top 7th,New York Mets,Milwaukee Brewers,2,4,0.872,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:26:29.784Z,401816227,Washington Nationals at Colorado Rockies,in,Bottom 4th,Washington Nationals,Colorado Rockies,0,0,0.55,Coors Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:26:29.784Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Middle 3rd,Athletics,Arizona Diamondbacks,1,0,0.541,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T20:26:29.784Z,401816229,Cincinnati Reds at Seattle Mariners,in,End 3rd,Cincinnati Reds,Seattle Mariners,0,1,0.721,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-22T20:26:29.784Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Top 2nd,St. Louis Cardinals,Los Angeles Angels,0,0,0.589,Angel Stadium,,,,,,,,,,,,,,,,0
