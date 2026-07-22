@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-22T22:39:11.563Z",
+  "capturedAt": "2026-07-22T22:44:29.001Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 13,
-  "gameStates": 2,
+  "newPlays": 6,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816219",
@@ -243,7 +243,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "3",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -298,11 +298,11 @@
       "id": "401816230",
       "name": "St. Louis Cardinals at Los Angeles Angels",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "24",
@@ -313,7 +313,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
         "score": "1",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "3",
@@ -332,11 +332,11 @@
       "id": "401816217",
       "name": "Los Angeles Dodgers at Philadelphia Phillies",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/22 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "19",
@@ -366,11 +366,11 @@
       "id": "401816218",
       "name": "Minnesota Twins at Cleveland Guardians",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/22 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "9",
@@ -379,7 +379,7 @@
         "name": "Minnesota Twins",
         "shortName": "Twins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },

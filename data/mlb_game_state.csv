@@ -1821,3 +1821,25 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-22T22:38:30.787Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Bottom 9th,St. Louis Cardinals,Los Angeles Angels,1,0,0.305,Angel Stadium,,,,,,,,,,,,,,,,0
 2026-07-22T22:39:11.563Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,3,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
 2026-07-22T22:39:11.563Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Bottom 9th,St. Louis Cardinals,Los Angeles Angels,1,0,0.153,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T22:39:43.375Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,3,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:39:43.375Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,Bottom 9th,St. Louis Cardinals,Los Angeles Angels,1,0,0.153,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T22:40:24.095Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,3,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:40:24.095Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,End 9th,St. Louis Cardinals,Los Angeles Angels,1,0,0,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:05.311Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,3,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:05.311Z,401816230,St. Louis Cardinals at Los Angeles Angels,in,End 9th,St. Louis Cardinals,Los Angeles Angels,1,0,0,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:05.311Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:46.176Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,4,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:46.176Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:41:46.176Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,0,0,,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:42:26.755Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,4,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:42:26.755Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:42:26.755Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,0,0,,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:07.721Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,4,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:07.721Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.427,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:07.721Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.435,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:48.455Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,4,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:48.455Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.427,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:43:48.455Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.435,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:44:29.001Z,401816228,Athletics Athletics at Arizona Diamondbacks,in,Top 9th,Athletics,Arizona Diamondbacks,5,15,0.999,Chase Field,,,,,,,,,,,,,,,,0
+2026-07-22T22:44:29.001Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 1st,Los Angeles Dodgers,Philadelphia Phillies,0,0,0.427,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-22T22:44:29.001Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 1st,Minnesota Twins,Cleveland Guardians,1,0,0.435,Progressive Field,,,,,,,,,,,,,,,,0
