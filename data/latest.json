@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T20:45:35.449Z",
+  "capturedAt": "2026-07-23T21:45:54.915Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 3,
+  "newPlays": 0,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -128,11 +128,11 @@
       "id": "401816234",
       "name": "Tampa Bay Rays at Toronto Blue Jays",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "30",
@@ -152,9 +152,9 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "2",
+        "score": "3",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -162,11 +162,11 @@
       "id": "401881162",
       "name": "Arizona Diamondbacks at St. Louis Cardinals",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/23 - 5:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "29",
@@ -186,7 +186,7 @@
         "name": "St. Louis Cardinals",
         "shortName": "Cardinals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
