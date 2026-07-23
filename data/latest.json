@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T20:19:51.783Z",
+  "capturedAt": "2026-07-23T20:24:59.865Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
+  "newPlays": 3,
   "gameStates": 2,
   "injuries": 0,
   "liveGames": 2,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 12th",
-        "shortDetail": "Top 12th"
+        "detail": "Bottom 12th",
+        "shortDetail": "Bot 12th"
       },
       "away": {
         "id": "9",
@@ -107,7 +107,7 @@
         "name": "Minnesota Twins",
         "shortName": "Twins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "30",
