@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T17:09:00.630Z",
+  "capturedAt": "2026-07-23T17:14:10.933Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 1,
-  "gameStates": 1,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816233",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Middle 4th",
+        "shortDetail": "Mid 4th"
       },
       "away": {
         "id": "25",
@@ -94,11 +94,11 @@
       "id": "401816232",
       "name": "Minnesota Twins at Cleveland Guardians",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/23 - 1:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "9",
