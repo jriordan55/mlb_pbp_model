@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T01:53:35.387Z",
+  "capturedAt": "2026-07-23T01:58:39.540Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
+  "newPlays": 13,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 9th",
-        "shortDetail": "Mid 9th"
+        "detail": "Bottom 9th",
+        "shortDetail": "Bot 9th"
       },
       "away": {
         "id": "1",
@@ -515,7 +515,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Middle 7th",
+        "shortDetail": "Mid 7th"
       },
       "away": {
         "id": "6",
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "4",
@@ -607,8 +607,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "28",
