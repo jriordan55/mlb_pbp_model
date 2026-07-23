@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T02:39:38.610Z",
+  "capturedAt": "2026-07-23T02:44:40.419Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 8,
-  "gameStates": 3,
+  "newPlays": 3,
+  "gameStates": 1,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 1,
   "games": [
     {
       "id": "401816219",
@@ -536,11 +536,11 @@
       "id": "401816223",
       "name": "Detroit Tigers at Chicago Cubs",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "6",
@@ -551,7 +551,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "16",
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "detail": "Middle 9th",
+        "shortDetail": "Mid 9th"
       },
       "away": {
         "id": "4",
@@ -604,11 +604,11 @@
       "id": "401816224",
       "name": "Miami Marlins at Houston Astros",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "28",
@@ -630,7 +630,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     }
