@@ -5130,3 +5130,23 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-23T19:58:41.201Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 3rd,Tampa Bay Rays,Toronto Blue Jays,1,1,0.535,Rogers Centre,,,,,,,,,,,,,,,,0
 2026-07-23T19:59:12.692Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.657,Progressive Field,,,,,,,,,,,,,,,,0
 2026-07-23T19:59:12.692Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 3rd,Tampa Bay Rays,Toronto Blue Jays,1,1,0.535,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T19:59:36.899Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.657,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T19:59:36.899Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.535,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:00:10.546Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.657,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:00:10.546Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:00:42.017Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.657,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:00:42.017Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,End 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:01:13.470Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.696,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:01:13.470Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,End 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:01:44.908Z,401816232,Minnesota Twins at Cleveland Guardians,in,Top 11th,Minnesota Twins,Cleveland Guardians,1,1,0.696,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:01:44.908Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,End 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:02:16.521Z,401816232,Minnesota Twins at Cleveland Guardians,in,Middle 11th,Minnesota Twins,Cleveland Guardians,1,1,0.696,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:02:16.521Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,End 3rd,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:02:48.003Z,401816232,Minnesota Twins at Cleveland Guardians,in,Middle 11th,Minnesota Twins,Cleveland Guardians,1,1,0.696,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:02:48.003Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Top 4th,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:03:20.342Z,401816232,Minnesota Twins at Cleveland Guardians,in,Middle 11th,Minnesota Twins,Cleveland Guardians,1,1,0.696,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:03:20.342Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Top 4th,Tampa Bay Rays,Toronto Blue Jays,1,2,0.647,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:03:52.734Z,401816232,Minnesota Twins at Cleveland Guardians,in,Bottom 11th,Minnesota Twins,Cleveland Guardians,1,1,0.842,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:03:52.734Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Top 4th,Tampa Bay Rays,Toronto Blue Jays,1,2,0.659,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T20:04:24.587Z,401816232,Minnesota Twins at Cleveland Guardians,in,Bottom 11th,Minnesota Twins,Cleveland Guardians,1,1,0.842,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T20:04:24.587Z,401816234,Tampa Bay Rays at Toronto Blue Jays,in,Top 4th,Tampa Bay Rays,Toronto Blue Jays,1,2,0.659,Rogers Centre,,,,,,,,,,,,,,,,0
