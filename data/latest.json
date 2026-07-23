@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T22:37:24.362Z",
+  "capturedAt": "2026-07-23T22:42:36.165Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
-  "gameStates": 1,
+  "newPlays": 3,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816233",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 5th",
-        "shortDetail": "Mid 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "29",
@@ -196,11 +196,11 @@
       "id": "401816231",
       "name": "Kansas City Royals at Detroit Tigers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/23 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "7",
