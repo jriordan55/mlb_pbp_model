@@ -1,6 +1,6 @@
 {
-  "capturedAt": "2026-07-23T15:08:43.138Z",
-  "mode": "prematch",
+  "capturedAt": "2026-07-23T16:48:29.311Z",
+  "mode": "inplay",
   "sport": "MLB",
   "markets": [
     "Moneyline",
@@ -51,462 +51,20 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
-  "gameStates": 0,
+  "newPlays": 1,
+  "gameStates": 1,
   "injuries": 0,
-  "liveGames": 0,
+  "liveGames": 1,
   "games": [
     {
-      "id": "401816219",
-      "name": "Pittsburgh Pirates at New York Yankees",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final/10",
-        "shortDetail": "Final/10"
-      },
-      "away": {
-        "id": "23",
-        "homeAway": "away",
-        "abbreviation": "PIT",
-        "name": "Pittsburgh Pirates",
-        "shortName": "Pirates",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "5",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "10",
-        "homeAway": "home",
-        "abbreviation": "NYY",
-        "name": "New York Yankees",
-        "shortName": "Yankees",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-        "score": "3",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401898715",
-      "name": "Baltimore Orioles at Boston Red Sox",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "1",
-        "homeAway": "away",
-        "abbreviation": "BAL",
-        "name": "Baltimore Orioles",
-        "shortName": "Orioles",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "3",
-        "record": "",
-        "winner": false
-      },
-      "home": {
-        "id": "2",
-        "homeAway": "home",
-        "abbreviation": "BOS",
-        "name": "Boston Red Sox",
-        "shortName": "Red Sox",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "6",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816225",
-      "name": "New York Mets at Milwaukee Brewers",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "21",
-        "homeAway": "away",
-        "abbreviation": "NYM",
-        "name": "New York Mets",
-        "shortName": "Mets",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
-        "score": "3",
-        "record": "",
-        "winner": false
-      },
-      "home": {
-        "id": "8",
-        "homeAway": "home",
-        "abbreviation": "MIL",
-        "name": "Milwaukee Brewers",
-        "shortName": "Brewers",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-        "score": "4",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816226",
-      "name": "San Francisco Giants at Kansas City Royals",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "26",
-        "homeAway": "away",
-        "abbreviation": "SF",
-        "name": "San Francisco Giants",
-        "shortName": "Giants",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "4",
-        "record": "",
-        "winner": false
-      },
-      "home": {
-        "id": "7",
-        "homeAway": "home",
-        "abbreviation": "KC",
-        "name": "Kansas City Royals",
-        "shortName": "Royals",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "5",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816227",
-      "name": "Washington Nationals at Colorado Rockies",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "20",
-        "homeAway": "away",
-        "abbreviation": "WSH",
-        "name": "Washington Nationals",
-        "shortName": "Nationals",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png",
-        "score": "8",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "27",
-        "homeAway": "home",
-        "abbreviation": "COL",
-        "name": "Colorado Rockies",
-        "shortName": "Rockies",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
-        "score": "0",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816228",
-      "name": "Athletics Athletics at Arizona Diamondbacks",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "11",
-        "homeAway": "away",
-        "abbreviation": "ATH",
-        "name": "Athletics",
-        "shortName": "Athletics",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "5",
-        "record": "",
-        "winner": false
-      },
-      "home": {
-        "id": "29",
-        "homeAway": "home",
-        "abbreviation": "ARI",
-        "name": "Arizona Diamondbacks",
-        "shortName": "Diamondbacks",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "15",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816229",
-      "name": "Cincinnati Reds at Seattle Mariners",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "17",
-        "homeAway": "away",
-        "abbreviation": "CIN",
-        "name": "Cincinnati Reds",
-        "shortName": "Reds",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
-        "score": "5",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "12",
-        "homeAway": "home",
-        "abbreviation": "SEA",
-        "name": "Seattle Mariners",
-        "shortName": "Mariners",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
-        "score": "3",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816230",
-      "name": "St. Louis Cardinals at Los Angeles Angels",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "24",
-        "homeAway": "away",
-        "abbreviation": "STL",
-        "name": "St. Louis Cardinals",
-        "shortName": "Cardinals",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
-        "score": "1",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "3",
-        "homeAway": "home",
-        "abbreviation": "LAA",
-        "name": "Los Angeles Angels",
-        "shortName": "Angels",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png",
-        "score": "0",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816217",
-      "name": "Los Angeles Dodgers at Philadelphia Phillies",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "19",
-        "homeAway": "away",
-        "abbreviation": "LAD",
-        "name": "Los Angeles Dodgers",
-        "shortName": "Dodgers",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
-        "score": "9",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "22",
-        "homeAway": "home",
-        "abbreviation": "PHI",
-        "name": "Philadelphia Phillies",
-        "shortName": "Phillies",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "5",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816218",
-      "name": "Minnesota Twins at Cleveland Guardians",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "9",
-        "homeAway": "away",
-        "abbreviation": "MIN",
-        "name": "Minnesota Twins",
-        "shortName": "Twins",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
-        "score": "10",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "5",
-        "homeAway": "home",
-        "abbreviation": "CLE",
-        "name": "Cleveland Guardians",
-        "shortName": "Guardians",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
-        "score": "6",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401898714",
-      "name": "Pittsburgh Pirates at New York Yankees",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "23",
-        "homeAway": "away",
-        "abbreviation": "PIT",
-        "name": "Pittsburgh Pirates",
-        "shortName": "Pirates",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "0",
-        "record": "",
-        "winner": false
-      },
-      "home": {
-        "id": "10",
-        "homeAway": "home",
-        "abbreviation": "NYY",
-        "name": "New York Yankees",
-        "shortName": "Yankees",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-        "score": "2",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816221",
-      "name": "Tampa Bay Rays at Toronto Blue Jays",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "30",
-        "homeAway": "away",
-        "abbreviation": "TB",
-        "name": "Tampa Bay Rays",
-        "shortName": "Rays",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-        "score": "4",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "14",
-        "homeAway": "home",
-        "abbreviation": "TOR",
-        "name": "Toronto Blue Jays",
-        "shortName": "Blue Jays",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "2",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816216",
-      "name": "Baltimore Orioles at Boston Red Sox",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "1",
-        "homeAway": "away",
-        "abbreviation": "BAL",
-        "name": "Baltimore Orioles",
-        "shortName": "Orioles",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "5",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "2",
-        "homeAway": "home",
-        "abbreviation": "BOS",
-        "name": "Boston Red Sox",
-        "shortName": "Red Sox",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "1",
-        "record": "",
-        "winner": false
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816220",
+      "id": "401816233",
       "name": "San Diego Padres at Atlanta Braves",
       "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
+        "state": "in",
+        "completed": false,
+        "description": "In Progress",
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "25",
@@ -515,7 +73,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "6",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -526,40 +84,6 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "7",
-        "record": "",
-        "winner": true
-      },
-      "matchedEvent": null
-    },
-    {
-      "id": "401816223",
-      "name": "Detroit Tigers at Chicago Cubs",
-      "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
-      },
-      "away": {
-        "id": "6",
-        "homeAway": "away",
-        "abbreviation": "DET",
-        "name": "Detroit Tigers",
-        "shortName": "Tigers",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-        "score": "5",
-        "record": "",
-        "winner": true
-      },
-      "home": {
-        "id": "16",
-        "homeAway": "home",
-        "abbreviation": "CHC",
-        "name": "Chicago Cubs",
-        "shortName": "Cubs",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
         "score": "1",
         "record": "",
         "winner": false
@@ -567,74 +91,141 @@
       "matchedEvent": null
     },
     {
-      "id": "401816222",
-      "name": "Chicago White Sox at Texas Rangers",
+      "id": "401816232",
+      "name": "Minnesota Twins at Cleveland Guardians",
       "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Scheduled",
+        "shortDetail": "7/23 - 1:10 PM EDT"
       },
       "away": {
-        "id": "4",
+        "id": "9",
         "homeAway": "away",
-        "abbreviation": "CHW",
-        "name": "Chicago White Sox",
-        "shortName": "White Sox",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
-        "score": "4",
+        "abbreviation": "MIN",
+        "name": "Minnesota Twins",
+        "shortName": "Twins",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
+        "score": "0",
         "record": "",
-        "winner": true
+        "winner": false
       },
       "home": {
-        "id": "13",
+        "id": "5",
         "homeAway": "home",
-        "abbreviation": "TEX",
-        "name": "Texas Rangers",
-        "shortName": "Rangers",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
-        "score": "2",
+        "abbreviation": "CLE",
+        "name": "Cleveland Guardians",
+        "shortName": "Guardians",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
+        "score": "0",
         "record": "",
         "winner": false
       },
       "matchedEvent": null
     },
     {
-      "id": "401816224",
-      "name": "Miami Marlins at Houston Astros",
+      "id": "401816234",
+      "name": "Tampa Bay Rays at Toronto Blue Jays",
       "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Scheduled",
+        "shortDetail": "7/23 - 3:07 PM EDT"
       },
       "away": {
-        "id": "28",
+        "id": "30",
         "homeAway": "away",
-        "abbreviation": "MIA",
-        "name": "Miami Marlins",
-        "shortName": "Marlins",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
-        "score": "2",
+        "abbreviation": "TB",
+        "name": "Tampa Bay Rays",
+        "shortName": "Rays",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
+        "score": "0",
         "record": "",
         "winner": false
       },
       "home": {
-        "id": "18",
+        "id": "14",
         "homeAway": "home",
-        "abbreviation": "HOU",
-        "name": "Houston Astros",
-        "shortName": "Astros",
-        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "5",
+        "abbreviation": "TOR",
+        "name": "Toronto Blue Jays",
+        "shortName": "Blue Jays",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
+        "score": "0",
         "record": "",
-        "winner": true
+        "winner": false
+      },
+      "matchedEvent": null
+    },
+    {
+      "id": "401881162",
+      "name": "Arizona Diamondbacks at St. Louis Cardinals",
+      "status": {
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Scheduled",
+        "shortDetail": "7/23 - 5:15 PM EDT"
+      },
+      "away": {
+        "id": "29",
+        "homeAway": "away",
+        "abbreviation": "ARI",
+        "name": "Arizona Diamondbacks",
+        "shortName": "Diamondbacks",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
+        "score": "0",
+        "record": "",
+        "winner": false
+      },
+      "home": {
+        "id": "24",
+        "homeAway": "home",
+        "abbreviation": "STL",
+        "name": "St. Louis Cardinals",
+        "shortName": "Cardinals",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
+        "score": "0",
+        "record": "",
+        "winner": false
+      },
+      "matchedEvent": null
+    },
+    {
+      "id": "401816231",
+      "name": "Kansas City Royals at Detroit Tigers",
+      "status": {
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Scheduled",
+        "shortDetail": "7/23 - 6:40 PM EDT"
+      },
+      "away": {
+        "id": "7",
+        "homeAway": "away",
+        "abbreviation": "KC",
+        "name": "Kansas City Royals",
+        "shortName": "Royals",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
+        "score": "0",
+        "record": "",
+        "winner": false
+      },
+      "home": {
+        "id": "6",
+        "homeAway": "home",
+        "abbreviation": "DET",
+        "name": "Detroit Tigers",
+        "shortName": "Tigers",
+        "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
+        "score": "0",
+        "record": "",
+        "winner": false
       },
       "matchedEvent": null
     }
   ],
-  "odds": [],
-  "details": []
+  "odds": []
 }
