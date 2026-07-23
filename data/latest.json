@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T01:43:19.425Z",
+  "capturedAt": "2026-07-23T01:48:27.577Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 10,
-  "gameStates": 8,
+  "newPlays": 11,
+  "gameStates": 7,
   "injuries": 0,
-  "liveGames": 8,
+  "liveGames": 7,
   "games": [
     {
       "id": "401816219",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "detail": "End 9th",
+        "shortDetail": "End 9th"
       },
       "away": {
         "id": "19",
@@ -356,7 +356,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 9th",
-        "shortDetail": "Mid 9th"
+        "detail": "Bottom 9th",
+        "shortDetail": "Bot 9th"
       },
       "away": {
         "id": "9",
@@ -434,11 +434,11 @@
       "id": "401816221",
       "name": "Tampa Bay Rays at Toronto Blue Jays",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "30",
@@ -449,7 +449,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
         "score": "4",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "14",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "1",
@@ -526,7 +526,7 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "3",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "4",
@@ -607,8 +607,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 6th",
-        "shortDetail": "Mid 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "28",
