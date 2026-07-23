@@ -3354,3 +3354,93 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-23T01:07:09.055Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,1,1,0.546,Wrigley Field,,,,,,,,,,,,,,,,0
 2026-07-23T01:07:09.055Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
 2026-07-23T01:07:09.055Z,401816224,Miami Marlins at Houston Astros,in,Top 4th,Miami Marlins,Houston Astros,1,2,0.685,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,6,3,0.06,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.05,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401898714,Pittsburgh Pirates at New York Yankees,in,Top 8th,Pittsburgh Pirates,New York Yankees,0,2,0.916,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Middle 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816216,Baltimore Orioles at Boston Red Sox,in,Bottom 6th,Baltimore Orioles,Boston Red Sox,4,1,0.143,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.526,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,1,1,0.546,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:07:34.491Z,401816224,Miami Marlins at Houston Astros,in,Top 4th,Miami Marlins,Houston Astros,1,2,0.685,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,6,3,0.06,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.05,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401898714,Pittsburgh Pirates at New York Yankees,in,Top 8th,Pittsburgh Pirates,New York Yankees,0,2,0.916,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Middle 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816216,Baltimore Orioles at Boston Red Sox,in,Bottom 6th,Baltimore Orioles,Boston Red Sox,4,1,0.143,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.526,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,1,1,0.596,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:06.476Z,401816224,Miami Marlins at Houston Astros,in,Top 4th,Miami Marlins,Houston Astros,2,2,0.568,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.06,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.05,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401898714,Pittsburgh Pirates at New York Yankees,in,Top 8th,Pittsburgh Pirates,New York Yankees,0,2,0.916,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816216,Baltimore Orioles at Boston Red Sox,in,Bottom 6th,Baltimore Orioles,Boston Red Sox,4,1,0.124,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.526,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,1,1,0.596,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:08:37.714Z,401816224,Miami Marlins at Houston Astros,in,Top 4th,Miami Marlins,Houston Astros,2,2,0.568,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.006,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.05,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401898714,Pittsburgh Pirates at New York Yankees,in,Top 8th,Pittsburgh Pirates,New York Yankees,0,2,0.936,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816216,Baltimore Orioles at Boston Red Sox,in,End 6th,Baltimore Orioles,Boston Red Sox,4,1,0.137,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.526,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,4,1,0.596,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:09.005Z,401816224,Miami Marlins at Houston Astros,in,Top 4th,Miami Marlins,Houston Astros,2,2,0.568,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.006,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.029,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401898714,Pittsburgh Pirates at New York Yankees,in,Top 8th,Pittsburgh Pirates,New York Yankees,0,2,0.936,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816216,Baltimore Orioles at Boston Red Sox,in,End 6th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.526,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,4,1,0.254,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.319,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:09:41.001Z,401816224,Miami Marlins at Houston Astros,in,Middle 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.006,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.029,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401898714,Pittsburgh Pirates at New York Yankees,in,Middle 8th,Pittsburgh Pirates,New York Yankees,0,2,0.936,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816216,Baltimore Orioles at Boston Red Sox,in,End 6th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.586,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816223,Detroit Tigers at Chicago Cubs,in,Top 4th,Detroit Tigers,Chicago Cubs,4,1,0.254,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.3,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:12.343Z,401816224,Miami Marlins at Houston Astros,in,Middle 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Top 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.006,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.029,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401898714,Pittsburgh Pirates at New York Yankees,in,Middle 8th,Pittsburgh Pirates,New York Yankees,0,2,0.943,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816216,Baltimore Orioles at Boston Red Sox,in,End 6th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.586,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816223,Detroit Tigers at Chicago Cubs,in,Middle 4th,Detroit Tigers,Chicago Cubs,4,1,0.254,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.3,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:10:43.880Z,401816224,Miami Marlins at Houston Astros,in,Middle 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.007,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,7,4,0.029,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401898714,Pittsburgh Pirates at New York Yankees,in,Middle 8th,Pittsburgh Pirates,New York Yankees,0,2,0.943,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816216,Baltimore Orioles at Boston Red Sox,in,Top 7th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816220,San Diego Padres at Atlanta Braves,in,Top 7th,San Diego Padres,Atlanta Braves,1,1,0.539,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816223,Detroit Tigers at Chicago Cubs,in,Middle 4th,Detroit Tigers,Chicago Cubs,4,1,0.257,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.3,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:15.111Z,401816224,Miami Marlins at Houston Astros,in,Middle 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.007,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,9,4,0.029,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401898714,Pittsburgh Pirates at New York Yankees,in,Middle 8th,Pittsburgh Pirates,New York Yankees,0,2,0.943,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.109,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816216,Baltimore Orioles at Boston Red Sox,in,Top 7th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816220,San Diego Padres at Atlanta Braves,in,Middle 7th,San Diego Padres,Atlanta Braves,1,1,0.539,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816223,Detroit Tigers at Chicago Cubs,in,Middle 4th,Detroit Tigers,Chicago Cubs,4,1,0.257,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816222,Chicago White Sox at Texas Rangers,in,Top 4th,Chicago White Sox,Texas Rangers,3,1,0.3,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:11:48.272Z,401816224,Miami Marlins at Houston Astros,in,Bottom 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816217,Los Angeles Dodgers at Philadelphia Phillies,in,Middle 8th,Los Angeles Dodgers,Philadelphia Phillies,9,3,0.007,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816218,Minnesota Twins at Cleveland Guardians,in,Top 8th,Minnesota Twins,Cleveland Guardians,9,4,0.009,Progressive Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401898714,Pittsburgh Pirates at New York Yankees,in,Bottom 8th,Pittsburgh Pirates,New York Yankees,0,2,0.943,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816221,Tampa Bay Rays at Toronto Blue Jays,in,Bottom 7th,Tampa Bay Rays,Toronto Blue Jays,4,1,0.092,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816216,Baltimore Orioles at Boston Red Sox,in,Top 7th,Baltimore Orioles,Boston Red Sox,4,1,0.114,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816220,San Diego Padres at Atlanta Braves,in,Middle 7th,San Diego Padres,Atlanta Braves,1,1,0.539,Truist Park,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816223,Detroit Tigers at Chicago Cubs,in,Middle 4th,Detroit Tigers,Chicago Cubs,4,1,0.257,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816222,Chicago White Sox at Texas Rangers,in,Middle 4th,Chicago White Sox,Texas Rangers,3,1,0.3,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-07-23T01:12:20.103Z,401816224,Miami Marlins at Houston Astros,in,Bottom 4th,Miami Marlins,Houston Astros,2,2,0.586,Daikin Park,,,,,,,,,,,,,,,,0
