@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T02:49:42.944Z",
+  "capturedAt": "2026-07-23T02:52:41.408Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
-  "gameStates": 1,
+  "newPlays": 0,
+  "gameStates": 0,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 0,
   "games": [
     {
       "id": "401816219",
@@ -570,11 +570,11 @@
       "id": "401816222",
       "name": "Chicago White Sox at Texas Rangers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "4",
@@ -585,7 +585,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
         "score": "4",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "13",
