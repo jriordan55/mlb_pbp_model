@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T19:02:16.224Z",
+  "capturedAt": "2026-07-23T19:07:25.345Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
-  "gameStates": 1,
+  "newPlays": 0,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816233",
@@ -128,11 +128,11 @@
       "id": "401816234",
       "name": "Tampa Bay Rays at Toronto Blue Jays",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/23 - 3:07 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "30",
