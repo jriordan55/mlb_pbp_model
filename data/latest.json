@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-23T22:47:45.741Z",
+  "capturedAt": "2026-07-23T22:52:54.106Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "29",
