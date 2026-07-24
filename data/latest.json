@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-24T01:06:54.386Z",
+  "capturedAt": "2026-07-24T01:12:03.923Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -220,7 +220,7 @@
         "name": "Detroit Tigers",
         "shortName": "Tigers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
