@@ -6914,3 +6914,103 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-24T23:46:12.585Z,401816242,San Diego Padres at Miami Marlins,in,Bottom 2nd,San Diego Padres,Miami Marlins,0,1,0.723,loanDepot park,,,,,,,,,,,,,,,,0
 2026-07-24T23:46:12.585Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.578,Fenway Park,,,,,,,,,,,,,,,,0
 2026-07-24T23:46:12.585Z,401816247,Houston Astros at Chicago White Sox,in,Middle 1st,Houston Astros,Chicago White Sox,0,0,0.634,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.67,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.81,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,0,0.224,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816241,New York Yankees at Philadelphia Phillies,in,End 4th,New York Yankees,Philadelphia Phillies,1,0,0.306,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816236,Atlanta Braves at Baltimore Orioles,in,Top 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.748,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816240,Los Angeles Dodgers at New York Mets,in,Top 3rd,Los Angeles Dodgers,New York Mets,0,1,0.613,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816242,San Diego Padres at Miami Marlins,in,Bottom 2nd,San Diego Padres,Miami Marlins,0,1,0.723,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.578,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:46:34.654Z,401816247,Houston Astros at Chicago White Sox,in,Middle 1st,Houston Astros,Chicago White Sox,0,0,0.634,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.67,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.81,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.306,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816236,Atlanta Braves at Baltimore Orioles,in,Top 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.748,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816240,Los Angeles Dodgers at New York Mets,in,Top 3rd,Los Angeles Dodgers,New York Mets,0,1,0.613,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816242,San Diego Padres at Miami Marlins,in,Bottom 2nd,San Diego Padres,Miami Marlins,0,1,0.723,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:07.419Z,401816247,Houston Astros at Chicago White Sox,in,Middle 1st,Houston Astros,Chicago White Sox,0,0,0.634,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.755,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.81,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816235,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.306,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816236,Atlanta Braves at Baltimore Orioles,in,Middle 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816240,Los Angeles Dodgers at New York Mets,in,Top 3rd,Los Angeles Dodgers,New York Mets,0,1,0.613,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816242,San Diego Padres at Miami Marlins,in,Bottom 2nd,San Diego Padres,Miami Marlins,0,1,0.723,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:47:38.758Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.634,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.755,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.796,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816235,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816236,Atlanta Braves at Baltimore Orioles,in,Middle 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,End 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816240,Los Angeles Dodgers at New York Mets,in,Top 3rd,Los Angeles Dodgers,New York Mets,0,1,0.613,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816242,San Diego Padres at Miami Marlins,in,End 2nd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:10.828Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.679,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.755,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.796,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816235,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816236,Atlanta Braves at Baltimore Orioles,in,Middle 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,End 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816240,Los Angeles Dodgers at New York Mets,in,Top 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816242,San Diego Padres at Miami Marlins,in,End 2nd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:48:41.968Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.679,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,0,0.755,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.796,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816236,Atlanta Braves at Baltimore Orioles,in,Middle 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,End 3rd,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816240,Los Angeles Dodgers at New York Mets,in,Middle 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816242,San Diego Padres at Miami Marlins,in,End 2nd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:12.932Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.679,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,1,0.755,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.783,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816236,Atlanta Braves at Baltimore Orioles,in,Bottom 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Top 4th,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816240,Los Angeles Dodgers at New York Mets,in,Middle 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816242,San Diego Padres at Miami Marlins,in,End 2nd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.539,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:49:43.938Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.679,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,1,0.852,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.783,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,0,0.241,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816236,Atlanta Braves at Baltimore Orioles,in,Bottom 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Top 4th,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816240,Los Angeles Dodgers at New York Mets,in,Middle 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816242,San Diego Padres at Miami Marlins,in,Top 3rd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.577,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:14.974Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.679,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,1,0.852,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.783,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,0,0.234,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.276,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816236,Atlanta Braves at Baltimore Orioles,in,Bottom 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.777,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Top 4th,Cleveland Guardians,Tampa Bay Rays,0,2,0.778,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816240,Los Angeles Dodgers at New York Mets,in,Bottom 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816242,San Diego Padres at Miami Marlins,in,Top 3rd,San Diego Padres,Miami Marlins,0,1,0.705,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.577,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:50:46.166Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.72,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 5th,Chicago Cubs,Pittsburgh Pirates,0,1,0.852,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 5th,Kansas City Royals,Detroit Tigers,1,2,0.783,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,0,0.234,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 5th,New York Yankees,Philadelphia Phillies,1,0,0.273,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816236,Atlanta Braves at Baltimore Orioles,in,Bottom 3rd,Atlanta Braves,Baltimore Orioles,0,2,0.761,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816238,Cleveland Guardians at Tampa Bay Rays,in,Top 4th,Cleveland Guardians,Tampa Bay Rays,0,2,0.684,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816240,Los Angeles Dodgers at New York Mets,in,Bottom 3rd,Los Angeles Dodgers,New York Mets,0,1,0.595,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816242,San Diego Padres at Miami Marlins,in,Top 3rd,San Diego Padres,Miami Marlins,0,1,0.727,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816243,Toronto Blue Jays at Boston Red Sox,in,Top 2nd,Toronto Blue Jays,Boston Red Sox,0,1,0.607,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:51:17.753Z,401816247,Houston Astros at Chicago White Sox,in,Bottom 1st,Houston Astros,Chicago White Sox,0,0,0.72,Rate Field,,,,,,,,,,,,,,,,0
