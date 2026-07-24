@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-24T23:05:16.366Z",
+  "capturedAt": "2026-07-24T23:10:16.158Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
-  "gameStates": 4,
+  "newPlays": 12,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 4,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816246",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "16",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "29",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "10",
@@ -230,11 +230,11 @@
       "id": "401816236",
       "name": "Atlanta Braves at Baltimore Orioles",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/24 - 7:05 PM EDT"
+        "description": "In Progress",
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "15",
@@ -264,11 +264,11 @@
       "id": "401816238",
       "name": "Cleveland Guardians at Tampa Bay Rays",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/24 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "5",
