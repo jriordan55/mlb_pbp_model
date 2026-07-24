@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-24T22:39:24.905Z",
+  "capturedAt": "2026-07-24T22:44:26.594Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
-  "gameStates": 1,
+  "newPlays": 5,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816246",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "27",
@@ -94,11 +94,11 @@
       "id": "401816237",
       "name": "Chicago Cubs at Pittsburgh Pirates",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/24 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "16",
@@ -128,11 +128,11 @@
       "id": "401816239",
       "name": "Kansas City Royals at Detroit Tigers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/24 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "7",
