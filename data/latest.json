@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-24T22:59:44.832Z",
+  "capturedAt": "2026-07-24T23:05:16.366Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,20 +51,20 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
-  "gameStates": 5,
+  "newPlays": 1,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 5,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816246",
       "name": "Colorado Rockies at Milwaukee Brewers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "27",
@@ -75,7 +75,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "8",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "16",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "7",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "29",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "10",

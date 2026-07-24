@@ -6184,3 +6184,52 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-24T22:59:44.832Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.869,Comerica Park,,,,,,,,,,,,,,,,0
 2026-07-24T22:59:44.832Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Middle 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.43,Nationals Park,,,,,,,,,,,,,,,,0
 2026-07-24T22:59:44.832Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:06.823Z,401816246,Colorado Rockies at Milwaukee Brewers,in,Bottom 9th,Colorado Rockies,Milwaukee Brewers,5,2,0.096,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:06.823Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.501,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:06.823Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.869,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:06.823Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Middle 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.43,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:06.823Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:38.202Z,401816246,Colorado Rockies at Milwaukee Brewers,in,Bottom 9th,Colorado Rockies,Milwaukee Brewers,5,2,0.04,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:38.202Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.501,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:38.202Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.88,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:38.202Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Middle 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.43,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:00:38.202Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:09.015Z,401816246,Colorado Rockies at Milwaukee Brewers,in,Bottom 9th,Colorado Rockies,Milwaukee Brewers,5,2,0.04,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:09.015Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.501,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:09.015Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.886,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:09.015Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.43,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:09.015Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:39.868Z,401816246,Colorado Rockies at Milwaukee Brewers,in,Bottom 9th,Colorado Rockies,Milwaukee Brewers,5,2,0.04,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:39.868Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.501,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:39.868Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.886,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:39.868Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.43,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:01:39.868Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.446,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:10.615Z,401816246,Colorado Rockies at Milwaukee Brewers,in,End 9th,Colorado Rockies,Milwaukee Brewers,5,2,0,American Family Field,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:10.615Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.5,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:10.615Z,401816239,Kansas City Royals at Detroit Tigers,in,Top 2nd,Kansas City Royals,Detroit Tigers,0,2,0.886,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:10.615Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.474,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:10.615Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.467,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:42.081Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.5,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:42.081Z,401816239,Kansas City Royals at Detroit Tigers,in,Middle 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:42.081Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.474,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:02:42.081Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.467,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:12.905Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.5,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:12.905Z,401816239,Kansas City Royals at Detroit Tigers,in,Middle 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:12.905Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.474,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:12.905Z,401816241,New York Yankees at Philadelphia Phillies,in,Top 2nd,New York Yankees,Philadelphia Phillies,0,0,0.479,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:43.902Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.5,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:43.902Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:43.902Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.474,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:03:43.902Z,401816241,New York Yankees at Philadelphia Phillies,in,Middle 2nd,New York Yankees,Philadelphia Phillies,0,0,0.479,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:14.810Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,Bottom 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.482,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:14.810Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:14.810Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.438,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:14.810Z,401816241,New York Yankees at Philadelphia Phillies,in,Middle 2nd,New York Yankees,Philadelphia Phillies,0,0,0.479,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:45.621Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,End 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.471,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:45.621Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:45.621Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.518,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:04:45.621Z,401816241,New York Yankees at Philadelphia Phillies,in,Middle 2nd,New York Yankees,Philadelphia Phillies,0,0,0.479,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:05:16.366Z,401816237,Chicago Cubs at Pittsburgh Pirates,in,End 2nd,Chicago Cubs,Pittsburgh Pirates,0,0,0.471,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:05:16.366Z,401816239,Kansas City Royals at Detroit Tigers,in,Bottom 2nd,Kansas City Royals,Detroit Tigers,0,2,0.887,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:05:16.366Z,401816235,Arizona Diamondbacks at Washington Nationals,in,Bottom 1st,Arizona Diamondbacks,Washington Nationals,0,0,0.518,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-24T23:05:16.366Z,401816241,New York Yankees at Philadelphia Phillies,in,Middle 2nd,New York Yankees,Philadelphia Phillies,0,0,0.479,Citizens Bank Park,,,,,,,,,,,,,,,,0
