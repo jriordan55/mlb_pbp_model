@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-24T01:27:28.809Z",
+  "capturedAt": "2026-07-24T01:28:40.467Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 0,
-  "gameStates": 1,
+  "gameStates": 0,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 0,
   "games": [
     {
       "id": "401816233",
@@ -196,11 +196,11 @@
       "id": "401816231",
       "name": "Kansas City Royals at Detroit Tigers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "7",
@@ -222,7 +222,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
         "score": "4",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     }
