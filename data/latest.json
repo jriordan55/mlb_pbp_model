@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-25T20:47:16.696Z",
+  "capturedAt": "2026-07-25T20:52:22.114Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
+  "newPlays": 7,
   "gameStates": 4,
   "injuries": 0,
   "liveGames": 4,
@@ -107,7 +107,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -152,7 +152,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "25",
@@ -209,7 +209,7 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "1",
+        "score": "4",
         "record": "",
         "winner": false
       },
