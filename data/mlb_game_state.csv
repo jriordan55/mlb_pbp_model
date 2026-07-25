@@ -10630,3 +10630,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-25T22:49:12.681Z,401816256,New York Yankees at Philadelphia Phillies,in,Bottom 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
 2026-07-25T22:49:12.681Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Middle 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
 2026-07-25T22:49:12.681Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Middle 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:49:34.881Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,4,1,0.045,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:49:34.881Z,401816256,New York Yankees at Philadelphia Phillies,in,Bottom 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:49:34.881Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Middle 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:49:34.881Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Middle 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:06.202Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,6,1,0.014,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:06.202Z,401816256,New York Yankees at Philadelphia Phillies,in,Bottom 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:06.202Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Middle 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:06.202Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Middle 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:37.205Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,6,1,0.014,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:37.205Z,401816256,New York Yankees at Philadelphia Phillies,in,Bottom 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:37.205Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:50:37.205Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:08.277Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,6,1,0.014,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:08.277Z,401816256,New York Yankees at Philadelphia Phillies,in,End 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:08.277Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:08.277Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:39.230Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,6,1,0.014,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:39.230Z,401816256,New York Yankees at Philadelphia Phillies,in,End 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:39.230Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.627,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:51:39.230Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.675,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:10.213Z,401816257,San Diego Padres at Miami Marlins,in,Top 8th,San Diego Padres,Miami Marlins,6,1,0.014,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:10.213Z,401816256,New York Yankees at Philadelphia Phillies,in,End 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:10.213Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.607,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:10.213Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.655,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:41.075Z,401816257,San Diego Padres at Miami Marlins,in,Middle 8th,San Diego Padres,Miami Marlins,6,1,0.019,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:41.075Z,401816256,New York Yankees at Philadelphia Phillies,in,End 3rd,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:41.075Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.607,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:52:41.075Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.655,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:13.014Z,401816257,San Diego Padres at Miami Marlins,in,Middle 8th,San Diego Padres,Miami Marlins,6,1,0.019,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:13.014Z,401816256,New York Yankees at Philadelphia Phillies,in,Top 4th,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:13.014Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.607,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:13.014Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,Bottom 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.655,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:44.139Z,401816257,San Diego Padres at Miami Marlins,in,Middle 8th,San Diego Padres,Miami Marlins,6,1,0.019,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:44.139Z,401816256,New York Yankees at Philadelphia Phillies,in,Top 4th,New York Yankees,Philadelphia Phillies,1,1,0.528,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:44.139Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.638,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:53:44.139Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,End 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.64,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:54:14.981Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 8th,San Diego Padres,Miami Marlins,6,1,0.019,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T22:54:14.981Z,401816256,New York Yankees at Philadelphia Phillies,in,Top 4th,New York Yankees,Philadelphia Phillies,1,1,0.509,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-07-25T22:54:14.981Z,401816253,Cleveland Guardians at Tampa Bay Rays,in,Bottom 3rd,Cleveland Guardians,Tampa Bay Rays,0,0,0.638,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-25T22:54:14.981Z,401816252,Chicago Cubs at Pittsburgh Pirates,in,End 1st,Chicago Cubs,Pittsburgh Pirates,0,0,0.64,PNC Park,,,,,,,,,,,,,,,,0
