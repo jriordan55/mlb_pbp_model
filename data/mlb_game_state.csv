@@ -9704,3 +9704,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-25T21:07:37.477Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
 2026-07-25T21:07:37.477Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,0,0.562,loanDepot park,,,,,,,,,,,,,,,,0
 2026-07-25T21:07:37.477Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Top 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.092,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:07:59.908Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.839,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:07:59.908Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:07:59.908Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,0,0.562,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:07:59.908Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Top 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:08:31.955Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.839,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:08:31.955Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:08:31.955Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,0,0.562,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:08:31.955Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Top 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:02.995Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:02.995Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:02.995Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:02.995Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Middle 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:34.180Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Bottom 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:34.180Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:34.180Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:09:34.180Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Middle 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:05.191Z,401816250,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:05.191Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,5,0.976,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:05.191Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:05.191Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Middle 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:38.487Z,401816250,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:38.487Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,6,0.985,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:38.487Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:10:38.487Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Bottom 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.095,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:09.449Z,401816250,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:09.449Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,6,0.985,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:09.449Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:09.449Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Bottom 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.087,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:40.401Z,401816250,Arizona Diamondbacks at Washington Nationals,in,End 3rd,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:40.401Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,6,0.985,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:40.401Z,401816257,San Diego Padres at Miami Marlins,in,Bottom 3rd,San Diego Padres,Miami Marlins,2,1,0.479,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:11:40.401Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Bottom 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.087,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:12.879Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:12.879Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,6,0.985,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:12.879Z,401816257,San Diego Padres at Miami Marlins,in,End 3rd,San Diego Padres,Miami Marlins,2,1,0.468,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:12.879Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Bottom 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.087,Fenway Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:43.904Z,401816250,Arizona Diamondbacks at Washington Nationals,in,Top 4th,Arizona Diamondbacks,Washington Nationals,2,4,0.819,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:43.904Z,401816264,Los Angeles Angels at San Francisco Giants,in,Bottom 4th,Los Angeles Angels,San Francisco Giants,0,6,0.982,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:43.904Z,401816257,San Diego Padres at Miami Marlins,in,End 3rd,San Diego Padres,Miami Marlins,2,1,0.468,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-25T21:12:43.904Z,401816258,Toronto Blue Jays at Boston Red Sox,in,Bottom 4th,Toronto Blue Jays,Boston Red Sox,5,0,0.078,Fenway Park,,,,,,,,,,,,,,,,0

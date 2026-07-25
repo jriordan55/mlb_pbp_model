@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-25T21:07:37.477Z",
+  "capturedAt": "2026-07-25T21:12:43.904Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
+  "newPlays": 5,
   "gameStates": 4,
   "injuries": 0,
   "liveGames": 4,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "29",
@@ -152,7 +152,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "5",
+        "score": "6",
         "record": "",
         "winner": false
       },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "25",
@@ -186,7 +186,7 @@
         "name": "Miami Marlins",
         "shortName": "Marlins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "14",
