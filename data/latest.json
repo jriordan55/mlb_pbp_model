@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-25T23:24:42.160Z",
+  "capturedAt": "2026-07-25T23:29:49.902Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 17,
-  "gameStates": 11,
+  "newPlays": 11,
+  "gameStates": 10,
   "injuries": 0,
-  "liveGames": 11,
+  "liveGames": 10,
   "games": [
     {
       "id": "401816254",
@@ -162,11 +162,11 @@
       "id": "401816257",
       "name": "San Diego Padres at Miami Marlins",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "25",
@@ -177,7 +177,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
         "score": "7",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "28",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "10",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "5",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "11",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "27",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 1st",
-        "shortDetail": "End 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "18",
@@ -526,7 +526,7 @@
         "name": "St. Louis Cardinals",
         "shortName": "Cardinals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -560,7 +560,7 @@
         "name": "Texas Rangers",
         "shortName": "Rangers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
