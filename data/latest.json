@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-25T19:13:21.485Z",
+  "capturedAt": "2026-07-25T19:18:23.070Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
+  "newPlays": 3,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -73,7 +73,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
