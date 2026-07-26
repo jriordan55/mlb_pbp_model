@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T01:13:17.731Z",
+  "capturedAt": "2026-07-26T01:18:37.576Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 12,
+  "newPlays": 15,
   "gameStates": 8,
   "injuries": 0,
   "liveGames": 8,
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 8th",
-        "shortDetail": "Mid 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "16",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "15",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 7th",
-        "shortDetail": "Mid 7th"
+        "detail": "End 7th",
+        "shortDetail": "End 7th"
       },
       "away": {
         "id": "11",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "18",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "19",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "17",
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 7th",
-        "shortDetail": "Mid 7th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "12",
