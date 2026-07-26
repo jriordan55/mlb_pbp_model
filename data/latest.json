@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T18:10:11.838Z",
+  "capturedAt": "2026-07-26T18:15:33.088Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,20 +51,20 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 24,
-  "gameStates": 8,
+  "newPlays": 20,
+  "gameStates": 10,
   "injuries": 0,
-  "liveGames": 8,
+  "liveGames": 10,
   "games": [
     {
       "id": "401816268",
       "name": "Cleveland Guardians at Tampa Bay Rays",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "5",
@@ -86,7 +86,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
         "score": "1",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "29",
@@ -107,7 +107,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "15",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "16",
@@ -186,7 +186,7 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "1",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "19",
@@ -332,11 +332,11 @@
       "id": "401816274",
       "name": "Athletics Athletics at Minnesota Twins",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 2:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "11",
@@ -366,11 +366,11 @@
       "id": "401816276",
       "name": "Colorado Rockies at Milwaukee Brewers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 2:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "27",
@@ -400,11 +400,11 @@
       "id": "401816277",
       "name": "Houston Astros at Chicago White Sox",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 2:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "18",
@@ -413,7 +413,7 @@
         "name": "Houston Astros",
         "shortName": "Astros",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
