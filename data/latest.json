@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T21:01:50.247Z",
+  "capturedAt": "2026-07-26T21:07:05.685Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 15,
+  "newPlays": 23,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -345,7 +345,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "6",
+        "score": "8",
         "record": "",
         "winner": false
       },
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "12",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "3",
@@ -515,7 +515,7 @@
         "name": "Los Angeles Angels",
         "shortName": "Angels",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
