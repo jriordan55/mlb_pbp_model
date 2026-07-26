@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T17:11:55.469Z",
+  "capturedAt": "2026-07-26T17:17:12.411Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 5th",
-        "shortDetail": "Mid 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "5",
@@ -84,7 +84,7 @@
         "name": "Tampa Bay Rays",
         "shortName": "Rays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
