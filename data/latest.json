@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T01:55:52.203Z",
+  "capturedAt": "2026-07-26T02:01:09.176Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
-  "gameStates": 2,
+  "newPlays": 2,
+  "gameStates": 1,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 1,
   "games": [
     {
       "id": "401816254",
@@ -400,11 +400,11 @@
       "id": "401816261",
       "name": "Colorado Rockies at Milwaukee Brewers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "27",
@@ -426,7 +426,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
         "score": "8",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "detail": "Bottom 9th",
+        "shortDetail": "Bot 9th"
       },
       "away": {
         "id": "19",
