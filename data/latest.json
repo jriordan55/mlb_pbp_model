@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T00:21:06.048Z",
+  "capturedAt": "2026-07-26T00:26:16.146Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 21,
+  "newPlays": 11,
   "gameStates": 10,
   "injuries": 0,
   "liveGames": 10,
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 8th",
-        "shortDetail": "Mid 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "5",
@@ -311,7 +311,7 @@
         "name": "Chicago Cubs",
         "shortName": "Cubs",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-        "score": "6",
+        "score": "8",
         "record": "",
         "winner": false
       },
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "15",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "detail": "Top 5th",
+        "shortDetail": "Top 5th"
       },
       "away": {
         "id": "11",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "27",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "18",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "detail": "Top 5th",
+        "shortDetail": "Top 5th"
       },
       "away": {
         "id": "19",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "17",
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "12",
