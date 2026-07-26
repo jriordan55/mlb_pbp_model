@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T18:26:16.151Z",
+  "capturedAt": "2026-07-26T18:31:36.710Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 26,
+  "newPlays": 16,
   "gameStates": 11,
   "injuries": 0,
   "liveGames": 11,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "29",
@@ -107,7 +107,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "15",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "16",
@@ -186,7 +186,7 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "3",
+        "score": "7",
         "record": "",
         "winner": false
       },
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "14",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 3rd",
-        "shortDetail": "Mid 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "7",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "25",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "11",
@@ -356,7 +356,7 @@
         "name": "Minnesota Twins",
         "shortName": "Twins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
-        "score": "1",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "27",
@@ -390,7 +390,7 @@
         "name": "Milwaukee Brewers",
         "shortName": "Brewers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "18",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "17",
