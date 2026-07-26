@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T23:46:49.425Z",
+  "capturedAt": "2026-07-26T23:52:22.462Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
+  "newPlays": 1,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "10",
@@ -560,7 +560,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
