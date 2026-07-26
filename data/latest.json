@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-26T17:38:17.150Z",
+  "capturedAt": "2026-07-26T17:43:34.911Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 10,
-  "gameStates": 4,
+  "newPlays": 20,
+  "gameStates": 8,
   "injuries": 0,
-  "liveGames": 4,
+  "liveGames": 8,
   "games": [
     {
       "id": "401816268",
@@ -107,7 +107,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -162,11 +162,11 @@
       "id": "401816267",
       "name": "Chicago Cubs at Pittsburgh Pirates",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 1:35 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "16",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "14",
@@ -230,11 +230,11 @@
       "id": "401816269",
       "name": "Kansas City Royals at Detroit Tigers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 1:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "7",
@@ -264,11 +264,11 @@
       "id": "401816270",
       "name": "Los Angeles Dodgers at New York Mets",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 1:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "19",
@@ -298,11 +298,11 @@
       "id": "401816272",
       "name": "San Diego Padres at Miami Marlins",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/26 - 1:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "25",
