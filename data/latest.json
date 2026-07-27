@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-27T00:13:58.065Z",
+  "capturedAt": "2026-07-27T00:19:02.179Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -560,7 +560,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "2",
+        "score": "5",
         "record": "",
         "winner": false
       },
