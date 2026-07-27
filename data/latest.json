@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-27T23:25:06.929Z",
+  "capturedAt": "2026-07-27T23:30:17.262Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 9,
-  "gameStates": 6,
+  "newPlays": 10,
+  "gameStates": 7,
   "injuries": 0,
-  "liveGames": 6,
+  "liveGames": 7,
   "games": [
     {
       "id": "401816288",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 3rd",
-        "shortDetail": "End 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "29",
@@ -141,7 +141,7 @@
         "name": "Baltimore Orioles",
         "shortName": "Orioles",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -209,7 +209,7 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -288,7 +288,7 @@
         "name": "New York Mets",
         "shortName": "Mets",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -332,11 +332,11 @@
       "id": "401816286",
       "name": "Chicago Cubs at St. Louis Cardinals",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/27 - 7:45 PM EDT"
+        "description": "Delayed",
+        "detail": "Delayed, Top 1st",
+        "shortDetail": "Delayed, Top 1st"
       },
       "away": {
         "id": "16",
