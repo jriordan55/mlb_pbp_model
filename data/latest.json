@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-27T23:45:48.162Z",
+  "capturedAt": "2026-07-27T23:50:59.765Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
-  "gameStates": 8,
+  "newPlays": 7,
+  "gameStates": 7,
   "injuries": 0,
-  "liveGames": 8,
+  "liveGames": 7,
   "games": [
     {
       "id": "401816288",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 5th",
-        "shortDetail": "Mid 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "29",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "22",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "14",
@@ -230,11 +230,11 @@
       "id": "401816283",
       "name": "Cleveland Guardians at Cincinnati Reds",
       "status": {
-        "state": "in",
+        "state": "post",
         "completed": false,
-        "description": "Delayed",
-        "detail": "Delayed, Top 1st",
-        "shortDetail": "Delayed, Top 1st"
+        "description": "Postponed",
+        "detail": "Postponed",
+        "shortDetail": "Postponed"
       },
       "away": {
         "id": "5",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "15",
