@@ -19521,3 +19521,53 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-28T02:42:18.308Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
 2026-07-28T02:42:18.308Z,401816289,Boston Red Sox at Athletics Athletics,in,End 4th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-07-28T02:42:18.308Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.651,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:42:41.022Z,401816287,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,9,4,0.017,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:42:41.022Z,401816286,Chicago Cubs at St. Louis Cardinals,in,End 4th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:42:41.022Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:42:41.022Z,401816289,Boston Red Sox at Athletics Athletics,in,End 4th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:42:41.022Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.651,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:12.367Z,401816287,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,9,4,0.017,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:12.367Z,401816286,Chicago Cubs at St. Louis Cardinals,in,End 4th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:12.367Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:12.367Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:12.367Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.651,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:43.792Z,401816287,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:43.792Z,401816286,Chicago Cubs at St. Louis Cardinals,in,End 4th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:43.792Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:43.792Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:43:43.792Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.651,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:15.317Z,401816287,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:15.317Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:15.317Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:15.317Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:15.317Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.651,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:46.903Z,401816287,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:46.903Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:46.903Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.86,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:46.903Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.575,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:44:46.903Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.684,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:18.441Z,401816287,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:18.441Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:18.441Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.864,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:18.441Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.609,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:18.441Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.684,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:49.763Z,401816287,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:49.763Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:49.763Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.864,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:49.763Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.609,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:45:49.763Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.684,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:21.007Z,401816287,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,9,4,0.018,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:21.007Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.229,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:21.007Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.864,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:21.007Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.635,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:21.007Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.684,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:52.714Z,401816287,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,9,4,0.01,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:52.714Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.204,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:52.714Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.864,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:52.714Z,401816289,Boston Red Sox at Athletics Athletics,in,Top 5th,Boston Red Sox,Athletics,0,1,0.635,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:46:52.714Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.684,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:47:24.009Z,401816287,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,9,4,0.01,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-28T02:47:24.009Z,401816286,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,3,1,0.204,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:47:24.009Z,401816290,Houston Astros at Los Angeles Angels,in,Bottom 3rd,Houston Astros,Los Angeles Angels,0,3,0.864,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T02:47:24.009Z,401816289,Boston Red Sox at Athletics Athletics,in,Middle 5th,Boston Red Sox,Athletics,0,1,0.65,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-28T02:47:24.009Z,401816291,Milwaukee Brewers at San Francisco Giants,in,Bottom 4th,Milwaukee Brewers,San Francisco Giants,0,1,0.613,Oracle Park,,,,,,,,,,,,,,,,0
