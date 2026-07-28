@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-28T06:12:37.854Z",
+  "capturedAt": "2026-07-28T06:12:04.378Z",
   "mode": "prematch",
   "sport": "MLB",
   "markets": [
@@ -54,7 +54,7 @@
   "newPlays": 0,
   "gameStates": 0,
   "injuries": 0,
-  "liveGames": 0,
+  "liveGames": 1,
   "games": [
     {
       "id": "401816288",
@@ -332,11 +332,11 @@
       "id": "401816286",
       "name": "Chicago Cubs at St. Louis Cardinals",
       "status": {
-        "state": "post",
-        "completed": true,
-        "description": "Final",
-        "detail": "Final",
-        "shortDetail": "Final"
+        "state": "in",
+        "completed": false,
+        "description": "In Progress",
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "16",
@@ -345,9 +345,9 @@
         "name": "Chicago Cubs",
         "shortName": "Cubs",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-        "score": "7",
+        "score": "5",
         "record": "",
-        "winner": true
+        "winner": false
       },
       "home": {
         "id": "24",
