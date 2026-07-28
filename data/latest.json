@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-28T04:40:16.631Z",
+  "capturedAt": "2026-07-28T04:45:44.023Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
+  "newPlays": 2,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "detail": "Middle 9th",
+        "shortDetail": "Mid 9th"
       },
       "away": {
         "id": "18",
@@ -379,7 +379,7 @@
         "name": "Houston Astros",
         "shortName": "Astros",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "4",
+        "score": "6",
         "record": "",
         "winner": false
       },
