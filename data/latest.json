@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-28T02:26:47.078Z",
+  "capturedAt": "2026-07-28T02:31:56.927Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
+  "newPlays": 4,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "End 7th",
+        "shortDetail": "End 7th"
       },
       "away": {
         "id": "10",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "18",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "2",
@@ -458,7 +458,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
