@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-28T00:37:45.363Z",
+  "capturedAt": "2026-07-28T00:42:58.785Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Middle 7th",
+        "shortDetail": "Mid 7th"
       },
       "away": {
         "id": "29",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "1",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "22",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "14",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "15",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "10",
