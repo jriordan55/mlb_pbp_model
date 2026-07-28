@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-28T01:45:30.669Z",
+  "capturedAt": "2026-07-28T01:50:36.033Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 9,
-  "gameStates": 7,
+  "newPlays": 15,
+  "gameStates": 5,
   "injuries": 0,
-  "liveGames": 7,
+  "liveGames": 5,
   "games": [
     {
       "id": "401816288",
@@ -94,11 +94,11 @@
       "id": "401816280",
       "name": "Arizona Diamondbacks at Pittsburgh Pirates",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 10th",
-        "shortDetail": "Bot 10th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final/10",
+        "shortDetail": "Final/10"
       },
       "away": {
         "id": "29",
@@ -118,9 +118,9 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "2",
+        "score": "3",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -264,11 +264,11 @@
       "id": "401816281",
       "name": "Atlanta Braves at New York Mets",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "15",
@@ -290,7 +290,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
         "score": "14",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -322,7 +322,7 @@
         "name": "Chicago White Sox",
         "shortName": "White Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "16",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "18",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "2",
