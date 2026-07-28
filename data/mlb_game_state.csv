@@ -20462,3 +20462,51 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-28T22:04:11.129Z,401816303,Colorado Rockies at San Diego Padres,pre,Scheduled,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
 2026-07-28T22:04:11.129Z,401816305,Milwaukee Brewers at San Francisco Giants,pre,Scheduled,Milwaukee Brewers,San Francisco Giants,0,0,,Oracle Park,,,,,,,,,,,,,,,,0
 2026-07-28T22:04:11.129Z,401816306,Seattle Mariners at Los Angeles Dodgers,pre,Scheduled,Seattle Mariners,Los Angeles Dodgers,0,0,,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Middle 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.318,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816294,Baltimore Orioles at Detroit Tigers,in,Bottom 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.939,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816296,Philadelphia Phillies at Miami Marlins,in,End 2nd,Philadelphia Phillies,Miami Marlins,0,1,0.768,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,1,0,0.343,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:16:41.443Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.559,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.318,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816294,Baltimore Orioles at Detroit Tigers,in,Bottom 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.939,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816296,Philadelphia Phillies at Miami Marlins,in,End 2nd,Philadelphia Phillies,Miami Marlins,0,1,0.768,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.331,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:17:23.907Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.546,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.291,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816294,Baltimore Orioles at Detroit Tigers,in,Bottom 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.939,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.768,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.331,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:03.123Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.546,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.273,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816294,Baltimore Orioles at Detroit Tigers,in,End 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.932,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.768,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.396,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:18:42.246Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.546,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.273,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816294,Baltimore Orioles at Detroit Tigers,in,End 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.932,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.768,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.396,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:19:21.216Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.532,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.273,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816294,Baltimore Orioles at Detroit Tigers,in,End 2nd,Baltimore Orioles,Detroit Tigers,0,5,0.932,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.728,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.396,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:00.357Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.532,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,End 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.261,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816294,Baltimore Orioles at Detroit Tigers,in,Top 3rd,Baltimore Orioles,Detroit Tigers,0,5,0.932,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.728,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816297,Texas Rangers at Tampa Bay Rays,in,Top 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.389,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:20:40.994Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,0,0.532,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,End 2nd,Arizona Diamondbacks,Pittsburgh Pirates,3,0,0.261,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816294,Baltimore Orioles at Detroit Tigers,in,Top 3rd,Baltimore Orioles,Detroit Tigers,0,5,0.911,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816296,Philadelphia Phillies at Miami Marlins,in,Top 3rd,Philadelphia Phillies,Miami Marlins,0,1,0.728,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816297,Texas Rangers at Tampa Bay Rays,in,Middle 3rd,Texas Rangers,Tampa Bay Rays,2,0,0.389,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816298,Toronto Blue Jays at Washington Nationals,in,"Delayed, Top 1st",Toronto Blue Jays,Washington Nationals,0,0,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-28T23:21:20.287Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 1st,Cleveland Guardians,Cincinnati Reds,0,1,0.641,Great American Ball Park,,,,,,,,,,,,,,,,0
