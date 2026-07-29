@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T00:02:21.714Z",
+  "capturedAt": "2026-07-29T00:07:31.077Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 16,
+  "newPlays": 17,
   "gameStates": 9,
   "injuries": 0,
   "liveGames": 9,
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "22",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "5",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "7",
@@ -379,7 +379,7 @@
         "name": "New York Yankees",
         "shortName": "Yankees",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-        "score": "1",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "16",
