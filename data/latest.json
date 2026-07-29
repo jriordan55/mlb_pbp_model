@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T23:05:04.429Z",
+  "capturedAt": "2026-07-29T23:10:39.191Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
-  "gameStates": 1,
+  "newPlays": 6,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816311",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "13",
@@ -332,11 +332,11 @@
       "id": "401816310",
       "name": "Cleveland Guardians at Cincinnati Reds",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "5",
@@ -366,11 +366,11 @@
       "id": "401902545",
       "name": "Atlanta Braves at New York Mets",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "15",
