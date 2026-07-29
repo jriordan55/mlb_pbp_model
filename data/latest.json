@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T23:37:27.306Z",
+  "capturedAt": "2026-07-29T23:42:30.004Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
-  "gameStates": 3,
+  "newPlays": 11,
+  "gameStates": 5,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 5,
   "games": [
     {
       "id": "401816311",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 4th",
-        "shortDetail": "Mid 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "13",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "5",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "15",
@@ -400,11 +400,11 @@
       "id": "401816315",
       "name": "Kansas City Royals at Minnesota Twins",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 7:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "7",
@@ -434,11 +434,11 @@
       "id": "401816316",
       "name": "New York Yankees at Chicago White Sox",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 7:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "10",
