@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T02:16:20.631Z",
+  "capturedAt": "2026-07-29T02:21:29.972Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 16,
+  "newPlays": 12,
   "gameStates": 10,
   "injuries": 0,
   "liveGames": 10,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 10th",
-        "shortDetail": "Bot 10th"
+        "detail": "Top 11th",
+        "shortDetail": "Top 11th"
       },
       "away": {
         "id": "29",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "End 7th",
+        "shortDetail": "End 7th"
       },
       "away": {
         "id": "14",
@@ -390,7 +390,7 @@
         "name": "Chicago White Sox",
         "shortName": "White Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "16",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "18",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "2",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "27",
@@ -515,7 +515,7 @@
         "name": "Colorado Rockies",
         "shortName": "Rockies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -526,7 +526,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "8",
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "12",
@@ -594,7 +594,7 @@
         "name": "Los Angeles Dodgers",
         "shortName": "Dodgers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
