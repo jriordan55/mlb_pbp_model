@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T20:44:15.514Z",
+  "capturedAt": "2026-07-29T21:19:38.893Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
-  "gameStates": 3,
+  "newPlays": 5,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816311",
@@ -196,11 +196,11 @@
       "id": "401816309",
       "name": "Baltimore Orioles at Detroit Tigers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "End 12th",
-        "shortDetail": "End 12th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final/12",
+        "shortDetail": "Final/12"
       },
       "away": {
         "id": "1",
@@ -211,7 +211,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
         "score": "10",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "6",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "8",
@@ -243,7 +243,7 @@
         "name": "Milwaukee Brewers",
         "shortName": "Brewers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "27",
@@ -288,7 +288,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
