@@ -22414,3 +22414,75 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-29T01:55:37.283Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.47,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-07-29T01:55:37.283Z,401816303,Colorado Rockies at San Diego Padres,in,Bottom 1st,Colorado Rockies,San Diego Padres,0,0,0.737,Petco Park,,,,,,,,,,,,,,,,0
 2026-07-29T01:55:37.283Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.335,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.673,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.985,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816300,Kansas City Royals at Minnesota Twins,in,End 8th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816301,New York Yankees at Chicago White Sox,in,Bottom 7th,New York Yankees,Chicago White Sox,3,0,0.072,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816304,Houston Astros at Los Angeles Angels,in,End 1st,Houston Astros,Los Angeles Angels,1,0,0.427,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.47,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816303,Colorado Rockies at San Diego Padres,in,Bottom 1st,Colorado Rockies,San Diego Padres,0,0,0.737,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:08.782Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.335,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.673,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.985,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816300,Kansas City Royals at Minnesota Twins,in,End 8th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816301,New York Yankees at Chicago White Sox,in,End 7th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816304,Houston Astros at Los Angeles Angels,in,End 1st,Houston Astros,Los Angeles Angels,1,0,0.427,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.482,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816303,Colorado Rockies at San Diego Padres,in,Bottom 1st,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:56:49.327Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.419,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.673,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.985,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816300,Kansas City Royals at Minnesota Twins,in,End 8th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816301,New York Yankees at Chicago White Sox,in,End 7th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.427,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.482,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816303,Colorado Rockies at San Diego Padres,in,Bottom 1st,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:57:30.076Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.419,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.371,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.982,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 9th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816301,New York Yankees at Chicago White Sox,in,End 7th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.395,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.482,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816303,Colorado Rockies at San Diego Padres,in,Bottom 1st,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:11.538Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.419,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.371,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.979,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 9th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816301,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Middle 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.395,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.458,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816303,Colorado Rockies at San Diego Padres,in,End 1st,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:58:51.342Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.407,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.371,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.979,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 9th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816301,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Middle 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.395,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.458,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816303,Colorado Rockies at San Diego Padres,in,Top 2nd,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:59:32.570Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.407,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.371,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 6th,Toronto Blue Jays,Washington Nationals,3,8,0.979,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 9th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816301,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,3,0,0.067,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Middle 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.395,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.478,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816303,Colorado Rockies at San Diego Padres,in,Top 2nd,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:12.770Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.407,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 10th,Arizona Diamondbacks,Pittsburgh Pirates,6,6,0.507,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816298,Toronto Blue Jays at Washington Nationals,in,End 6th,Toronto Blue Jays,Washington Nationals,3,8,0.979,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 9th,Kansas City Royals,Minnesota Twins,2,1,0.2,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816301,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,3,0,0.058,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,8,1,0.007,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816304,Houston Astros at Los Angeles Angels,in,Top 2nd,Houston Astros,Los Angeles Angels,1,0,0.395,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816302,Boston Red Sox at Athletics Athletics,in,Top 2nd,Boston Red Sox,Athletics,0,0,0.478,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816303,Colorado Rockies at San Diego Padres,in,Top 2nd,Colorado Rockies,San Diego Padres,0,0,0.71,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T02:00:52.353Z,401816305,Milwaukee Brewers at San Francisco Giants,in,Bottom 1st,Milwaukee Brewers,San Francisco Giants,0,0,0.419,Oracle Park,,,,,,,,,,,,,,,,0
