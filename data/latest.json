@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T03:44:47.989Z",
+  "capturedAt": "2026-07-29T03:50:08.705Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 12,
+  "newPlays": 8,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -515,7 +515,7 @@
         "name": "Colorado Rockies",
         "shortName": "Rockies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "8",
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "12",
