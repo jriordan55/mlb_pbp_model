@@ -22021,3 +22021,51 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-29T01:19:40.793Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.326,Target Field,,,,,,,,,,,,,,,,0
 2026-07-29T01:19:40.793Z,401816301,New York Yankees at Chicago White Sox,in,End 5th,New York Yankees,Chicago White Sox,3,0,0.131,Rate Field,,,,,,,,,,,,,,,,0
 2026-07-29T01:19:40.793Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.03,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,1,0.016,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,6,0.932,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.945,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.326,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816301,New York Yankees at Chicago White Sox,in,End 5th,New York Yankees,Chicago White Sox,3,0,0.131,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:11.718Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.03,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,1,0.016,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,6,0.932,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Bottom 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.945,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.347,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.131,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:20:51.320Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.03,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,2,0.037,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,6,0.932,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816295,Cleveland Guardians at Cincinnati Reds,in,End 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.945,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.347,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.116,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:21:30.541Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.03,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,2,0.037,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,6,0.932,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816295,Cleveland Guardians at Cincinnati Reds,in,End 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.937,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.347,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.116,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:09.686Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.031,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,2,0.037,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,6,0.932,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816295,Cleveland Guardians at Cincinnati Reds,in,End 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.937,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.391,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.116,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:22:48.934Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.031,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,2,0.037,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,7,0.959,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816295,Cleveland Guardians at Cincinnati Reds,in,End 8th,Cleveland Guardians,Cincinnati Reds,0,2,0.937,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.391,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.133,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:23:28.249Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.035,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,3,0.084,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816298,Toronto Blue Jays at Washington Nationals,in,Bottom 4th,Toronto Blue Jays,Washington Nationals,2,7,0.959,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Top 9th,Cleveland Guardians,Cincinnati Reds,0,2,0.937,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.391,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.133,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:07.529Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.035,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816292,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 8th,Arizona Diamondbacks,Pittsburgh Pirates,6,3,0.084,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816298,Toronto Blue Jays at Washington Nationals,in,End 4th,Toronto Blue Jays,Washington Nationals,2,7,,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816295,Cleveland Guardians at Cincinnati Reds,in,Top 9th,Cleveland Guardians,Cincinnati Reds,0,2,0.937,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816300,Kansas City Royals at Minnesota Twins,in,Top 7th,Kansas City Royals,Minnesota Twins,2,1,0.391,Target Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816301,New York Yankees at Chicago White Sox,in,Top 6th,New York Yankees,Chicago White Sox,3,0,0.133,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-29T01:24:46.683Z,401816299,Chicago Cubs at St. Louis Cardinals,in,Top 5th,Chicago Cubs,St. Louis Cardinals,7,1,0.035,Busch Stadium,,,,,,,,,,,,,,,,0
