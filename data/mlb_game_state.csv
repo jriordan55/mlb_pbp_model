@@ -24376,3 +24376,53 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-29T17:45:07.438Z,401816313,Toronto Blue Jays at Washington Nationals,in,Bottom 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.606,Nationals Park,,,,,,,,,,,,,,,,0
 2026-07-29T17:45:07.438Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.383,Citi Field,,,,,,,,,,,,,,,,0
 2026-07-29T17:45:07.438Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,0,0.655,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:45:30.864Z,401816311,Philadelphia Phillies at Miami Marlins,in,Bottom 6th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:45:30.864Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Bottom 5th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.262,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:45:30.864Z,401816313,Toronto Blue Jays at Washington Nationals,in,Bottom 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.606,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:45:30.864Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.383,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:45:30.864Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,0,0.76,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:02.125Z,401816311,Philadelphia Phillies at Miami Marlins,in,End 6th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:02.125Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,End 5th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.237,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:02.125Z,401816313,Toronto Blue Jays at Washington Nationals,in,Bottom 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.57,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:02.125Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.383,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:02.125Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,0,0.76,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:33.245Z,401816311,Philadelphia Phillies at Miami Marlins,in,End 6th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:33.245Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,End 5th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.237,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:33.245Z,401816313,Toronto Blue Jays at Washington Nationals,in,Bottom 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.57,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:33.245Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.383,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:46:33.245Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,0,0.76,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:04.695Z,401816311,Philadelphia Phillies at Miami Marlins,in,End 6th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:04.695Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,End 5th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.237,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:04.695Z,401816313,Toronto Blue Jays at Washington Nationals,in,Bottom 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.57,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:04.695Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.443,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:04.695Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.858,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:40.418Z,401816311,Philadelphia Phillies at Miami Marlins,in,End 6th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:40.418Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,End 5th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.237,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:40.418Z,401816313,Toronto Blue Jays at Washington Nationals,in,End 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.57,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:40.418Z,401816308,Atlanta Braves at New York Mets,in,Top 3rd,Atlanta Braves,New York Mets,0,0,0.443,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:47:40.418Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.858,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:11.532Z,401816311,Philadelphia Phillies at Miami Marlins,in,Top 7th,Philadelphia Phillies,Miami Marlins,6,3,0.14,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:11.532Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 6th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.237,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:11.532Z,401816313,Toronto Blue Jays at Washington Nationals,in,End 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.54,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:11.532Z,401816308,Atlanta Braves at New York Mets,in,Middle 3rd,Atlanta Braves,New York Mets,0,0,0.533,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:11.532Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.858,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:42.715Z,401816311,Philadelphia Phillies at Miami Marlins,in,Top 7th,Philadelphia Phillies,Miami Marlins,6,3,0.115,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:42.715Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 6th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.257,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:42.715Z,401816313,Toronto Blue Jays at Washington Nationals,in,End 3rd,Toronto Blue Jays,Washington Nationals,0,0,0.54,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:42.715Z,401816308,Atlanta Braves at New York Mets,in,Middle 3rd,Atlanta Braves,New York Mets,0,0,0.533,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:48:42.715Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.855,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:16.677Z,401816311,Philadelphia Phillies at Miami Marlins,in,Top 7th,Philadelphia Phillies,Miami Marlins,6,3,0.115,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:16.677Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 6th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.257,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:16.677Z,401816313,Toronto Blue Jays at Washington Nationals,in,Top 4th,Toronto Blue Jays,Washington Nationals,0,0,0.54,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:16.677Z,401816308,Atlanta Braves at New York Mets,in,Middle 3rd,Atlanta Braves,New York Mets,0,0,0.533,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:16.677Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.855,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:48.707Z,401816311,Philadelphia Phillies at Miami Marlins,in,Top 7th,Philadelphia Phillies,Miami Marlins,6,3,0.103,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:48.707Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 6th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.257,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:48.707Z,401816313,Toronto Blue Jays at Washington Nationals,in,Top 4th,Toronto Blue Jays,Washington Nationals,0,0,0.54,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:48.707Z,401816308,Atlanta Braves at New York Mets,in,Middle 3rd,Atlanta Braves,New York Mets,0,0,0.533,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:49:48.707Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.855,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:50:19.650Z,401816311,Philadelphia Phillies at Miami Marlins,in,Top 7th,Philadelphia Phillies,Miami Marlins,6,3,0.103,loanDepot park,,,,,,,,,,,,,,,,0
+2026-07-29T17:50:19.650Z,401816307,Arizona Diamondbacks at Pittsburgh Pirates,in,Top 6th,Arizona Diamondbacks,Pittsburgh Pirates,2,0,0.272,PNC Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:50:19.650Z,401816313,Toronto Blue Jays at Washington Nationals,in,Top 4th,Toronto Blue Jays,Washington Nationals,0,0,0.54,Nationals Park,,,,,,,,,,,,,,,,0
+2026-07-29T17:50:19.650Z,401816308,Atlanta Braves at New York Mets,in,Bottom 3rd,Atlanta Braves,New York Mets,0,0,0.533,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-29T17:50:19.650Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 3rd,Baltimore Orioles,Detroit Tigers,0,2,0.855,Comerica Park,,,,,,,,,,,,,,,,0
