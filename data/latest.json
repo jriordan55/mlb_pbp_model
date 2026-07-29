@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T21:46:29.679Z",
+  "capturedAt": "2026-07-29T21:51:35.842Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -254,7 +254,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "5",
+        "score": "8",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "27",
