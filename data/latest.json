@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T23:42:30.004Z",
+  "capturedAt": "2026-07-29T23:47:36.389Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 11,
-  "gameStates": 5,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 5,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816311",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "detail": "Top 5th",
+        "shortDetail": "Top 5th"
       },
       "away": {
         "id": "13",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 3rd",
-        "shortDetail": "Mid 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "15",
@@ -468,11 +468,11 @@
       "id": "401816314",
       "name": "Chicago Cubs at St. Louis Cardinals",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 7:45 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "16",
