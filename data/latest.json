@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T19:17:13.487Z",
+  "capturedAt": "2026-07-29T19:22:22.205Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 3,
+  "newPlays": 8,
   "gameStates": 3,
   "injuries": 0,
   "liveGames": 3,
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "15",
@@ -209,7 +209,7 @@
         "name": "Baltimore Orioles",
         "shortName": "Orioles",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "5",
+        "score": "7",
         "record": "",
         "winner": false
       },
