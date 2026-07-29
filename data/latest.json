@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T00:48:38.577Z",
+  "capturedAt": "2026-07-29T00:53:50.681Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 18,
+  "newPlays": 20,
   "gameStates": 9,
   "injuries": 0,
   "liveGames": 9,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "29",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Middle 8th",
+        "shortDetail": "Mid 8th"
       },
       "away": {
         "id": "1",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Middle 8th",
+        "shortDetail": "Mid 8th"
       },
       "away": {
         "id": "13",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "14",
@@ -243,7 +243,7 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "7",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "16",
