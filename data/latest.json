@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T02:26:39.746Z",
+  "capturedAt": "2026-07-29T02:31:48.188Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 18,
-  "gameStates": 10,
+  "newPlays": 19,
+  "gameStates": 9,
   "injuries": 0,
-  "liveGames": 10,
+  "liveGames": 9,
   "games": [
     {
       "id": "401901849",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 11th",
-        "shortDetail": "Bot 11th"
+        "detail": "Top 12th",
+        "shortDetail": "Top 12th"
       },
       "away": {
         "id": "29",
@@ -243,7 +243,7 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "3",
+        "score": "6",
         "record": "",
         "winner": false
       },
@@ -366,11 +366,11 @@
       "id": "401816301",
       "name": "New York Yankees at Chicago White Sox",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "End 9th",
-        "shortDetail": "End 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "10",
@@ -381,7 +381,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
         "score": "3",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "4",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "18",
@@ -458,7 +458,7 @@
         "name": "Los Angeles Angels",
         "shortName": "Angels",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "2",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "27",
@@ -515,7 +515,7 @@
         "name": "Colorado Rockies",
         "shortName": "Rockies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "8",
@@ -549,7 +549,7 @@
         "name": "Milwaukee Brewers",
         "shortName": "Brewers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mil.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "12",
@@ -583,7 +583,7 @@
         "name": "Seattle Mariners",
         "shortName": "Mariners",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sea.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
