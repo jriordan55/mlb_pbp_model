@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T04:58:30.739Z",
+  "capturedAt": "2026-07-29T05:03:44.681Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
+  "newPlays": 0,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -526,7 +526,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "7",
+        "score": "8",
         "record": "",
         "winner": false
       },
