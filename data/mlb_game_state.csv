@@ -25438,3 +25438,28 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-29T20:07:50.290Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Top 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
 2026-07-29T20:08:21.296Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,8,7,0.365,Comerica Park,,,,,,,,,,,,,,,,0
 2026-07-29T20:08:21.296Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Top 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:08:44.137Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,8,7,0.365,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:08:44.137Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Middle 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:09:15.363Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,8,7,0.365,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:09:15.363Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Middle 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:09:46.370Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,9,7,0.365,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:09:46.370Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Middle 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:10:17.438Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,9,7,0.171,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:10:17.438Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:10:52.578Z,401816309,Baltimore Orioles at Detroit Tigers,in,Top 11th,Baltimore Orioles,Detroit Tigers,9,7,0.171,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:10:52.578Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:23.706Z,401816309,Baltimore Orioles at Detroit Tigers,in,Middle 11th,Baltimore Orioles,Detroit Tigers,9,7,0.171,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:23.706Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:23.706Z,401816318,Colorado Rockies at San Diego Padres,in,Top 1st,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:54.919Z,401816309,Baltimore Orioles at Detroit Tigers,in,Middle 11th,Baltimore Orioles,Detroit Tigers,9,7,0.185,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:54.919Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.628,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:11:54.919Z,401816318,Colorado Rockies at San Diego Padres,in,Top 1st,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:25.881Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 11th,Baltimore Orioles,Detroit Tigers,9,7,0.185,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:25.881Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.688,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:25.881Z,401816318,Colorado Rockies at San Diego Padres,in,Top 1st,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:56.892Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 11th,Baltimore Orioles,Detroit Tigers,9,7,0.185,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:56.892Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.688,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:12:56.892Z,401816318,Colorado Rockies at San Diego Padres,in,Top 1st,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:13:28.348Z,401816309,Baltimore Orioles at Detroit Tigers,in,Bottom 11th,Baltimore Orioles,Detroit Tigers,9,7,0.185,Comerica Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:13:28.348Z,401816320,Milwaukee Brewers at San Francisco Giants,in,Bottom 2nd,Milwaukee Brewers,San Francisco Giants,0,0,0.688,Oracle Park,,,,,,,,,,,,,,,,0
+2026-07-29T20:13:28.348Z,401816318,Colorado Rockies at San Diego Padres,in,Top 1st,Colorado Rockies,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0

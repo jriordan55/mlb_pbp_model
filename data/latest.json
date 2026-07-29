@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T20:08:21.296Z",
+  "capturedAt": "2026-07-29T20:13:28.348Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 2,
+  "newPlays": 3,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816311",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 11th",
-        "shortDetail": "Top 11th"
+        "detail": "Bottom 11th",
+        "shortDetail": "Bot 11th"
       },
       "away": {
         "id": "1",
@@ -209,7 +209,7 @@
         "name": "Baltimore Orioles",
         "shortName": "Orioles",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "8",
+        "score": "9",
         "record": "",
         "winner": false
       },
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "8",
@@ -264,11 +264,11 @@
       "id": "401816318",
       "name": "Colorado Rockies at San Diego Padres",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/29 - 4:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "27",
