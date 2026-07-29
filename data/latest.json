@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-29T01:45:17.084Z",
+  "capturedAt": "2026-07-29T01:50:27.846Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 17,
+  "newPlays": 16,
   "gameStates": 9,
   "injuries": 0,
   "liveGames": 9,
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "14",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "7",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 6th",
-        "shortDetail": "Mid 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "16",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "18",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "2",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "27",
