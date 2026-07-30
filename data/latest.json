@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-30T17:39:37.332Z",
+  "capturedAt": "2026-07-30T17:44:45.237Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
-  "gameStates": 1,
+  "newPlays": 8,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816324",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Middle 5th",
+        "shortDetail": "Mid 5th"
       },
       "away": {
         "id": "13",
@@ -94,11 +94,11 @@
       "id": "401816327",
       "name": "Kansas City Royals at Minnesota Twins",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/30 - 1:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "7",
