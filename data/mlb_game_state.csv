@@ -26642,3 +26642,57 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-30T00:23:43.402Z,401816315,Kansas City Royals at Minnesota Twins,in,Bottom 3rd,Kansas City Royals,Minnesota Twins,1,0,0.494,Target Field,,,,,,,,,,,,,,,,0
 2026-07-30T00:23:43.402Z,401816316,New York Yankees at Chicago White Sox,in,Top 3rd,New York Yankees,Chicago White Sox,4,0,0.109,Rate Field,,,,,,,,,,,,,,,,0
 2026-07-30T00:23:43.402Z,401816314,Chicago Cubs at St. Louis Cardinals,in,End 3rd,Chicago Cubs,St. Louis Cardinals,0,0,0.436,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.872,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Bottom 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.544,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401902545,Atlanta Braves at New York Mets,in,Bottom 5th,Atlanta Braves,New York Mets,0,0,0.443,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401816315,Kansas City Royals at Minnesota Twins,in,Bottom 3rd,Kansas City Royals,Minnesota Twins,1,0,0.494,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401816316,New York Yankees at Chicago White Sox,in,Middle 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:09.580Z,401816314,Chicago Cubs at St. Louis Cardinals,in,End 3rd,Chicago Cubs,St. Louis Cardinals,0,0,0.436,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.872,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Bottom 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.544,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401902545,Atlanta Braves at New York Mets,in,Bottom 5th,Atlanta Braves,New York Mets,0,0,0.443,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401816315,Kansas City Royals at Minnesota Twins,in,Bottom 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401816316,New York Yankees at Chicago White Sox,in,Middle 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:24:44.224Z,401816314,Chicago Cubs at St. Louis Cardinals,in,End 3rd,Chicago Cubs,St. Louis Cardinals,0,0,0.436,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.872,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Bottom 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.544,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401902545,Atlanta Braves at New York Mets,in,Bottom 5th,Atlanta Braves,New York Mets,0,0,0.435,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401816315,Kansas City Royals at Minnesota Twins,in,Bottom 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401816316,New York Yankees at Chicago White Sox,in,Middle 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:18.726Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.436,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.872,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401816310,Cleveland Guardians at Cincinnati Reds,in,End 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.499,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401902545,Atlanta Braves at New York Mets,in,End 5th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401816315,Kansas City Royals at Minnesota Twins,in,Bottom 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401816316,New York Yankees at Chicago White Sox,in,Middle 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:25:54.896Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.436,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.872,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401816310,Cleveland Guardians at Cincinnati Reds,in,End 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.499,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401902545,Atlanta Braves at New York Mets,in,End 5th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401816315,Kansas City Royals at Minnesota Twins,in,End 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401816316,New York Yankees at Chicago White Sox,in,Bottom 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:26:30.055Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.463,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401816312,Texas Rangers at Tampa Bay Rays,in,Top 7th,Texas Rangers,Tampa Bay Rays,0,3,0.918,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401816310,Cleveland Guardians at Cincinnati Reds,in,End 4th,Cleveland Guardians,Cincinnati Reds,0,0,0.499,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401902545,Atlanta Braves at New York Mets,in,End 5th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401816315,Kansas City Royals at Minnesota Twins,in,End 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401816316,New York Yankees at Chicago White Sox,in,Bottom 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:04.623Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.463,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401816312,Texas Rangers at Tampa Bay Rays,in,Middle 7th,Texas Rangers,Tampa Bay Rays,0,3,0.918,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Top 5th,Cleveland Guardians,Cincinnati Reds,0,0,0.499,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401902545,Atlanta Braves at New York Mets,in,Top 6th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401816315,Kansas City Royals at Minnesota Twins,in,End 3rd,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401816316,New York Yankees at Chicago White Sox,in,Bottom 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:27:38.799Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.463,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401816312,Texas Rangers at Tampa Bay Rays,in,Middle 7th,Texas Rangers,Tampa Bay Rays,0,3,0.918,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Top 5th,Cleveland Guardians,Cincinnati Reds,0,0,0.499,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401902545,Atlanta Braves at New York Mets,in,Top 6th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401816315,Kansas City Royals at Minnesota Twins,in,Top 4th,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401816316,New York Yankees at Chicago White Sox,in,Bottom 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:13.118Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.486,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401816312,Texas Rangers at Tampa Bay Rays,in,Middle 7th,Texas Rangers,Tampa Bay Rays,0,3,0.918,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401816310,Cleveland Guardians at Cincinnati Reds,in,Top 5th,Cleveland Guardians,Cincinnati Reds,0,0,0.44,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401902545,Atlanta Braves at New York Mets,in,Top 6th,Atlanta Braves,New York Mets,0,0,0.436,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401816315,Kansas City Royals at Minnesota Twins,in,Top 4th,Kansas City Royals,Minnesota Twins,1,0,0.523,Target Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401816316,New York Yankees at Chicago White Sox,in,Bottom 3rd,New York Yankees,Chicago White Sox,4,0,0.112,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T00:28:47.730Z,401816314,Chicago Cubs at St. Louis Cardinals,in,Top 4th,Chicago Cubs,St. Louis Cardinals,0,0,0.486,Busch Stadium,,,,,,,,,,,,,,,,0
