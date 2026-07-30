@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-30T04:29:33.102Z",
+  "capturedAt": "2026-07-30T04:34:41.157Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 9,
-  "gameStates": 3,
+  "newPlays": 3,
+  "gameStates": 2,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 2,
   "games": [
     {
       "id": "401816311",
@@ -502,11 +502,11 @@
       "id": "401816319",
       "name": "Houston Astros at Los Angeles Angels",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "18",
@@ -517,7 +517,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
         "score": "7",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "3",
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "detail": "Middle 9th",
+        "shortDetail": "Mid 9th"
       },
       "away": {
         "id": "2",
@@ -573,8 +573,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "12",
