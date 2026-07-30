@@ -28380,3 +28380,23 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-30T20:13:42.965Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,1,1,0.471,Busch Stadium,,,,,,,,,,,,,,,,0
 2026-07-30T20:14:22.291Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 7th,New York Yankees,Chicago White Sox,0,0,0.508,Rate Field,,,,,,,,,,,,,,,,0
 2026-07-30T20:14:22.291Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Top 7th,Chicago Cubs,St. Louis Cardinals,1,1,0.471,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:22:13.191Z,401816328,New York Yankees at Chicago White Sox,in,Top 8th,New York Yankees,Chicago White Sox,0,0,0.504,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:22:13.191Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Middle 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.34,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:22:46.463Z,401816328,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,0,0,0.504,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:22:46.463Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.34,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:23:19.988Z,401816328,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,0,0,0.603,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:23:19.988Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.34,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:23:51.528Z,401816328,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,0,0,0.603,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:23:51.528Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.34,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:24:22.703Z,401816328,New York Yankees at Chicago White Sox,in,Middle 8th,New York Yankees,Chicago White Sox,0,0,0.603,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:24:22.703Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.3,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:24:53.797Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,0,0,0.603,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:24:53.797Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.3,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:25:24.799Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,0,0,0.603,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:25:24.799Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,1,0.3,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:25:55.745Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,0,0,0.566,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:25:55.745Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,2,0.536,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:26:26.645Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,0,0,0.566,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:26:26.645Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,2,0.536,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-07-30T20:26:57.427Z,401816328,New York Yankees at Chicago White Sox,in,Bottom 8th,New York Yankees,Chicago White Sox,0,0,0.566,Rate Field,,,,,,,,,,,,,,,,0
+2026-07-30T20:26:57.427Z,401816326,Chicago Cubs at St. Louis Cardinals,in,Bottom 7th,Chicago Cubs,St. Louis Cardinals,2,2,0.536,Busch Stadium,,,,,,,,,,,,,,,,0
