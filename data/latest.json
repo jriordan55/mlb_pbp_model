@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-31T01:39:29.455Z",
+  "capturedAt": "2026-07-31T01:45:04.476Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 2,
+  "newPlays": 9,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816324",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Middle 6th",
+        "shortDetail": "Mid 6th"
       },
       "away": {
         "id": "28",
@@ -298,11 +298,11 @@
       "id": "401816329",
       "name": "Boston Red Sox at Athletics Athletics",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/30 - 9:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "2",
@@ -332,11 +332,11 @@
       "id": "401816331",
       "name": "San Francisco Giants at San Diego Padres",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/30 - 9:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "26",
