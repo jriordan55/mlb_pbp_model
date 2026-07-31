@@ -29742,3 +29742,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-31T02:18:35.941Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,0,0.446,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-07-31T02:18:35.941Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.276,Petco Park,,,,,,,,,,,,,,,,0
 2026-07-31T02:18:35.941Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Top 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.615,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:01.689Z,401816322,Miami Marlins at New York Mets,in,End 7th,Miami Marlins,New York Mets,2,2,0.538,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:01.689Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,0,0.446,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:01.689Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:01.689Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Top 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.615,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:35.936Z,401816322,Miami Marlins at New York Mets,in,End 7th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:35.936Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,0,0.507,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:35.936Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:19:35.936Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Middle 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:10.726Z,401816322,Miami Marlins at New York Mets,in,End 7th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:10.726Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,0,0.507,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:10.726Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:10.726Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Middle 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:44.805Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:44.805Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:44.805Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.274,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:20:44.805Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Middle 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:18.883Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:18.883Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:18.883Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:18.883Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Middle 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:53.604Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:53.604Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:53.604Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:21:53.604Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Bottom 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:22:28.455Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.529,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:22:28.455Z,401816329,Boston Red Sox at Athletics Athletics,in,End 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:22:28.455Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:22:28.455Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Bottom 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:02.707Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.441,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:02.707Z,401816329,Boston Red Sox at Athletics Athletics,in,End 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:02.707Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:02.707Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Bottom 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:37.019Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.441,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:37.019Z,401816329,Boston Red Sox at Athletics Athletics,in,End 3rd,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:37.019Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:23:37.019Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Bottom 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.604,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-07-31T02:24:11.405Z,401816322,Miami Marlins at New York Mets,in,Top 8th,Miami Marlins,New York Mets,2,2,0.441,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T02:24:11.405Z,401816329,Boston Red Sox at Athletics Athletics,in,Top 4th,Boston Red Sox,Athletics,0,1,0.595,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:24:11.405Z,401816331,San Francisco Giants at San Diego Padres,in,Top 3rd,San Francisco Giants,San Diego Padres,3,1,0.256,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T02:24:11.405Z,401816330,Seattle Mariners at Los Angeles Dodgers,in,Bottom 1st,Seattle Mariners,Los Angeles Dodgers,0,0,0.675,Dodger Stadium,,,,,,,,,,,,,,,,0
