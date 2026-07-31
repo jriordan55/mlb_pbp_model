@@ -29494,3 +29494,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-31T01:45:04.476Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Top 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.525,Great American Ball Park,,,,,,,,,,,,,,,,0
 2026-07-31T01:45:04.476Z,401816329,Boston Red Sox at Athletics Athletics,in,Top 1st,Boston Red Sox,Athletics,0,0,0.383,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-07-31T01:45:04.476Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,0,0,0.47,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:45:32.382Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.382,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:45:32.382Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Middle 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:45:32.382Z,401816329,Boston Red Sox at Athletics Athletics,in,Top 1st,Boston Red Sox,Athletics,0,0,0.383,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:45:32.382Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,0,0,0.412,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:07.056Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.382,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:07.056Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Middle 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:07.056Z,401816329,Boston Red Sox at Athletics Athletics,in,Middle 1st,Boston Red Sox,Athletics,0,0,0.383,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:07.056Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,0,0,0.412,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:41.498Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:41.498Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Middle 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:41.498Z,401816329,Boston Red Sox at Athletics Athletics,in,Middle 1st,Boston Red Sox,Athletics,0,0,0.395,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:46:41.498Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,0,0,0.412,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:15.548Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:15.548Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:15.548Z,401816329,Boston Red Sox at Athletics Athletics,in,Middle 1st,Boston Red Sox,Athletics,0,0,0.395,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:15.548Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,0,0,0.412,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:49.643Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:49.643Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:49.643Z,401816329,Boston Red Sox at Athletics Athletics,in,Middle 1st,Boston Red Sox,Athletics,0,0,0.395,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:47:49.643Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,1,0,0.412,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:23.513Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:23.513Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.609,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:23.513Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 1st,Boston Red Sox,Athletics,0,0,0.395,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:23.513Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,1,0,0.395,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:57.390Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:57.390Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.565,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:57.390Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 1st,Boston Red Sox,Athletics,0,0,0.375,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:48:57.390Z,401816331,San Francisco Giants at San Diego Padres,in,Top 1st,San Francisco Giants,San Diego Padres,1,0,0.395,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:49:32.283Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:49:32.283Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.565,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:49:32.283Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 1st,Boston Red Sox,Athletics,0,0,0.375,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:49:32.283Z,401816331,San Francisco Giants at San Diego Padres,in,Middle 1st,San Francisco Giants,San Diego Padres,1,0,0.395,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:06.767Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.462,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:06.767Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.529,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:06.767Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 1st,Boston Red Sox,Athletics,0,0,0.375,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:06.767Z,401816331,San Francisco Giants at San Diego Padres,in,Middle 1st,San Francisco Giants,San Diego Padres,1,0,0.395,Petco Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:40.736Z,401816322,Miami Marlins at New York Mets,in,Bottom 6th,Miami Marlins,New York Mets,1,0,0.435,Citi Field,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:40.736Z,401816323,Pittsburgh Pirates at Cincinnati Reds,in,End 8th,Pittsburgh Pirates,Cincinnati Reds,2,2,0.51,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:40.736Z,401816329,Boston Red Sox at Athletics Athletics,in,Bottom 1st,Boston Red Sox,Athletics,0,0,0.42,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-07-31T01:50:40.736Z,401816331,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,1,0,0.395,Petco Park,,,,,,,,,,,,,,,,0
