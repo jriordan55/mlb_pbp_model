@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-31T00:04:11.452Z",
+  "capturedAt": "2026-07-31T00:09:47.453Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "detail": "Top 5th",
+        "shortDetail": "Top 5th"
       },
       "away": {
         "id": "20",
@@ -220,7 +220,7 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
