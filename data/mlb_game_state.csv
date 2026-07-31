@@ -30129,3 +30129,11 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-31T21:45:26.002Z,401816346,San Francisco Giants at San Diego Padres,pre,Scheduled,San Francisco Giants,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
 2026-07-31T21:45:26.002Z,401816342,Boston Red Sox at Los Angeles Dodgers,pre,Scheduled,Boston Red Sox,Los Angeles Dodgers,0,0,,Dodger Stadium,,,,,,,,,,,,,,,,0
 2026-07-31T21:45:26.002Z,401816345,Minnesota Twins at Seattle Mariners,pre,Scheduled,Minnesota Twins,Seattle Mariners,0,0,,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:43:55.848Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Top 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.322,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:44:37.080Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Top 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.322,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:45:16.133Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Middle 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.327,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:45:59.477Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Middle 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.327,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:46:38.305Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Middle 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.327,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:47:17.225Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.327,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:47:56.714Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.327,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-07-31T22:48:36.806Z,401816336,Pittsburgh Pirates at Cincinnati Reds,in,Bottom 2nd,Pittsburgh Pirates,Cincinnati Reds,3,2,0.31,Great American Ball Park,,,,,,,,,,,,,,,,0
