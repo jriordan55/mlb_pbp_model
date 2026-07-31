@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-31T00:52:19.717Z",
+  "capturedAt": "2026-07-31T00:57:23.758Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
+  "newPlays": 7,
   "gameStates": 3,
   "injuries": 0,
   "liveGames": 3,
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "End 6th",
+        "shortDetail": "End 6th"
       },
       "away": {
         "id": "20",
@@ -220,7 +220,7 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "3",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "28",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "23",
