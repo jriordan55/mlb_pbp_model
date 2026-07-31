@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-07-31T23:09:03.833Z",
+  "capturedAt": "2026-07-31T23:14:21.774Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 8,
-  "gameStates": 3,
+  "newPlays": 13,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816339",
@@ -141,7 +141,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -196,11 +196,11 @@
       "id": "401816332",
       "name": "Arizona Diamondbacks at Cleveland Guardians",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/31 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "29",
@@ -230,11 +230,11 @@
       "id": "401816333",
       "name": "Chicago White Sox at Tampa Bay Rays",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/31 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "4",
@@ -243,7 +243,7 @@
         "name": "Chicago White Sox",
         "shortName": "White Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chw.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -264,11 +264,11 @@
       "id": "401816334",
       "name": "Miami Marlins at New York Mets",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/31 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "28",
