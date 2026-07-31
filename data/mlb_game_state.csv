@@ -29988,3 +29988,11 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-07-31T17:57:58.029Z,401816346,San Francisco Giants at San Diego Padres,pre,Scheduled,San Francisco Giants,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
 2026-07-31T17:57:58.029Z,401816342,Boston Red Sox at Los Angeles Dodgers,pre,Scheduled,Boston Red Sox,Los Angeles Dodgers,0,0,,Dodger Stadium,,,,,,,,,,,,,,,,0
 2026-07-31T17:57:58.029Z,401816345,Minnesota Twins at Seattle Mariners,pre,Scheduled,Minnesota Twins,Seattle Mariners,0,0,,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-07-31T19:25:38.086Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.31,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:26:18.655Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.31,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:26:58.471Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.31,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:27:38.283Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.28,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:28:19.135Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.255,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:29:00.700Z,401816339,New York Yankees at Chicago Cubs,in,Bottom 5th,New York Yankees,Chicago Cubs,2,0,0.255,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:29:40.497Z,401816339,New York Yankees at Chicago Cubs,in,End 5th,New York Yankees,Chicago Cubs,2,0,0.239,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-07-31T19:30:20.268Z,401816339,New York Yankees at Chicago Cubs,in,End 5th,New York Yankees,Chicago Cubs,2,0,0.239,Wrigley Field,,,,,,,,,,,,,,,,0
