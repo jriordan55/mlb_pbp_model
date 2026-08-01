@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T20:07:45.165Z",
+  "capturedAt": "2026-08-01T20:12:52.659Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
-  "gameStates": 1,
+  "newPlays": 4,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816352",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Middle 4th",
+        "shortDetail": "Mid 4th"
       },
       "away": {
         "id": "24",
@@ -94,11 +94,11 @@
       "id": "401816348",
       "name": "Chicago White Sox at Tampa Bay Rays",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 4:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "4",
@@ -128,11 +128,11 @@
       "id": "401816349",
       "name": "Miami Marlins at New York Mets",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 4:10 PM EDT"
+        "description": "Delayed",
+        "detail": "Delayed, Top 1st",
+        "shortDetail": "Delayed, Top 1st"
       },
       "away": {
         "id": "28",
@@ -162,11 +162,11 @@
       "id": "401816360",
       "name": "Minnesota Twins at Seattle Mariners",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 4:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "9",
