@@ -32173,3 +32173,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-01T01:54:23.833Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,End 1st,Milwaukee Brewers,Los Angeles Angels,0,0,0.405,Angel Stadium,,,,,,,,,,,,,,,,0
 2026-08-01T01:54:23.833Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,0,0.453,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-08-01T01:54:23.833Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,0,0.835,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:54:55.127Z,401816340,Texas Rangers at Houston Astros,in,End 5th,Texas Rangers,Houston Astros,0,6,0.98,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:54:55.127Z,401816341,Kansas City Royals at Colorado Rockies,in,End 1st,Kansas City Royals,Colorado Rockies,0,1,0.638,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:54:55.127Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,End 1st,Milwaukee Brewers,Los Angeles Angels,0,0,0.405,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:54:55.127Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,0,0.484,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:54:55.127Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,0,0.835,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:55:34.736Z,401816340,Texas Rangers at Houston Astros,in,End 5th,Texas Rangers,Houston Astros,0,6,0.98,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:55:34.736Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.638,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:55:34.736Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.405,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:55:34.736Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,0,0.484,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:55:34.736Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.835,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:14.085Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,0,6,0.98,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:14.085Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.638,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:14.085Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.364,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:14.085Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,0,0.484,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:14.085Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.827,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:53.397Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,0,6,0.98,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:53.397Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.638,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:53.397Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.364,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:53.397Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,1,0.597,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:56:53.397Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.827,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:57:32.923Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,0,6,0.98,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:57:32.923Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.565,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:57:32.923Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.322,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:57:32.923Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,1,0.597,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:57:32.923Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.827,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:12.651Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,1,6,0.963,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:12.651Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.649,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:12.651Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.322,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:12.651Z,401816343,Detroit Tigers at Athletics Athletics,in,Bottom 1st,Detroit Tigers,Athletics,0,1,0.564,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:12.651Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.827,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:52.050Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,1,6,0.963,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:52.050Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.649,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:52.050Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.322,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:52.050Z,401816343,Detroit Tigers at Athletics Athletics,in,End 1st,Detroit Tigers,Athletics,0,1,0.529,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:58:52.050Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.827,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:59:31.417Z,401816340,Texas Rangers at Houston Astros,in,Top 6th,Texas Rangers,Houston Astros,1,6,0.963,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:59:31.417Z,401816341,Kansas City Royals at Colorado Rockies,in,Top 2nd,Kansas City Royals,Colorado Rockies,0,1,0.649,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-01T01:59:31.417Z,401816344,Milwaukee Brewers at Los Angeles Angels,in,Top 2nd,Milwaukee Brewers,Los Angeles Angels,0,0,0.322,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-01T01:59:31.417Z,401816343,Detroit Tigers at Athletics Athletics,in,End 1st,Detroit Tigers,Athletics,0,1,0.529,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-01T01:59:31.417Z,401816346,San Francisco Giants at San Diego Padres,in,Bottom 1st,San Francisco Giants,San Diego Padres,0,1,0.84,Petco Park,,,,,,,,,,,,,,,,0

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T01:54:23.833Z",
+  "capturedAt": "2026-08-01T01:59:31.417Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
+  "newPlays": 8,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "13",
@@ -345,7 +345,7 @@
         "name": "Texas Rangers",
         "shortName": "Rangers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 1st",
-        "shortDetail": "End 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "7",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 1st",
-        "shortDetail": "End 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "8",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "6",
@@ -458,7 +458,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -492,7 +492,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
