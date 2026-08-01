@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T22:06:21.437Z",
+  "capturedAt": "2026-08-01T22:11:43.128Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
+  "newPlays": 1,
   "gameStates": 3,
   "injuries": 0,
   "liveGames": 3,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Middle 8th",
+        "shortDetail": "Mid 8th"
       },
       "away": {
         "id": "4",
@@ -141,7 +141,7 @@
         "name": "Miami Marlins",
         "shortName": "Marlins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "9",
