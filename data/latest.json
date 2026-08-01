@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T22:37:32.232Z",
+  "capturedAt": "2026-08-01T22:42:39.817Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 2,
+  "newPlays": 5,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816352",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "28",
@@ -196,11 +196,11 @@
       "id": "401816351",
       "name": "Pittsburgh Pirates at Cincinnati Reds",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "23",
