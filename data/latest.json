@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T05:03:22.994Z",
+  "capturedAt": "2026-08-01T05:04:34.631Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 3,
-  "gameStates": 1,
+  "newPlays": 0,
+  "gameStates": 0,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 0,
   "games": [
     {
       "id": "401816339",
@@ -502,11 +502,11 @@
       "id": "401816342",
       "name": "Boston Red Sox at Los Angeles Dodgers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "2",
@@ -517,7 +517,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
         "score": "9",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "19",
