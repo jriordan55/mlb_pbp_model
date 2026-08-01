@@ -33325,3 +33325,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-01T21:09:36.640Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.523,Tropicana Field,,,,,,,,,,,,,,,,0
 2026-08-01T21:09:36.640Z,401816349,Miami Marlins at New York Mets,in,Top 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
 2026-08-01T21:09:36.640Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.881,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:09:59.995Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Top 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:09:59.995Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.559,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:09:59.995Z,401816349,Miami Marlins at New York Mets,in,Top 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:09:59.995Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:10:31.501Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Middle 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:10:31.501Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.559,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:10:31.501Z,401816349,Miami Marlins at New York Mets,in,Top 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:10:31.501Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:04.063Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Middle 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:04.063Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.559,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:04.063Z,401816349,Miami Marlins at New York Mets,in,Middle 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:04.063Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:35.538Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Middle 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:35.538Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.589,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:35.538Z,401816349,Miami Marlins at New York Mets,in,Middle 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:11:35.538Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:06.805Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:06.805Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.589,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:06.805Z,401816349,Miami Marlins at New York Mets,in,Middle 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:06.805Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:38.062Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.726,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:38.062Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.589,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:38.062Z,401816349,Miami Marlins at New York Mets,in,Middle 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:12:38.062Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.894,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:09.573Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.848,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:09.573Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.546,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:09.573Z,401816349,Miami Marlins at New York Mets,in,Middle 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:09.573Z,401816360,Minnesota Twins at Seattle Mariners,in,Top 4th,Minnesota Twins,Seattle Mariners,0,3,0.904,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:40.860Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.848,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:40.860Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Top 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.546,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:40.860Z,401816349,Miami Marlins at New York Mets,in,Bottom 2nd,Miami Marlins,New York Mets,3,0,0.179,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:13:40.860Z,401816360,Minnesota Twins at Seattle Mariners,in,Middle 4th,Minnesota Twins,Seattle Mariners,0,3,0.908,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:11.958Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.848,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:11.958Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Middle 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.535,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:11.958Z,401816349,Miami Marlins at New York Mets,in,Bottom 2nd,Miami Marlins,New York Mets,3,0,0.25,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:11.958Z,401816360,Minnesota Twins at Seattle Mariners,in,Middle 4th,Minnesota Twins,Seattle Mariners,0,3,0.908,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:43.271Z,401816352,St. Louis Cardinals at Toronto Blue Jays,in,Bottom 7th,St. Louis Cardinals,Toronto Blue Jays,1,2,0.879,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:43.271Z,401816348,Chicago White Sox at Tampa Bay Rays,in,Middle 5th,Chicago White Sox,Tampa Bay Rays,0,0,0.535,Tropicana Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:43.271Z,401816349,Miami Marlins at New York Mets,in,Bottom 2nd,Miami Marlins,New York Mets,3,0,0.25,Citi Field,,,,,,,,,,,,,,,,0
+2026-08-01T21:14:43.271Z,401816360,Minnesota Twins at Seattle Mariners,in,Middle 4th,Minnesota Twins,Seattle Mariners,0,3,0.908,T-Mobile Park,,,,,,,,,,,,,,,,0
