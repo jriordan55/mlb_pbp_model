@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T01:38:54.805Z",
+  "capturedAt": "2026-08-01T01:44:05.097Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 16,
+  "newPlays": 20,
   "gameStates": 8,
   "injuries": 0,
   "liveGames": 8,
@@ -196,11 +196,11 @@
       "id": "401816332",
       "name": "Arizona Diamondbacks at Cleveland Guardians",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Middle 9th",
-        "shortDetail": "Mid 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "29",
@@ -211,7 +211,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
         "score": "4",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "5",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 8th",
-        "shortDetail": "End 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "28",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "20",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "13",
@@ -368,9 +368,9 @@
       "status": {
         "state": "in",
         "completed": false,
-        "description": "Delayed",
-        "detail": "Delayed, Top 1st",
-        "shortDetail": "Delayed, Top 1st"
+        "description": "In Progress",
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "7",
@@ -434,11 +434,11 @@
       "id": "401816343",
       "name": "Detroit Tigers at Athletics Athletics",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "7/31 - 9:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "6",
