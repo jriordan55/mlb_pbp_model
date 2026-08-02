@@ -40599,3 +40599,33 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-02T21:41:42.864Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.026,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-08-02T21:41:42.864Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 6th,Minnesota Twins,Seattle Mariners,0,2,0.86,T-Mobile Park,,,,,,,,,,,,,,,,0
 2026-08-02T21:41:42.864Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.747,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:31:59.043Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:31:59.043Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.911,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:31:59.043Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.905,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:32:32.419Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:32:32.419Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.911,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:32:32.419Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.925,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:03.834Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:03.834Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.911,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:03.834Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.925,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:34.971Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:34.971Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.921,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:33:34.971Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.925,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:06.123Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:06.123Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.921,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:06.123Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.925,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:37.169Z,401816373,Detroit Tigers at Athletics Athletics,in,End 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:37.169Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.921,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:34:37.169Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.925,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:08.237Z,401816373,Detroit Tigers at Athletics Athletics,in,End 7th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:08.237Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.904,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:08.237Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.945,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:39.316Z,401816373,Detroit Tigers at Athletics Athletics,in,Top 8th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:39.316Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.904,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:35:39.316Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,3,5,0.945,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:10.297Z,401816373,Detroit Tigers at Athletics Athletics,in,Top 8th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:10.297Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.904,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:10.297Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,4,5,0.898,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:43.169Z,401816373,Detroit Tigers at Athletics Athletics,in,Top 8th,Detroit Tigers,Athletics,6,0,0.012,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:43.169Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 8th,Minnesota Twins,Seattle Mariners,5,6,0.904,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T22:36:43.169Z,401816376,San Francisco Giants at San Diego Padres,in,Top 8th,San Francisco Giants,San Diego Padres,4,5,0.898,Petco Park,,,,,,,,,,,,,,,,0
