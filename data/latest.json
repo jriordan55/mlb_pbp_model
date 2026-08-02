@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T04:42:20.413Z",
+  "capturedAt": "2026-08-02T04:47:29.766Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
+  "newPlays": 3,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -560,7 +560,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "5",
+        "score": "6",
         "record": "",
         "winner": false
       },
