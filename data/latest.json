@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-01T23:49:52.143Z",
+  "capturedAt": "2026-08-02T01:13:02.641Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 11,
-  "gameStates": 6,
+  "newPlays": 13,
+  "gameStates": 9,
   "injuries": 0,
-  "liveGames": 6,
+  "liveGames": 9,
   "games": [
     {
       "id": "401816352",
@@ -198,9 +198,9 @@
       "status": {
         "state": "in",
         "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "description": "Rain Delay",
+        "detail": "Rain Delay, Bottom 6th",
+        "shortDetail": "Rain Delay, Bottom 6th"
       },
       "away": {
         "id": "23",
@@ -209,7 +209,7 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -220,7 +220,7 @@
         "name": "Cincinnati Reds",
         "shortName": "Reds",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "22",
@@ -243,7 +243,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "13",
@@ -277,7 +277,7 @@
         "name": "Texas Rangers",
         "shortName": "Rangers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
-        "score": "0",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -288,7 +288,7 @@
         "name": "Houston Astros",
         "shortName": "Astros",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "1",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "29",
@@ -311,7 +311,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "20",
@@ -356,7 +356,7 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "3",
+        "score": "8",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "10",
@@ -379,7 +379,7 @@
         "name": "New York Yankees",
         "shortName": "Yankees",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -400,11 +400,11 @@
       "id": "401816356",
       "name": "Kansas City Royals at Colorado Rockies",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 8:10 PM EDT"
+        "description": "In Progress",
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "7",
@@ -413,7 +413,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "0",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -424,7 +424,7 @@
         "name": "Colorado Rockies",
         "shortName": "Rockies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/col.png",
-        "score": "0",
+        "score": "6",
         "record": "",
         "winner": false
       },
@@ -434,11 +434,11 @@
       "id": "401816361",
       "name": "San Francisco Giants at San Diego Padres",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 8:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "26",
@@ -458,7 +458,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -468,11 +468,11 @@
       "id": "401816357",
       "name": "Boston Red Sox at Los Angeles Dodgers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/1 - 9:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "2",
@@ -481,7 +481,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
