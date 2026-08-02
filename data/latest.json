@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T23:12:18.610Z",
+  "capturedAt": "2026-08-02T23:17:51.853Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 2,
+  "newPlays": 3,
+  "gameStates": 1,
   "injuries": 0,
-  "liveGames": 2,
+  "liveGames": 1,
   "games": [
     {
       "id": "401816365",
@@ -502,11 +502,11 @@
       "id": "401816376",
       "name": "San Francisco Giants at San Diego Padres",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "26",
@@ -528,7 +528,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
