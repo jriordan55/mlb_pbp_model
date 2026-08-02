@@ -36095,3 +36095,31 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-02T03:19:01.211Z,401816357,Boston Red Sox at Los Angeles Dodgers,in,Bottom 9th,Boston Red Sox,Los Angeles Dodgers,3,2,0.038,Dodger Stadium,,,,,,,,,,,,,,,,0
 2026-08-02T03:19:01.211Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.433,Angel Stadium,,,,,,,,,,,,,,,,0
 2026-08-02T03:19:01.211Z,401816358,Detroit Tigers at Athletics Athletics,in,Middle 6th,Detroit Tigers,Athletics,6,2,0.078,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:19:33.610Z,401816361,San Francisco Giants at San Diego Padres,in,Top 9th,San Francisco Giants,San Diego Padres,5,5,0.594,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:19:33.610Z,401816357,Boston Red Sox at Los Angeles Dodgers,in,Bottom 9th,Boston Red Sox,Los Angeles Dodgers,3,2,0.038,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:19:33.610Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.433,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:19:33.610Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.078,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:14.827Z,401816361,San Francisco Giants at San Diego Padres,in,Top 9th,San Francisco Giants,San Diego Padres,5,5,0.569,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:14.827Z,401816357,Boston Red Sox at Los Angeles Dodgers,in,Bottom 9th,Boston Red Sox,Los Angeles Dodgers,3,2,0.038,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:14.827Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.473,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:14.827Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.078,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:54.859Z,401816361,San Francisco Giants at San Diego Padres,in,Middle 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:54.859Z,401816357,Boston Red Sox at Los Angeles Dodgers,in,Bottom 9th,Boston Red Sox,Los Angeles Dodgers,3,2,0.038,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:54.859Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.473,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:20:54.859Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.078,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:21:34.643Z,401816361,San Francisco Giants at San Diego Padres,in,Middle 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:21:34.643Z,401816357,Boston Red Sox at Los Angeles Dodgers,in,End 9th,Boston Red Sox,Los Angeles Dodgers,3,2,0,Dodger Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:21:34.643Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.473,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:21:34.643Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.078,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:14.519Z,401816361,San Francisco Giants at San Diego Padres,in,Middle 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:14.519Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.505,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:14.519Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.105,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:54.462Z,401816361,San Francisco Giants at San Diego Padres,in,Bottom 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:54.462Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Top 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.505,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:22:54.462Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.105,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:23:34.439Z,401816361,San Francisco Giants at San Diego Padres,in,Bottom 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:23:34.439Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Middle 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.525,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:23:34.439Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.105,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:24:14.575Z,401816361,San Francisco Giants at San Diego Padres,in,Bottom 9th,San Francisco Giants,San Diego Padres,5,5,0.617,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T03:24:14.575Z,401816359,Milwaukee Brewers at Los Angeles Angels,in,Middle 7th,Milwaukee Brewers,Los Angeles Angels,1,1,0.525,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T03:24:14.575Z,401816358,Detroit Tigers at Athletics Athletics,in,Bottom 6th,Detroit Tigers,Athletics,6,2,0.105,Sutter Health Park,,,,,,,,,,,,,,,,0
