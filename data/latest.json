@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T18:07:20.366Z",
+  "capturedAt": "2026-08-02T18:12:32.416Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
-  "gameStates": 7,
+  "newPlays": 12,
+  "gameStates": 8,
   "injuries": 0,
-  "liveGames": 7,
+  "liveGames": 8,
   "games": [
     {
       "id": "401816365",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "22",
@@ -73,7 +73,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -141,7 +141,7 @@
         "name": "St. Louis Cardinals",
         "shortName": "Cardinals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "29",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "4",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "28",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "23",
@@ -288,7 +288,7 @@
         "name": "Cincinnati Reds",
         "shortName": "Reds",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -298,11 +298,11 @@
       "id": "401816370",
       "name": "Texas Rangers at Houston Astros",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/2 - 2:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "13",
