@@ -40540,3 +40540,62 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-02T21:36:32.879Z,401816373,Detroit Tigers at Athletics Athletics,in,Top 5th,Detroit Tigers,Athletics,6,0,0.03,Sutter Health Park,,,,,,,,,,,,,,,,0
 2026-08-02T21:36:32.879Z,401816375,Minnesota Twins at Seattle Mariners,in,Top 6th,Minnesota Twins,Seattle Mariners,0,2,0.811,T-Mobile Park,,,,,,,,,,,,,,,,0
 2026-08-02T21:36:32.879Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,2,4,0.802,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Bottom 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.969,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816373,Detroit Tigers at Athletics Athletics,in,Top 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816375,Minnesota Twins at Seattle Mariners,in,Top 6th,Minnesota Twins,Seattle Mariners,0,2,0.811,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:36:56.544Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,2,4,0.802,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Bottom 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.969,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816373,Detroit Tigers at Athletics Athletics,in,Middle 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816375,Minnesota Twins at Seattle Mariners,in,Middle 6th,Minnesota Twins,Seattle Mariners,0,2,0.851,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:37:28.459Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,2,4,0.802,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Bottom 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.969,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816373,Detroit Tigers at Athletics Athletics,in,Middle 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816375,Minnesota Twins at Seattle Mariners,in,Middle 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:00.150Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,2,4,0.802,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Bottom 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.969,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816373,Detroit Tigers at Athletics Athletics,in,Middle 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816375,Minnesota Twins at Seattle Mariners,in,Middle 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:38:32.783Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.692,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Bottom 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.992,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816375,Minnesota Twins at Seattle Mariners,in,Middle 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:04.733Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.692,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,End 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.992,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816375,Minnesota Twins at Seattle Mariners,in,Middle 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:39:36.403Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.692,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,End 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.992,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:07.699Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.692,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,End 8th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.992,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 6th,Minnesota Twins,Seattle Mariners,0,2,0.875,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:40:39.404Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.724,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Top 9th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816374,Milwaukee Brewers at Los Angeles Angels,in,Top 9th,Milwaukee Brewers,Los Angeles Angels,0,3,0.992,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.032,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 6th,Minnesota Twins,Seattle Mariners,0,2,0.866,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:11.086Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.724,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:42.864Z,401816365,Philadelphia Phillies at Baltimore Orioles,in,"Rain Delay, Bottom 6th",Philadelphia Phillies,Baltimore Orioles,8,0,0.007,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:42.864Z,401816362,Arizona Diamondbacks at Cleveland Guardians,in,Top 9th,Arizona Diamondbacks,Cleveland Guardians,0,5,0.995,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:42.864Z,401816373,Detroit Tigers at Athletics Athletics,in,Bottom 5th,Detroit Tigers,Athletics,6,0,0.026,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:42.864Z,401816375,Minnesota Twins at Seattle Mariners,in,Bottom 6th,Minnesota Twins,Seattle Mariners,0,2,0.86,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-02T21:41:42.864Z,401816376,San Francisco Giants at San Diego Padres,in,Top 5th,San Francisco Giants,San Diego Padres,3,4,0.747,Petco Park,,,,,,,,,,,,,,,,0
