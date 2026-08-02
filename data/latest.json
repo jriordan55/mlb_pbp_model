@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T02:52:53.151Z",
+  "capturedAt": "2026-08-02T02:58:07.528Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 12,
-  "gameStates": 7,
+  "newPlays": 6,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 7,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816352",
@@ -298,11 +298,11 @@
       "id": "401816347",
       "name": "Arizona Diamondbacks at Cleveland Guardians",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "29",
@@ -313,7 +313,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
         "score": "12",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "5",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "End 8th",
+        "shortDetail": "End 8th"
       },
       "away": {
         "id": "7",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 7th",
-        "shortDetail": "End 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "2",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 5th",
-        "shortDetail": "Mid 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "8",
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Middle 5th",
+        "shortDetail": "Mid 5th"
       },
       "away": {
         "id": "6",
@@ -549,7 +549,7 @@
         "name": "Detroit Tigers",
         "shortName": "Tigers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
