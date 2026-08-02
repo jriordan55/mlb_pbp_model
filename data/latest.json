@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-02T21:15:45.898Z",
+  "capturedAt": "2026-08-02T21:20:56.184Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 8,
+  "newPlays": 9,
   "gameStates": 7,
   "injuries": 0,
   "liveGames": 7,
@@ -62,9 +62,9 @@
       "status": {
         "state": "in",
         "completed": false,
-        "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "description": "Rain Delay",
+        "detail": "Rain Delay, Bottom 6th",
+        "shortDetail": "Rain Delay, Bottom 6th"
       },
       "away": {
         "id": "22",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "End 7th",
+        "shortDetail": "End 7th"
       },
       "away": {
         "id": "29",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "End 8th",
+        "shortDetail": "End 8th"
       },
       "away": {
         "id": "7",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "8",
@@ -447,7 +447,7 @@
         "name": "Detroit Tigers",
         "shortName": "Tigers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-        "score": "4",
+        "score": "6",
         "record": "",
         "winner": false
       },
