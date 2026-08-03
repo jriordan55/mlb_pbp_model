@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-03T00:58:17.073Z",
+  "capturedAt": "2026-08-03T01:03:52.325Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 0,
+  "newPlays": 2,
   "gameStates": 1,
   "injuries": 0,
   "liveGames": 1,
@@ -549,7 +549,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "5",
+        "score": "6",
         "record": "",
         "winner": false
       },
