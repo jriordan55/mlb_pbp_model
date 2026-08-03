@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-03T00:05:06.831Z",
+  "capturedAt": "2026-08-03T00:10:40.134Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 2nd",
-        "shortDetail": "End 2nd"
+        "detail": "Top 3rd",
+        "shortDetail": "Top 3rd"
       },
       "away": {
         "id": "2",
@@ -549,7 +549,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
