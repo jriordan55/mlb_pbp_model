@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-03T00:10:40.134Z",
+  "capturedAt": "2026-08-03T00:15:43.577Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -549,7 +549,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
