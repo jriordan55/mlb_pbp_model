@@ -42298,3 +42298,65 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-04T01:19:00.471Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,End 4th,Los Angeles Dodgers,Chicago Cubs,4,6,0.761,Wrigley Field,,,,,,,,,,,,,,,,0
 2026-08-04T01:19:00.471Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.203,Daikin Park,,,,,,,,,,,,,,,,0
 2026-08-04T01:19:00.471Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 2nd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816378,Washington Nationals at Philadelphia Phillies,in,Top 9th,Washington Nationals,Philadelphia Phillies,3,6,0.993,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,1,0.147,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816381,San Francisco Giants at Texas Rangers,in,Bottom 4th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,End 4th,Los Angeles Dodgers,Chicago Cubs,4,6,0.761,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:23.646Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 2nd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816378,Washington Nationals at Philadelphia Phillies,in,Top 9th,Washington Nationals,Philadelphia Phillies,3,6,1,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,1,0.176,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816381,San Francisco Giants at Texas Rangers,in,End 4th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,End 4th,Los Angeles Dodgers,Chicago Cubs,4,6,0.761,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:19:56.701Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 2nd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,1,0.176,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816381,San Francisco Giants at Texas Rangers,in,End 4th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,End 4th,Los Angeles Dodgers,Chicago Cubs,4,6,0.761,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:28.194Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,1,0.176,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816381,San Francisco Giants at Texas Rangers,in,End 4th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.761,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:20:59.376Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816381,San Francisco Giants at Texas Rangers,in,End 4th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.787,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:21:30.601Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816381,San Francisco Giants at Texas Rangers,in,Top 5th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.787,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.176,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:01.880Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.056,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816381,San Francisco Giants at Texas Rangers,in,Top 5th,San Francisco Giants,Texas Rangers,3,0,0.162,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.787,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.163,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:22:33.139Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.04,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 6th,St. Louis Cardinals,New York Yankees,6,3,0.191,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816381,San Francisco Giants at Texas Rangers,in,Top 5th,San Francisco Giants,Texas Rangers,3,0,0.158,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.787,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.163,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:04.404Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.04,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816377,St. Louis Cardinals at New York Yankees,in,End 6th,St. Louis Cardinals,New York Yankees,6,3,0.124,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816381,San Francisco Giants at Texas Rangers,in,Top 5th,San Francisco Giants,Texas Rangers,3,0,0.158,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.808,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.163,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:23:35.847Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.037,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816377,St. Louis Cardinals at New York Yankees,in,End 6th,St. Louis Cardinals,New York Yankees,6,3,0.124,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 6th,Pittsburgh Pirates,Milwaukee Brewers,4,3,0.4,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816381,San Francisco Giants at Texas Rangers,in,Top 5th,San Francisco Giants,Texas Rangers,3,0,0.165,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Middle 5th,Los Angeles Dodgers,Chicago Cubs,4,6,0.808,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816382,Toronto Blue Jays at Houston Astros,in,Top 5th,Toronto Blue Jays,Houston Astros,3,0,0.203,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-04T01:24:08.419Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 3rd,Tampa Bay Rays,Colorado Rockies,6,0,0.037,Coors Field,,,,,,,,,,,,,,,,0
