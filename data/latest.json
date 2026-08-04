@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-04T03:27:35.558Z",
+  "capturedAt": "2026-08-04T03:33:08.322Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -311,7 +311,7 @@
         "name": "San Diego Padres",
         "shortName": "Padres",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sd.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
