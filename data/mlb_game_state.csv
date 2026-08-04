@@ -43857,3 +43857,73 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-04T23:15:10.405Z,401816389,St. Louis Cardinals at New York Yankees,in,Top 1st,St. Louis Cardinals,New York Yankees,0,0,0.64,Yankee Stadium,,,,,,,,,,,,,,,,0
 2026-08-04T23:15:10.405Z,401816386,Chicago White Sox at Boston Red Sox,in,Top 1st,Chicago White Sox,Boston Red Sox,0,0,0.513,Fenway Park,,,,,,,,,,,,,,,,0
 2026-08-04T23:15:10.405Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.745,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816385,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.241,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816390,Washington Nationals at Philadelphia Phillies,in,End 2nd,Washington Nationals,Philadelphia Phillies,0,1,0.802,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816389,St. Louis Cardinals at New York Yankees,in,Middle 1st,St. Louis Cardinals,New York Yankees,0,0,0.64,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816386,Chicago White Sox at Boston Red Sox,in,Top 1st,Chicago White Sox,Boston Red Sox,0,0,0.513,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:15:35.055Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.745,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816385,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.228,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.802,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816389,St. Louis Cardinals at New York Yankees,in,Middle 1st,St. Louis Cardinals,New York Yankees,0,0,0.648,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816386,Chicago White Sox at Boston Red Sox,in,Top 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:09.346Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.745,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816385,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.228,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.802,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816389,St. Louis Cardinals at New York Yankees,in,Middle 1st,St. Louis Cardinals,New York Yankees,0,0,0.648,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816386,Chicago White Sox at Boston Red Sox,in,Top 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:16:41.233Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.81,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.228,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.802,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816389,St. Louis Cardinals at New York Yankees,in,Middle 1st,St. Louis Cardinals,New York Yankees,0,0,0.648,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816386,Chicago White Sox at Boston Red Sox,in,Middle 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:13.122Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.81,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.228,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.735,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.648,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816386,Chicago White Sox at Boston Red Sox,in,Middle 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:17:44.936Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.681,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.843,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.242,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.735,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.648,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816386,Chicago White Sox at Boston Red Sox,in,Middle 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:16.659Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.681,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.843,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.562,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816388,New York Mets at Cleveland Guardians,in,Bottom 2nd,New York Mets,Cleveland Guardians,3,0,0.242,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.735,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.629,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816386,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:18:48.036Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.681,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.791,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.562,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816388,New York Mets at Cleveland Guardians,in,End 2nd,New York Mets,Cleveland Guardians,3,0,0.242,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816390,Washington Nationals at Philadelphia Phillies,in,Top 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.75,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.629,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816386,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.502,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:19.461Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.694,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,2,0.884,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.562,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816388,New York Mets at Cleveland Guardians,in,End 2nd,New York Mets,Cleveland Guardians,3,0,0.242,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816390,Washington Nationals at Philadelphia Phillies,in,Middle 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.8,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.629,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816386,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.593,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:19:52.283Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.694,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816384,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,2,0.884,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816385,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,0,0,0.562,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816388,New York Mets at Cleveland Guardians,in,End 2nd,New York Mets,Cleveland Guardians,3,0,0.242,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816390,Washington Nationals at Philadelphia Phillies,in,Middle 3rd,Washington Nationals,Philadelphia Phillies,0,1,0.805,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816389,St. Louis Cardinals at New York Yankees,in,Bottom 1st,St. Louis Cardinals,New York Yankees,0,0,0.614,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816386,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.593,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-04T23:20:24.237Z,401816387,Miami Marlins at Atlanta Braves,in,Top 1st,Miami Marlins,Atlanta Braves,0,0,0.694,Truist Park,,,,,,,,,,,,,,,,0
