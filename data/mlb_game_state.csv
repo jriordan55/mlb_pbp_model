@@ -41329,3 +41329,33 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-03T23:56:31.263Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.173,Citizens Bank Park,,,,,,,,,,,,,,,,0
 2026-08-03T23:56:31.263Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 2nd,St. Louis Cardinals,New York Yankees,3,0,0.347,Yankee Stadium,,,,,,,,,,,,,,,,0
 2026-08-03T23:56:31.263Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.596,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:56:54.568Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.173,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:56:54.568Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:56:54.568Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.566,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:25.683Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.173,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:25.683Z,401816377,St. Louis Cardinals at New York Yankees,in,Bottom 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:25.683Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.566,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:56.767Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.173,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:56.767Z,401816377,St. Louis Cardinals at New York Yankees,in,End 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:57:56.767Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.566,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:27.952Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.219,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:27.952Z,401816377,St. Louis Cardinals at New York Yankees,in,End 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:27.952Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:59.337Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.219,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:59.337Z,401816377,St. Louis Cardinals at New York Yankees,in,End 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:58:59.337Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Top 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-03T23:59:30.520Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.219,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-03T23:59:30.520Z,401816377,St. Louis Cardinals at New York Yankees,in,End 2nd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-03T23:59:30.520Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Middle 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:01.825Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.219,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:01.825Z,401816377,St. Louis Cardinals at New York Yankees,in,Top 3rd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:01.825Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Middle 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:32.928Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.182,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:32.928Z,401816377,St. Louis Cardinals at New York Yankees,in,Top 3rd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T00:00:32.928Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Middle 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:04.287Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.182,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:04.287Z,401816377,St. Louis Cardinals at New York Yankees,in,Top 3rd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:04.287Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:35.499Z,401816378,Washington Nationals at Philadelphia Phillies,in,Bottom 5th,Washington Nationals,Philadelphia Phillies,3,0,0.182,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:35.499Z,401816377,St. Louis Cardinals at New York Yankees,in,Top 3rd,St. Louis Cardinals,New York Yankees,3,0,0.328,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-04T00:01:35.499Z,401816380,Pittsburgh Pirates at Milwaukee Brewers,in,Bottom 2nd,Pittsburgh Pirates,Milwaukee Brewers,0,0,0.583,American Family Field,,,,,,,,,,,,,,,,0
