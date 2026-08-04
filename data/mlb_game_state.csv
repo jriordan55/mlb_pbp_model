@@ -43331,3 +43331,43 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-04T02:41:23.666Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.996,Wrigley Field,,,,,,,,,,,,,,,,0
 2026-08-04T02:41:23.666Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Bottom 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.018,Coors Field,,,,,,,,,,,,,,,,0
 2026-08-04T02:41:23.666Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.863,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:41:46.986Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:41:46.986Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.988,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:41:46.986Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Bottom 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.009,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:41:46.986Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.863,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:18.220Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:18.220Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.988,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:18.220Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:18.220Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.857,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:49.609Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:49.609Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.988,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:49.609Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:42:49.609Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.857,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:20.914Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:20.914Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.988,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:20.914Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:20.914Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.857,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:52.169Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:52.169Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.988,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:52.169Z,401816383,Tampa Bay Rays at Colorado Rockies,in,End 7th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:43:52.169Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Bottom 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.857,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:23.541Z,401816381,San Francisco Giants at Texas Rangers,in,Top 9th,San Francisco Giants,Texas Rangers,5,0,0.005,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:23.541Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:23.541Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:23.541Z,401815079,San Diego Padres at Arizona Diamondbacks,in,End 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.855,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:56.143Z,401816381,San Francisco Giants at Texas Rangers,in,Middle 9th,San Francisco Giants,Texas Rangers,5,0,0.007,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:56.143Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.999,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:56.143Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:44:56.143Z,401815079,San Diego Padres at Arizona Diamondbacks,in,End 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.855,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:28.450Z,401816381,San Francisco Giants at Texas Rangers,in,Middle 9th,San Francisco Giants,Texas Rangers,5,0,0.007,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:28.450Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.999,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:28.450Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:28.450Z,401815079,San Diego Padres at Arizona Diamondbacks,in,End 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.855,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:59.570Z,401816381,San Francisco Giants at Texas Rangers,in,Middle 9th,San Francisco Giants,Texas Rangers,5,0,0.007,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:59.570Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,0.999,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:59.570Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:45:59.570Z,401815079,San Diego Padres at Arizona Diamondbacks,in,End 4th,San Diego Padres,Arizona Diamondbacks,0,3,0.855,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:46:30.878Z,401816381,San Francisco Giants at Texas Rangers,in,Middle 9th,San Francisco Giants,Texas Rangers,5,0,0.007,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:46:30.878Z,401816379,Los Angeles Dodgers at Chicago Cubs,in,Top 9th,Los Angeles Dodgers,Chicago Cubs,5,10,1,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:46:30.878Z,401816383,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,10,4,0.005,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-04T02:46:30.878Z,401815079,San Diego Padres at Arizona Diamondbacks,in,Top 5th,San Diego Padres,Arizona Diamondbacks,0,3,0.855,Chase Field,,,,,,,,,,,,,,,,0
