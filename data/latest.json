@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-04T00:01:35.499Z",
+  "capturedAt": "2026-08-04T00:06:42.965Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 3,
+  "newPlays": 7,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816378",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "20",
@@ -196,11 +196,11 @@
       "id": "401816379",
       "name": "Los Angeles Dodgers at Chicago Cubs",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/3 - 8:05 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "19",
