@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-04T23:10:00.213Z",
+  "capturedAt": "2026-08-04T23:15:10.405Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 8,
-  "gameStates": 5,
+  "newPlays": 10,
+  "gameStates": 7,
   "injuries": 0,
-  "liveGames": 5,
+  "liveGames": 7,
   "games": [
     {
       "id": "401816384",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "3",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "11",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "21",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "20",
@@ -230,11 +230,11 @@
       "id": "401816386",
       "name": "Chicago White Sox at Boston Red Sox",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/4 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "4",
@@ -264,11 +264,11 @@
       "id": "401816387",
       "name": "Miami Marlins at Atlanta Braves",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/4 - 7:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "28",
