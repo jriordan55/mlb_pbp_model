@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T22:43:24.941Z",
+  "capturedAt": "2026-08-05T22:49:01.022Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 7,
-  "gameStates": 4,
+  "newPlays": 5,
+  "gameStates": 5,
   "injuries": 0,
-  "liveGames": 4,
+  "liveGames": 5,
   "games": [
     {
       "id": "401816410",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "3",
@@ -298,11 +298,11 @@
       "id": "401816404",
       "name": "St. Louis Cardinals at New York Yankees",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/5 - 7:05 PM EDT"
+        "description": "Rain Delay",
+        "detail": "Rain Delay, Top 1st",
+        "shortDetail": "Rain Delay, Top 1st"
       },
       "away": {
         "id": "24",
