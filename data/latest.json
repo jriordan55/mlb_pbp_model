@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T00:38:52.361Z",
+  "capturedAt": "2026-08-05T00:44:08.288Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 13,
-  "gameStates": 12,
+  "newPlays": 16,
+  "gameStates": 13,
   "injuries": 0,
-  "liveGames": 12,
+  "liveGames": 13,
   "games": [
     {
       "id": "401816384",
@@ -84,7 +84,7 @@
         "name": "Baltimore Orioles",
         "shortName": "Orioles",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "11",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "21",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 6th",
-        "shortDetail": "End 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "24",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "4",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "28",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 3rd",
-        "shortDetail": "End 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "9",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "19",
@@ -390,7 +390,7 @@
         "name": "Chicago Cubs",
         "shortName": "Cubs",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Middle 2nd",
+        "shortDetail": "Mid 2nd"
       },
       "away": {
         "id": "26",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "14",
@@ -468,11 +468,11 @@
       "id": "401816396",
       "name": "Tampa Bay Rays at Colorado Rockies",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/4 - 8:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "30",
