@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T01:15:50.443Z",
+  "capturedAt": "2026-08-05T01:21:06.463Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 17,
-  "gameStates": 10,
+  "gameStates": 9,
   "injuries": 0,
-  "liveGames": 10,
+  "liveGames": 9,
   "games": [
     {
       "id": "401816384",
@@ -94,11 +94,11 @@
       "id": "401816385",
       "name": "Athletics Athletics at Cincinnati Reds",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "11",
@@ -120,7 +120,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -254,7 +254,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "9",
+        "score": "13",
         "record": "",
         "winner": false
       },
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "End 8th",
+        "shortDetail": "End 8th"
       },
       "away": {
         "id": "28",
@@ -288,7 +288,7 @@
         "name": "Atlanta Braves",
         "shortName": "Braves",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/atl.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "9",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 6th",
-        "shortDetail": "Top 6th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "23",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 5th",
-        "shortDetail": "Mid 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "19",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "26",
@@ -458,7 +458,7 @@
         "name": "Houston Astros",
         "shortName": "Astros",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Bottom 3rd",
+        "shortDetail": "Bot 3rd"
       },
       "away": {
         "id": "30",
@@ -481,7 +481,7 @@
         "name": "Tampa Bay Rays",
         "shortName": "Rays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-        "score": "1",
+        "score": "5",
         "record": "",
         "winner": false
       },
