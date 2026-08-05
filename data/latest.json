@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T20:07:06.951Z",
+  "capturedAt": "2026-08-05T20:12:10.431Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 11,
+  "newPlays": 9,
   "gameStates": 4,
   "injuries": 0,
   "liveGames": 4,
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "19",
@@ -152,7 +152,7 @@
         "name": "Texas Rangers",
         "shortName": "Rangers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tex.png",
-        "score": "4",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "30",

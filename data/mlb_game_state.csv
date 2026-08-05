@@ -48103,3 +48103,39 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-05T20:07:06.951Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.97,Wrigley Field,,,,,,,,,,,,,,,,0
 2026-08-05T20:07:06.951Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,4,0.915,Globe Life Field,,,,,,,,,,,,,,,,0
 2026-08-05T20:07:06.951Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Bottom 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.193,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:07:33.407Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.589,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:07:33.407Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.97,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:07:33.407Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.915,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:07:33.407Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Bottom 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.193,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:08.249Z,401816410,Toronto Blue Jays at Houston Astros,in,Bottom 5th,Toronto Blue Jays,Houston Astros,0,3,0.589,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:08.249Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.97,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:08.249Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.97,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:08.249Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Bottom 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.193,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:42.353Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.589,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:42.353Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.97,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:42.353Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.97,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:08:42.353Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Bottom 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.193,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:16.599Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.625,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:16.599Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.97,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:16.599Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.966,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:16.599Z,401816411,Tampa Bay Rays at Colorado Rockies,in,End 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:52.920Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.625,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:52.920Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.968,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:52.920Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.966,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:09:52.920Z,401816411,Tampa Bay Rays at Colorado Rockies,in,End 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:10:28.486Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.625,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:10:28.486Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.968,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:10:28.486Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.966,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:10:28.486Z,401816411,Tampa Bay Rays at Colorado Rockies,in,End 3rd,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:02.652Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.649,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:02.652Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.969,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:02.652Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.966,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:02.652Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Top 4th,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:36.670Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.649,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:36.670Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,Bottom 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.969,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:36.670Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.963,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:11:36.670Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Top 4th,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:12:10.431Z,401816410,Toronto Blue Jays at Houston Astros,in,Top 7th,Toronto Blue Jays,Houston Astros,3,3,0.649,Daikin Park,,,,,,,,,,,,,,,,0
+2026-08-05T20:12:10.431Z,401816406,Los Angeles Dodgers at Chicago Cubs,in,End 5th,Los Angeles Dodgers,Chicago Cubs,1,6,0.969,Wrigley Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:12:10.431Z,401816409,San Francisco Giants at Texas Rangers,in,Bottom 5th,San Francisco Giants,Texas Rangers,0,5,0.963,Globe Life Field,,,,,,,,,,,,,,,,0
+2026-08-05T20:12:10.431Z,401816411,Tampa Bay Rays at Colorado Rockies,in,Top 4th,Tampa Bay Rays,Colorado Rockies,3,0,0.174,Coors Field,,,,,,,,,,,,,,,,0
