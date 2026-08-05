@@ -49083,3 +49083,73 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-05T23:20:48.173Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.457,Citizens Bank Park,,,,,,,,,,,,,,,,0
 2026-08-05T23:20:48.173Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.647,Fenway Park,,,,,,,,,,,,,,,,0
 2026-08-05T23:20:48.173Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.614,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.596,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.549,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816403,New York Mets at Cleveland Guardians,in,Top 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.457,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.647,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:11.760Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.614,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.596,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.549,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.501,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.647,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:21:42.545Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.614,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.596,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.57,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816403,New York Mets at Cleveland Guardians,in,Middle 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.501,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.628,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:13.553Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.594,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Bottom 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.596,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.57,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816403,New York Mets at Cleveland Guardians,in,Middle 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.615,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:22:44.272Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.594,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816399,Los Angeles Angels at Baltimore Orioles,in,End 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.596,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.57,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.615,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:15.116Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.594,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816399,Los Angeles Angels at Baltimore Orioles,in,End 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.589,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816400,Athletics Athletics at Cincinnati Reds,in,Top 3rd,Athletics,Cincinnati Reds,1,1,0.57,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.615,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:23:46.399Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.594,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816399,Los Angeles Angels at Baltimore Orioles,in,End 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.589,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816400,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,1,1,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.343,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816405,Washington Nationals at Philadelphia Phillies,in,Bottom 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.615,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:18.857Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.594,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816399,Los Angeles Angels at Baltimore Orioles,in,End 3rd,Los Angeles Angels,Baltimore Orioles,0,0,0.589,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816400,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,1,1,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.32,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816405,Washington Nationals at Philadelphia Phillies,in,End 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.624,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:24:50.975Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.621,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Top 4th,Los Angeles Angels,Baltimore Orioles,0,0,0.589,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816400,Athletics Athletics at Cincinnati Reds,in,Middle 3rd,Athletics,Cincinnati Reds,1,1,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.32,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816405,Washington Nationals at Philadelphia Phillies,in,End 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.624,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:21.969Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.621,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816399,Los Angeles Angels at Baltimore Orioles,in,Top 4th,Los Angeles Angels,Baltimore Orioles,0,0,0.589,Oriole Park at Camden Yards,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816400,Athletics Athletics at Cincinnati Reds,in,Bottom 3rd,Athletics,Cincinnati Reds,1,1,0.581,Great American Ball Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816403,New York Mets at Cleveland Guardians,in,Bottom 3rd,New York Mets,Cleveland Guardians,2,0,0.358,Progressive Field,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816404,St. Louis Cardinals at New York Yankees,in,"Rain Delay, Top 1st",St. Louis Cardinals,New York Yankees,0,0,,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816405,Washington Nationals at Philadelphia Phillies,in,End 1st,Washington Nationals,Philadelphia Phillies,1,0,0.459,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816401,Chicago White Sox at Boston Red Sox,in,Bottom 1st,Chicago White Sox,Boston Red Sox,0,0,0.624,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-05T23:25:52.797Z,401816402,Miami Marlins at Atlanta Braves,in,Bottom 1st,Miami Marlins,Atlanta Braves,0,0,0.621,Truist Park,,,,,,,,,,,,,,,,0
