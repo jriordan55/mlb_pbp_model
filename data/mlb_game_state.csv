@@ -47523,3 +47523,8 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-05T02:50:02.118Z,401816396,Tampa Bay Rays at Colorado Rockies,in,Top 8th,Tampa Bay Rays,Colorado Rockies,5,7,0.857,Coors Field,,,,,,,,,,,,,,,,0
 2026-08-05T02:50:02.118Z,401816397,Detroit Tigers at Seattle Mariners,in,Top 5th,Detroit Tigers,Seattle Mariners,3,0,0.136,T-Mobile Park,,,,,,,,,,,,,,,,0
 2026-08-05T02:50:02.118Z,401816398,San Diego Padres at Arizona Diamondbacks,in,Middle 4th,San Diego Padres,Arizona Diamondbacks,6,0,0.068,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-05T04:26:34.352Z,401816398,San Diego Padres at Arizona Diamondbacks,in,Bottom 9th,San Diego Padres,Arizona Diamondbacks,9,4,0.001,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-05T04:27:06.793Z,401816398,San Diego Padres at Arizona Diamondbacks,in,Bottom 9th,San Diego Padres,Arizona Diamondbacks,9,4,0.001,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-05T04:27:37.669Z,401816398,San Diego Padres at Arizona Diamondbacks,in,End 9th,San Diego Padres,Arizona Diamondbacks,9,4,0,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-05T04:28:08.599Z,401816398,San Diego Padres at Arizona Diamondbacks,in,End 9th,San Diego Padres,Arizona Diamondbacks,9,4,0,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-05T04:28:39.384Z,401816398,San Diego Padres at Arizona Diamondbacks,in,End 9th,San Diego Padres,Arizona Diamondbacks,9,4,0,Chase Field,,,,,,,,,,,,,,,,0
