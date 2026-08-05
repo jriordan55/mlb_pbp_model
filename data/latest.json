@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T23:00:03.851Z",
+  "capturedAt": "2026-08-05T23:05:07.398Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 6,
+  "newPlays": 4,
   "gameStates": 5,
   "injuries": 0,
   "liveGames": 5,
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "3",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "11",
@@ -334,9 +334,9 @@
       "status": {
         "state": "in",
         "completed": false,
-        "description": "Rain Delay",
-        "detail": "Rain Delay, Top 1st",
-        "shortDetail": "Rain Delay, Top 1st"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "20",
