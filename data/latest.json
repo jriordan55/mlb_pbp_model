@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-05T01:57:43.749Z",
+  "capturedAt": "2026-08-05T02:02:56.187Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 15,
+  "newPlays": 21,
   "gameStates": 8,
   "injuries": 0,
   "liveGames": 8,
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 8th",
-        "shortDetail": "Top 8th"
+        "detail": "Bottom 8th",
+        "shortDetail": "Bot 8th"
       },
       "away": {
         "id": "9",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "23",
@@ -390,7 +390,7 @@
         "name": "Chicago Cubs",
         "shortName": "Cubs",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 7th",
+        "shortDetail": "Top 7th"
       },
       "away": {
         "id": "14",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "30",
