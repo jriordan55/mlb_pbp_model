@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-06T01:02:57.789Z",
+  "capturedAt": "2026-08-06T01:08:03.876Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 9,
-  "gameStates": 9,
+  "gameStates": 7,
   "injuries": 0,
-  "liveGames": 9,
+  "liveGames": 7,
   "games": [
     {
       "id": "401816410",
@@ -196,11 +196,11 @@
       "id": "401816399",
       "name": "Los Angeles Angels at Baltimore Orioles",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "3",
@@ -222,7 +222,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bal.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -230,11 +230,11 @@
       "id": "401816400",
       "name": "Athletics Athletics at Cincinnati Reds",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "11",
@@ -256,7 +256,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cin.png",
         "score": "3",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -356,7 +356,7 @@
         "name": "Philadelphia Phillies",
         "shortName": "Phillies",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Middle 7th",
+        "shortDetail": "Mid 7th"
       },
       "away": {
         "id": "4",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "28",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "23",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "End 5th",
+        "shortDetail": "End 5th"
       },
       "away": {
         "id": "9",
@@ -492,7 +492,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
