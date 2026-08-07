@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T03:22:30.761Z",
+  "capturedAt": "2026-08-07T03:27:42.178Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
+  "newPlays": 3,
   "gameStates": 2,
   "injuries": 0,
   "liveGames": 2,
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 12th",
-        "shortDetail": "Bot 12th"
+        "detail": "Top 13th",
+        "shortDetail": "Top 13th"
       },
       "away": {
         "id": "4",
@@ -322,7 +322,7 @@
         "name": "Boston Red Sox",
         "shortName": "Red Sox",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/bos.png",
-        "score": "10",
+        "score": "11",
         "record": "",
         "winner": false
       },
