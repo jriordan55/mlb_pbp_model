@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T22:05:46.023Z",
+  "capturedAt": "2026-08-07T22:10:52.376Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 0,
-  "gameStates": 1,
+  "gameStates": 3,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 3,
   "games": [
     {
       "id": "401816428",
@@ -94,11 +94,11 @@
       "id": "401816429",
       "name": "Toronto Blue Jays at Philadelphia Phillies",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 6:40 PM EDT"
+        "description": "Delayed",
+        "detail": "Delayed, Top 1st",
+        "shortDetail": "Delayed, Top 1st"
       },
       "away": {
         "id": "14",
@@ -162,11 +162,11 @@
       "id": "401816426",
       "name": "Atlanta Braves at New York Yankees",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 7:05 PM EDT"
+        "description": "Rain Delay",
+        "detail": "Rain Delay, Top 1st",
+        "shortDetail": "Rain Delay, Top 1st"
       },
       "away": {
         "id": "15",
