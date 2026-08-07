@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T22:38:21.465Z",
+  "capturedAt": "2026-08-07T22:43:50.391Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,19 +52,19 @@
   ],
   "oddsCount": 0,
   "newPlays": 0,
-  "gameStates": 3,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816428",
       "name": "New York Mets at Pittsburgh Pirates",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "21",
