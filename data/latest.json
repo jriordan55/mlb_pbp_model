@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T01:38:38.803Z",
+  "capturedAt": "2026-08-07T01:43:50.413Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 4,
-  "gameStates": 3,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816414",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "4",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "9",
@@ -400,11 +400,11 @@
       "id": "401816423",
       "name": "San Diego Padres at Arizona Diamondbacks",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/6 - 9:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "25",
