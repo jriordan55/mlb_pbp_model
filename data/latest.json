@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T23:05:27.858Z",
+  "capturedAt": "2026-08-07T23:11:00.296Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 1,
-  "gameStates": 4,
+  "newPlays": 7,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 4,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816428",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "21",
@@ -196,11 +196,11 @@
       "id": "401816424",
       "name": "Los Angeles Angels at Miami Marlins",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "3",
@@ -230,11 +230,11 @@
       "id": "401816425",
       "name": "Athletics Athletics at Boston Red Sox",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 7:10 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "11",
