@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T01:18:01.250Z",
+  "capturedAt": "2026-08-07T01:23:11.012Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
+  "newPlays": 9,
   "gameStates": 3,
   "injuries": 0,
   "liveGames": 3,
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "End 6th",
+        "shortDetail": "End 6th"
       },
       "away": {
         "id": "4",
@@ -334,9 +334,9 @@
       "status": {
         "state": "in",
         "completed": false,
-        "description": "Rain Delay",
-        "detail": "Rain Delay, Top 4th",
-        "shortDetail": "Rain Delay, Top 4th"
+        "description": "In Progress",
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "28",
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "End 6th",
+        "shortDetail": "End 6th"
       },
       "away": {
         "id": "9",
@@ -390,7 +390,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
