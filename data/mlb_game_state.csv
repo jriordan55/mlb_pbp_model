@@ -52863,3 +52863,33 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-07T02:35:46.752Z,401816416,Chicago White Sox at Boston Red Sox,in,Top 10th,Chicago White Sox,Boston Red Sox,9,7,0.214,Fenway Park,,,,,,,,,,,,,,,,0
 2026-08-07T02:35:46.752Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,7,0.993,Truist Park,,,,,,,,,,,,,,,,0
 2026-08-07T02:35:46.752Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.217,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:10.288Z,401816416,Chicago White Sox at Boston Red Sox,in,Top 10th,Chicago White Sox,Boston Red Sox,9,7,0.214,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:10.288Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,7,0.993,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:10.288Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.217,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:41.775Z,401816416,Chicago White Sox at Boston Red Sox,in,Middle 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:41.775Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.993,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:36:41.775Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.217,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:13.160Z,401816416,Chicago White Sox at Boston Red Sox,in,Middle 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:13.160Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.995,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:13.160Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.217,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:44.568Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:44.568Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.995,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:37:44.568Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.217,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:16.549Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:16.549Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.994,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:16.549Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.243,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:48.045Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:48.045Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.994,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:38:48.045Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.243,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:19.388Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.223,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:19.388Z,401816417,Miami Marlins at Atlanta Braves,in,Bottom 7th,Miami Marlins,Atlanta Braves,2,8,0.994,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:19.388Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,0,0.243,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:51.283Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.123,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:51.283Z,401816417,Miami Marlins at Atlanta Braves,in,End 7th,Miami Marlins,Atlanta Braves,2,8,0.992,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:39:51.283Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,1,0.326,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:22.727Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.123,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:22.727Z,401816417,Miami Marlins at Atlanta Braves,in,End 7th,Miami Marlins,Atlanta Braves,2,8,0.992,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:22.727Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,1,0.326,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:54.189Z,401816416,Chicago White Sox at Boston Red Sox,in,Bottom 10th,Chicago White Sox,Boston Red Sox,9,7,0.196,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:54.189Z,401816417,Miami Marlins at Atlanta Braves,in,Top 8th,Miami Marlins,Atlanta Braves,2,8,0.992,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-07T02:40:54.189Z,401816423,San Diego Padres at Arizona Diamondbacks,in,Bottom 3rd,San Diego Padres,Arizona Diamondbacks,3,1,0.348,Chase Field,,,,,,,,,,,,,,,,0
