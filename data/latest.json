@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T22:07:44.486Z",
+  "capturedAt": "2026-08-08T22:12:59.370Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Bottom 7th",
+        "shortDetail": "Bot 7th"
       },
       "away": {
         "id": "11",
@@ -141,7 +141,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "5",
+        "score": "6",
         "record": "",
         "winner": false
       },
@@ -175,7 +175,7 @@
         "name": "Toronto Blue Jays",
         "shortName": "Blue Jays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tor.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
