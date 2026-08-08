@@ -58538,3 +58538,24 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-08T20:06:18.601Z,401816441,Atlanta Braves at New York Yankees,in,End 4th,Atlanta Braves,New York Yankees,0,1,0.602,Yankee Stadium,,,,,,,,,,,,,,,,0
 2026-08-08T20:06:58.481Z,401816441,Atlanta Braves at New York Yankees,in,End 4th,Atlanta Braves,New York Yankees,0,1,0.6,Yankee Stadium,,,,,,,,,,,,,,,,0
 2026-08-08T20:07:38.346Z,401816441,Atlanta Braves at New York Yankees,in,End 4th,Atlanta Braves,New York Yankees,0,1,0.6,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:08:10.799Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,0,1,0.6,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:08:50.947Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,0,1,0.516,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:08:50.947Z,401816440,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,0,0,,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:09:31.740Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,1,1,0.516,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:09:31.740Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:09:31.740Z,401816440,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,0,0,,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:11.816Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,1,1,0.372,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:11.816Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:11.816Z,401816440,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,0,0,,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:51.807Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,1,1,0.296,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:51.807Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:10:51.807Z,401816440,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,0,0,0.697,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:11:31.578Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,1,1,0.296,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:11:31.578Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.606,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:11:31.578Z,401816440,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,0,0,0.712,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:11.509Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,1,1,0.296,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:11.509Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.606,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:11.509Z,401816440,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,0,0,0.722,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:51.300Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:51.300Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.606,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:12:51.300Z,401816440,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,0,0,0.722,Fenway Park,,,,,,,,,,,,,,,,0
