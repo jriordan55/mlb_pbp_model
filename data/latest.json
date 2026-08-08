@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T23:10:30.271Z",
+  "capturedAt": "2026-08-08T23:15:45.543Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 7,
-  "gameStates": 5,
+  "newPlays": 13,
+  "gameStates": 9,
   "injuries": 0,
-  "liveGames": 5,
+  "liveGames": 9,
   "games": [
     {
       "id": "401816441",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "17",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "16",
@@ -332,11 +332,11 @@
       "id": "401816445",
       "name": "Baltimore Orioles at Texas Rangers",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/8 - 7:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "1",
@@ -400,11 +400,11 @@
       "id": "401816448",
       "name": "Colorado Rockies at St. Louis Cardinals",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/8 - 7:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "27",
@@ -434,11 +434,11 @@
       "id": "401816450",
       "name": "Detroit Tigers at San Francisco Giants",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/8 - 7:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "6",
@@ -468,11 +468,11 @@
       "id": "401816451",
       "name": "Houston Astros at San Diego Padres",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/8 - 7:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "18",
