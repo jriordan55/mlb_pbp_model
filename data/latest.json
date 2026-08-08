@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T22:39:06.970Z",
+  "capturedAt": "2026-08-08T22:44:22.225Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
-  "gameStates": 3,
+  "newPlays": 11,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 3,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816441",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "3",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 8th",
-        "shortDetail": "Bot 8th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "11",
@@ -141,7 +141,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "6",
+        "score": "7",
         "record": "",
         "winner": false
       },
@@ -196,11 +196,11 @@
       "id": "401816443",
       "name": "New York Mets at Pittsburgh Pirates",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/8 - 6:40 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "21",
