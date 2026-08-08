@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T04:41:45.608Z",
+  "capturedAt": "2026-08-08T04:42:12.808Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -52,9 +52,9 @@
   ],
   "oddsCount": 0,
   "newPlays": 0,
-  "gameStates": 1,
+  "gameStates": 0,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 0,
   "games": [
     {
       "id": "401816428",
@@ -536,11 +536,11 @@
       "id": "401816435",
       "name": "Detroit Tigers at San Francisco Giants",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "6",
@@ -562,7 +562,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     }
