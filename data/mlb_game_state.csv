@@ -58131,3 +58131,54 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-08T04:00:23.337Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.297,Chase Field,,,,,,,,,,,,,,,,0
 2026-08-08T04:00:23.337Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Bottom 8th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
 2026-08-08T04:00:23.337Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.939,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0.266,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.66,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816436,Houston Astros at San Diego Padres,in,Bottom 7th,Houston Astros,San Diego Padres,5,3,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Bottom 8th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:00:52.190Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.939,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,End 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0.266,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.641,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816436,Houston Astros at San Diego Padres,in,Bottom 7th,Houston Astros,San Diego Padres,5,3,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816438,Tampa Bay Rays at Seattle Mariners,in,End 8th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:01:27.825Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.939,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,End 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.641,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816436,Houston Astros at San Diego Padres,in,Bottom 7th,Houston Astros,San Diego Padres,5,3,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816438,Tampa Bay Rays at Seattle Mariners,in,End 8th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:12.279Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,End 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.641,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816436,Houston Astros at San Diego Padres,in,Bottom 7th,Houston Astros,San Diego Padres,5,3,0.276,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:02:47.212Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,End 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.693,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816436,Houston Astros at San Diego Padres,in,End 7th,Houston Astros,San Diego Padres,5,3,0.132,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:22.347Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816429,Toronto Blue Jays at Philadelphia Phillies,in,End 9th,Toronto Blue Jays,Philadelphia Phillies,5,4,0,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.693,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816436,Houston Astros at San Diego Padres,in,End 7th,Houston Astros,San Diego Padres,5,3,0.132,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.158,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:03:57.105Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:04:31.686Z,401816426,Atlanta Braves at New York Yankees,in,Top 10th,Atlanta Braves,New York Yankees,2,2,0.693,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:04:31.686Z,401816436,Houston Astros at San Diego Padres,in,Top 8th,Houston Astros,San Diego Padres,5,3,0.132,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:04:31.686Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:04:31.686Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.087,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:04:31.686Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:07.104Z,401816426,Atlanta Braves at New York Yankees,in,Bottom 10th,Atlanta Braves,New York Yankees,2,2,0.804,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:07.104Z,401816436,Houston Astros at San Diego Padres,in,Top 8th,Houston Astros,San Diego Padres,5,3,0.132,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:07.104Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:07.104Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.079,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:07.104Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:41.595Z,401816426,Atlanta Braves at New York Yankees,in,Bottom 10th,Atlanta Braves,New York Yankees,2,2,0.804,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:41.595Z,401816436,Houston Astros at San Diego Padres,in,Top 8th,Houston Astros,San Diego Padres,5,3,0.132,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:41.595Z,401816437,Los Angeles Dodgers at Arizona Diamondbacks,in,Bottom 8th,Los Angeles Dodgers,Arizona Diamondbacks,3,2,0.359,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:41.595Z,401816438,Tampa Bay Rays at Seattle Mariners,in,Top 9th,Tampa Bay Rays,Seattle Mariners,2,0,0.079,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T04:05:41.595Z,401816435,Detroit Tigers at San Francisco Giants,in,Top 7th,Detroit Tigers,San Francisco Giants,2,5,0.927,Oracle Park,,,,,,,,,,,,,,,,0
