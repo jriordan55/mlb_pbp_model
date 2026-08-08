@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T02:02:11.773Z",
+  "capturedAt": "2026-08-08T02:37:01.322Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,20 +51,20 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 15,
-  "gameStates": 13,
+  "newPlays": 17,
+  "gameStates": 9,
   "injuries": 0,
-  "liveGames": 13,
+  "liveGames": 9,
   "games": [
     {
       "id": "401816428",
       "name": "New York Mets at Pittsburgh Pirates",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "21",
@@ -75,7 +75,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
         "score": "6",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "23",
@@ -84,7 +84,7 @@
         "name": "Pittsburgh Pirates",
         "shortName": "Pirates",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/pit.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "14",
@@ -128,11 +128,11 @@
       "id": "401816427",
       "name": "Cincinnati Reds at Washington Nationals",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "End 7th",
-        "shortDetail": "End 7th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "17",
@@ -154,7 +154,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png",
         "score": "5",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 4th",
-        "shortDetail": "Mid 4th"
+        "detail": "Bottom 6th",
+        "shortDetail": "Bot 6th"
       },
       "away": {
         "id": "15",
@@ -196,11 +196,11 @@
       "id": "401816424",
       "name": "Los Angeles Angels at Miami Marlins",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "3",
@@ -211,7 +211,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/laa.png",
         "score": "4",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "28",
@@ -220,7 +220,7 @@
         "name": "Miami Marlins",
         "shortName": "Marlins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
-        "score": "2",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -264,11 +264,11 @@
       "id": "401816432",
       "name": "Cleveland Guardians at Chicago White Sox",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Middle 9th",
-        "shortDetail": "Mid 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "5",
@@ -279,7 +279,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/cle.png",
         "score": "8",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "4",
@@ -298,11 +298,11 @@
       "id": "401816434",
       "name": "Minnesota Twins at Milwaukee Brewers",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Bottom 7th",
-        "shortDetail": "Bot 7th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "9",
@@ -313,7 +313,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/min.png",
         "score": "8",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "home": {
         "id": "8",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "16",
@@ -345,7 +345,7 @@
         "name": "Chicago Cubs",
         "shortName": "Cubs",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png",
-        "score": "5",
+        "score": "6",
         "record": "",
         "winner": false
       },
@@ -356,7 +356,7 @@
         "name": "Kansas City Royals",
         "shortName": "Royals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/kc.png",
-        "score": "2",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -369,8 +369,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 7th",
-        "shortDetail": "Top 7th"
+        "detail": "Top 9th",
+        "shortDetail": "Top 9th"
       },
       "away": {
         "id": "1",
@@ -403,8 +403,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 6th",
-        "shortDetail": "Bot 6th"
+        "detail": "Top 8th",
+        "shortDetail": "Top 8th"
       },
       "away": {
         "id": "27",
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "18",
@@ -447,7 +447,7 @@
         "name": "Houston Astros",
         "shortName": "Astros",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/hou.png",
-        "score": "1",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 2nd",
-        "shortDetail": "Mid 2nd"
+        "detail": "Bottom 4th",
+        "shortDetail": "Bot 4th"
       },
       "away": {
         "id": "19",
@@ -492,7 +492,7 @@
         "name": "Arizona Diamondbacks",
         "shortName": "Diamondbacks",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ari.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 1st",
-        "shortDetail": "End 1st"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "30",
@@ -515,7 +515,7 @@
         "name": "Tampa Bay Rays",
         "shortName": "Rays",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/tb.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -536,11 +536,11 @@
       "id": "401816435",
       "name": "Detroit Tigers at San Francisco Giants",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/7 - 10:15 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "6",
@@ -549,7 +549,7 @@
         "name": "Detroit Tigers",
         "shortName": "Tigers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
@@ -560,7 +560,7 @@
         "name": "San Francisco Giants",
         "shortName": "Giants",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/sf.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
