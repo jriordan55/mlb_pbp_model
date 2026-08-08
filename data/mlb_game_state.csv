@@ -58490,3 +58490,11 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-08T19:00:49.643Z,401816451,Houston Astros at San Diego Padres,pre,Scheduled,Houston Astros,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
 2026-08-08T19:00:49.643Z,401816452,Los Angeles Dodgers at Arizona Diamondbacks,pre,Scheduled,Los Angeles Dodgers,Arizona Diamondbacks,0,0,,Chase Field,,,,,,,,,,,,,,,,0
 2026-08-08T19:00:49.643Z,401816453,Tampa Bay Rays at Seattle Mariners,pre,Scheduled,Tampa Bay Rays,Seattle Mariners,0,0,,T-Mobile Park,,,,,,,,,,,,,,,,0
+2026-08-08T19:36:54.260Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,0,0.453,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:37:35.155Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,0,0.453,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:38:14.990Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,1,0.422,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:38:54.591Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,1,0.533,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:39:34.167Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,1,0.533,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:40:13.966Z,401816441,Atlanta Braves at New York Yankees,in,Bottom 2nd,Atlanta Braves,New York Yankees,0,1,0.533,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:40:53.839Z,401816441,Atlanta Braves at New York Yankees,in,End 2nd,Atlanta Braves,New York Yankees,0,1,0.521,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T19:41:34.318Z,401816441,Atlanta Braves at New York Yankees,in,End 2nd,Atlanta Braves,New York Yankees,0,1,0.521,Yankee Stadium,,,,,,,,,,,,,,,,0
