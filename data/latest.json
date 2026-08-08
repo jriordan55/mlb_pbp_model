@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-07T23:58:58.102Z",
+  "capturedAt": "2026-08-08T00:04:02.234Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -73,7 +73,7 @@
         "name": "New York Mets",
         "shortName": "Mets",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -152,7 +152,7 @@
         "name": "Washington Nationals",
         "shortName": "Nationals",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/wsh.png",
-        "score": "0",
+        "score": "3",
         "record": "",
         "winner": false
       },
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "Top 4th",
+        "shortDetail": "Top 4th"
       },
       "away": {
         "id": "3",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "5",
