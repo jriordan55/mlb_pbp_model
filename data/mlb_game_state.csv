@@ -58559,3 +58559,27 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-08T20:12:51.300Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
 2026-08-08T20:12:51.300Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.606,loanDepot park,,,,,,,,,,,,,,,,0
 2026-08-08T20:12:51.300Z,401816440,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,0,0,0.722,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:13:24.935Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:13:24.935Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:13:24.935Z,401816440,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,0,0,,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:05.063Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.218,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:05.063Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:05.063Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.722,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:45.037Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.266,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:45.037Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:14:45.037Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.752,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:15:24.971Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.266,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:15:24.971Z,401816439,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:15:24.971Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.752,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:04.932Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.301,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:04.932Z,401816439,Los Angeles Angels at Miami Marlins,in,Middle 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:04.932Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.723,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:44.912Z,401816441,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,2,1,0.301,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:44.912Z,401816439,Los Angeles Angels at Miami Marlins,in,Middle 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:16:44.912Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.723,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:17:25.550Z,401816441,Atlanta Braves at New York Yankees,in,Middle 5th,Atlanta Braves,New York Yankees,2,1,0.348,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:17:25.550Z,401816439,Los Angeles Angels at Miami Marlins,in,Middle 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:17:25.550Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.744,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-08T20:18:05.733Z,401816441,Atlanta Braves at New York Yankees,in,Middle 5th,Atlanta Braves,New York Yankees,2,1,0.348,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-08T20:18:05.733Z,401816439,Los Angeles Angels at Miami Marlins,in,Bottom 1st,Los Angeles Angels,Miami Marlins,0,0,0.619,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-08T20:18:05.733Z,401816440,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,0,0,0.744,Fenway Park,,,,,,,,,,,,,,,,0
