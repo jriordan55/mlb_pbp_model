@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T00:04:02.234Z",
+  "capturedAt": "2026-08-08T00:09:05.473Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 10,
+  "newPlays": 11,
   "gameStates": 8,
   "injuries": 0,
   "liveGames": 8,
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 3rd",
-        "shortDetail": "Top 3rd"
+        "detail": "Middle 3rd",
+        "shortDetail": "Mid 3rd"
       },
       "away": {
         "id": "21",
@@ -73,7 +73,7 @@
         "name": "New York Mets",
         "shortName": "Mets",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
-        "score": "2",
+        "score": "5",
         "record": "",
         "winner": false
       },
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "17",
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Middle 4th",
+        "shortDetail": "Mid 4th"
       },
       "away": {
         "id": "3",
@@ -233,8 +233,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "11",
@@ -267,8 +267,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 1st",
-        "shortDetail": "Bot 1st"
+        "detail": "Top 2nd",
+        "shortDetail": "Top 2nd"
       },
       "away": {
         "id": "5",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 2nd",
-        "shortDetail": "Top 2nd"
+        "detail": "Bottom 2nd",
+        "shortDetail": "Bot 2nd"
       },
       "away": {
         "id": "9",
