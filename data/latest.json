@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-08T20:59:52.511Z",
+  "capturedAt": "2026-08-08T21:05:09.824Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -84,7 +84,7 @@
         "name": "New York Yankees",
         "shortName": "Yankees",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png",
-        "score": "3",
+        "score": "4",
         "record": "",
         "winner": false
       },
@@ -118,7 +118,7 @@
         "name": "Miami Marlins",
         "shortName": "Marlins",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/mia.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -141,7 +141,7 @@
         "name": "Athletics",
         "shortName": "Athletics",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/ath.png",
-        "score": "0",
+        "score": "1",
         "record": "",
         "winner": false
       },
