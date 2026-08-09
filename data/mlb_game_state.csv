@@ -62270,3 +62270,63 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-09T17:42:18.048Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,0,0,0.443,PNC Park,,,,,,,,,,,,,,,,0
 2026-08-09T17:42:18.048Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Middle 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.709,Citizens Bank Park,,,,,,,,,,,,,,,,0
 2026-08-09T17:42:18.048Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.695,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816457,Cincinnati Reds at Washington Nationals,in,End 5th,Cincinnati Reds,Washington Nationals,1,3,0.846,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,1,0,0.551,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.644,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,0,0,0.443,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.709,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:42:44.059Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.695,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816457,Cincinnati Reds at Washington Nationals,in,End 5th,Cincinnati Reds,Washington Nationals,1,3,0.846,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 1st,Athletics,Boston Red Sox,1,0,0.551,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.644,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,0,0,0.443,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.691,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:17.029Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.695,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.846,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816455,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.644,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,0,0,0.376,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.691,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:43:48.539Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.709,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.846,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816455,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.654,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,1,0,0.376,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.677,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:19.962Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.709,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.846,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816455,Athletics Athletics at Boston Red Sox,in,Middle 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.654,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,1,0,0.299,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.677,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:44:51.503Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.709,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816455,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816456,Atlanta Braves at New York Yankees,in,Top 1st,Atlanta Braves,New York Yankees,0,0,0.654,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,2,0,0.317,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Bottom 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.677,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:22.856Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.709,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816455,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816456,Atlanta Braves at New York Yankees,in,Middle 1st,Atlanta Braves,New York Yankees,0,0,0.658,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,2,0,0.317,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.677,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:45:54.180Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.709,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816455,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816456,Atlanta Braves at New York Yankees,in,Middle 1st,Atlanta Braves,New York Yankees,0,0,0.658,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,2,0,0.317,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.667,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:25.591Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.698,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.843,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816455,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816456,Atlanta Braves at New York Yankees,in,Middle 1st,Atlanta Braves,New York Yankees,0,0,0.658,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 1st,New York Mets,Pittsburgh Pirates,2,0,0.352,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.667,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:46:59.347Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.698,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 6th,Cincinnati Reds,Washington Nationals,1,3,0.86,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816455,Athletics Athletics at Boston Red Sox,in,Bottom 1st,Athletics,Boston Red Sox,1,0,0.585,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 1st,Atlanta Braves,New York Yankees,0,0,0.658,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816458,New York Mets at Pittsburgh Pirates,in,Middle 1st,New York Mets,Pittsburgh Pirates,2,0,0.385,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 1st,Toronto Blue Jays,Philadelphia Phillies,0,0,0.667,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T17:47:37.897Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 1st,Los Angeles Angels,Miami Marlins,0,0,0.698,loanDepot park,,,,,,,,,,,,,,,,0

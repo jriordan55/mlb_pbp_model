@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T17:42:18.048Z",
+  "capturedAt": "2026-08-09T17:47:37.897Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 10,
+  "newPlays": 15,
   "gameStates": 6,
   "injuries": 0,
   "liveGames": 6,
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "End 5th",
-        "shortDetail": "End 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "17",
@@ -97,8 +97,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "11",
@@ -131,8 +131,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Bottom 1st",
+        "shortDetail": "Bot 1st"
       },
       "away": {
         "id": "15",
@@ -165,8 +165,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 1st",
-        "shortDetail": "Top 1st"
+        "detail": "Middle 1st",
+        "shortDetail": "Mid 1st"
       },
       "away": {
         "id": "21",
@@ -175,7 +175,7 @@
         "name": "New York Mets",
         "shortName": "Mets",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nym.png",
-        "score": "0",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -199,8 +199,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Middle 1st",
-        "shortDetail": "Mid 1st"
+        "detail": "End 1st",
+        "shortDetail": "End 1st"
       },
       "away": {
         "id": "14",
