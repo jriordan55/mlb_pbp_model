@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T03:10:28.362Z",
+  "capturedAt": "2026-08-09T03:15:37.184Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 4,
+  "newPlays": 5,
   "gameStates": 2,
   "injuries": 0,
   "liveGames": 2,
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 4th",
-        "shortDetail": "Bot 4th"
+        "detail": "End 4th",
+        "shortDetail": "End 4th"
       },
       "away": {
         "id": "30",
