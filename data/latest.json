@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T03:25:48.277Z",
+  "capturedAt": "2026-08-09T03:30:55.684Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,7 +51,7 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 2,
+  "newPlays": 3,
   "gameStates": 2,
   "injuries": 0,
   "liveGames": 2,
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 10th",
-        "shortDetail": "Top 10th"
+        "detail": "Bottom 10th",
+        "shortDetail": "Bot 10th"
       },
       "away": {
         "id": "19",
@@ -515,7 +515,7 @@
         "name": "Los Angeles Dodgers",
         "shortName": "Dodgers",
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/lad.png",
-        "score": "1",
+        "score": "2",
         "record": "",
         "winner": false
       },
@@ -539,8 +539,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Middle 5th",
+        "shortDetail": "Mid 5th"
       },
       "away": {
         "id": "30",
