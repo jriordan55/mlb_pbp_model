@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T17:32:00.002Z",
+  "capturedAt": "2026-08-09T17:37:08.759Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 5,
-  "gameStates": 1,
+  "newPlays": 9,
+  "gameStates": 4,
   "injuries": 0,
-  "liveGames": 1,
+  "liveGames": 4,
   "games": [
     {
       "id": "401816457",
@@ -63,8 +63,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 5th",
-        "shortDetail": "Top 5th"
+        "detail": "Bottom 5th",
+        "shortDetail": "Bot 5th"
       },
       "away": {
         "id": "17",
@@ -94,11 +94,11 @@
       "id": "401816455",
       "name": "Athletics Athletics at Boston Red Sox",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/9 - 1:35 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "11",
@@ -162,11 +162,11 @@
       "id": "401816458",
       "name": "New York Mets at Pittsburgh Pirates",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/9 - 1:35 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "21",
@@ -196,11 +196,11 @@
       "id": "401816459",
       "name": "Toronto Blue Jays at Philadelphia Phillies",
       "status": {
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "description": "Scheduled",
-        "detail": "Scheduled",
-        "shortDetail": "8/9 - 1:35 PM EDT"
+        "description": "In Progress",
+        "detail": "Top 1st",
+        "shortDetail": "Top 1st"
       },
       "away": {
         "id": "14",
