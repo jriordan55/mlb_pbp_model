@@ -62944,3 +62944,103 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-09T18:29:23.269Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.638,Rate Field,,,,,,,,,,,,,,,,0
 2026-08-09T18:29:23.269Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.847,American Family Field,,,,,,,,,,,,,,,,0
 2026-08-09T18:29:23.269Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.652,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 8th,Cincinnati Reds,Washington Nationals,1,4,0.903,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816455,Athletics Athletics at Boston Red Sox,in,End 3rd,Athletics,Boston Red Sox,1,1,0.665,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.633,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816458,New York Mets at Pittsburgh Pirates,in,End 3rd,New York Mets,Pittsburgh Pirates,5,1,0.141,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 4th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 3rd,Los Angeles Angels,Miami Marlins,2,3,0.742,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816461,Chicago Cubs at Kansas City Royals,in,Top 2nd,Chicago Cubs,Kansas City Royals,1,0,0.351,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.638,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.847,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:29:47.570Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.652,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816457,Cincinnati Reds at Washington Nationals,in,Top 8th,Cincinnati Reds,Washington Nationals,1,4,0.971,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816455,Athletics Athletics at Boston Red Sox,in,End 3rd,Athletics,Boston Red Sox,1,1,0.665,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.609,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.141,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 4th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816454,Los Angeles Angels at Miami Marlins,in,Top 3rd,Los Angeles Angels,Miami Marlins,2,3,0.775,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816461,Chicago Cubs at Kansas City Royals,in,Top 2nd,Chicago Cubs,Kansas City Royals,1,0,0.351,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.638,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.847,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:19.453Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816457,Cincinnati Reds at Washington Nationals,in,Middle 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,1,1,0.665,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.609,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.117,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 4th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816454,Los Angeles Angels at Miami Marlins,in,Middle 3rd,Los Angeles Angels,Miami Marlins,2,3,0.796,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816461,Chicago Cubs at Kansas City Royals,in,Top 2nd,Chicago Cubs,Kansas City Royals,1,0,0.362,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.577,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.847,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:30:51.291Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816457,Cincinnati Reds at Washington Nationals,in,Middle 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,1,1,0.665,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.117,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,End 4th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816454,Los Angeles Angels at Miami Marlins,in,Middle 3rd,Los Angeles Angels,Miami Marlins,2,3,0.796,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816461,Chicago Cubs at Kansas City Royals,in,Middle 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.577,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.828,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:24.151Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816457,Cincinnati Reds at Washington Nationals,in,Middle 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,1,1,0.535,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.117,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816454,Los Angeles Angels at Miami Marlins,in,Middle 3rd,Los Angeles Angels,Miami Marlins,2,3,0.796,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816461,Chicago Cubs at Kansas City Royals,in,Middle 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.577,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.828,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:31:57.959Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816457,Cincinnati Reds at Washington Nationals,in,Middle 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,2,1,0.54,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816456,Atlanta Braves at New York Yankees,in,Bottom 4th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.117,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816454,Los Angeles Angels at Miami Marlins,in,Middle 3rd,Los Angeles Angels,Miami Marlins,2,3,0.796,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816461,Chicago Cubs at Kansas City Royals,in,Middle 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.577,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.828,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:32:30.539Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816457,Cincinnati Reds at Washington Nationals,in,Bottom 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,2,1,0.54,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816456,Atlanta Braves at New York Yankees,in,End 4th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.117,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.834,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816454,Los Angeles Angels at Miami Marlins,in,Bottom 3rd,Los Angeles Angels,Miami Marlins,2,3,0.796,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816461,Chicago Cubs at Kansas City Royals,in,Middle 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.577,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.838,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:02.179Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816457,Cincinnati Reds at Washington Nationals,in,Bottom 8th,Cincinnati Reds,Washington Nationals,1,4,0.976,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,2,1,0.555,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816456,Atlanta Braves at New York Yankees,in,End 4th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.097,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.851,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816454,Los Angeles Angels at Miami Marlins,in,Bottom 3rd,Los Angeles Angels,Miami Marlins,2,3,0.776,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816461,Chicago Cubs at Kansas City Royals,in,Bottom 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.492,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.838,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:33:33.971Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816457,Cincinnati Reds at Washington Nationals,in,Bottom 8th,Cincinnati Reds,Washington Nationals,1,4,0.98,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,2,1,0.555,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816456,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.097,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.851,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816454,Los Angeles Angels at Miami Marlins,in,Bottom 3rd,Los Angeles Angels,Miami Marlins,2,3,0.776,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816461,Chicago Cubs at Kansas City Royals,in,Bottom 2nd,Chicago Cubs,Kansas City Royals,1,0,0.365,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.492,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.838,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:05.779Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.696,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816457,Cincinnati Reds at Washington Nationals,in,Bottom 8th,Cincinnati Reds,Washington Nationals,1,4,0.98,Nationals Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816455,Athletics Athletics at Boston Red Sox,in,Top 4th,Athletics,Boston Red Sox,2,1,0.542,Fenway Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816456,Atlanta Braves at New York Yankees,in,Top 5th,Atlanta Braves,New York Yankees,0,0,0.589,Yankee Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816458,New York Mets at Pittsburgh Pirates,in,Top 4th,New York Mets,Pittsburgh Pirates,5,1,0.097,PNC Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816459,Toronto Blue Jays at Philadelphia Phillies,in,Top 5th,Toronto Blue Jays,Philadelphia Phillies,1,3,0.851,Citizens Bank Park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816454,Los Angeles Angels at Miami Marlins,in,Bottom 3rd,Los Angeles Angels,Miami Marlins,2,3,0.776,loanDepot park,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816461,Chicago Cubs at Kansas City Royals,in,Bottom 2nd,Chicago Cubs,Kansas City Royals,1,0,0.341,Kauffman Stadium,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816462,Cleveland Guardians at Chicago White Sox,in,Bottom 1st,Cleveland Guardians,Chicago White Sox,2,1,0.492,Rate Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816464,Minnesota Twins at Milwaukee Brewers,in,Top 2nd,Minnesota Twins,Milwaukee Brewers,0,1,0.838,American Family Field,,,,,,,,,,,,,,,,0
+2026-08-09T18:34:37.348Z,401816463,Colorado Rockies at St. Louis Cardinals,in,Bottom 1st,Colorado Rockies,St. Louis Cardinals,1,0,0.666,Busch Stadium,,,,,,,,,,,,,,,,0
