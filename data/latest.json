@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-09T21:09:15.907Z",
+  "capturedAt": "2026-08-09T21:14:29.280Z",
   "mode": "inplay",
   "sport": "MLB",
   "markets": [
@@ -51,10 +51,10 @@
     "consensus"
   ],
   "oddsCount": 0,
-  "newPlays": 16,
-  "gameStates": 7,
+  "newPlays": 10,
+  "gameStates": 6,
   "injuries": 0,
-  "liveGames": 7,
+  "liveGames": 6,
   "games": [
     {
       "id": "401816457",
@@ -301,8 +301,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 2nd",
-        "shortDetail": "Bot 2nd"
+        "detail": "End 2nd",
+        "shortDetail": "End 2nd"
       },
       "away": {
         "id": "5",
@@ -335,8 +335,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 9th",
-        "shortDetail": "Bot 9th"
+        "detail": "Top 10th",
+        "shortDetail": "Top 10th"
       },
       "away": {
         "id": "9",
@@ -366,11 +366,11 @@
       "id": "401816463",
       "name": "Colorado Rockies at St. Louis Cardinals",
       "status": {
-        "state": "in",
-        "completed": false,
-        "description": "In Progress",
-        "detail": "Top 9th",
-        "shortDetail": "Top 9th"
+        "state": "post",
+        "completed": true,
+        "description": "Final",
+        "detail": "Final",
+        "shortDetail": "Final"
       },
       "away": {
         "id": "27",
@@ -392,7 +392,7 @@
         "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png",
         "score": "7",
         "record": "",
-        "winner": false
+        "winner": true
       },
       "matchedEvent": null
     },
@@ -437,8 +437,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 5th",
-        "shortDetail": "Bot 5th"
+        "detail": "Top 6th",
+        "shortDetail": "Top 6th"
       },
       "away": {
         "id": "6",
@@ -471,8 +471,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Top 4th",
-        "shortDetail": "Top 4th"
+        "detail": "Middle 4th",
+        "shortDetail": "Mid 4th"
       },
       "away": {
         "id": "19",
@@ -505,8 +505,8 @@
         "state": "in",
         "completed": false,
         "description": "In Progress",
-        "detail": "Bottom 3rd",
-        "shortDetail": "Bot 3rd"
+        "detail": "End 3rd",
+        "shortDetail": "End 3rd"
       },
       "away": {
         "id": "30",
