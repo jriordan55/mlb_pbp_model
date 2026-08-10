@@ -66126,3 +66126,13 @@ captured_at,event_id,game,state,status_detail,away_team,home_team,away_score,hom
 2026-08-10T02:37:55.314Z,401816466,Houston Astros at San Diego Padres,in,Top 9th,Houston Astros,San Diego Padres,2,7,0.999,Petco Park,,,,,,,,,,,,,,,,0
 2026-08-10T02:38:35.068Z,401816466,Houston Astros at San Diego Padres,in,Top 9th,Houston Astros,San Diego Padres,2,7,0.999,Petco Park,,,,,,,,,,,,,,,,0
 2026-08-10T02:39:14.540Z,401816466,Houston Astros at San Diego Padres,in,Top 9th,Houston Astros,San Diego Padres,2,7,1,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816469,Boston Red Sox at Toronto Blue Jays,pre,Scheduled,Boston Red Sox,Toronto Blue Jays,0,0,,Rogers Centre,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816470,New York Mets at Atlanta Braves,pre,Scheduled,New York Mets,Atlanta Braves,0,0,,Truist Park,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816471,Baltimore Orioles at Minnesota Twins,pre,Scheduled,Baltimore Orioles,Minnesota Twins,0,0,,Target Field,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816472,Philadelphia Phillies at St. Louis Cardinals,pre,Scheduled,Philadelphia Phillies,St. Louis Cardinals,0,0,,Busch Stadium,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816478,Texas Rangers at Los Angeles Angels,pre,Scheduled,Texas Rangers,Los Angeles Angels,0,0,,Angel Stadium,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816473,Colorado Rockies at Arizona Diamondbacks,pre,Scheduled,Colorado Rockies,Arizona Diamondbacks,0,0,,Chase Field,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816476,Milwaukee Brewers at San Diego Padres,pre,Scheduled,Milwaukee Brewers,San Diego Padres,0,0,,Petco Park,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816477,Tampa Bay Rays at Athletics Athletics,pre,Scheduled,Tampa Bay Rays,Athletics,0,0,,Sutter Health Park,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816474,Houston Astros at San Francisco Giants,pre,Scheduled,Houston Astros,San Francisco Giants,0,0,,Oracle Park,,,,,,,,,,,,,,,,0
+2026-08-10T15:42:57.047Z,401816475,Kansas City Royals at Los Angeles Dodgers,pre,Scheduled,Kansas City Royals,Los Angeles Dodgers,0,0,,Dodger Stadium,,,,,,,,,,,,,,,,0
